@@ -1,0 +1,801 @@
+context,true_target,mean_token_logprob,token_count
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 们 "" and "" 他 "" in "" 他们 "". Answer: """,们他,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 一 "" and "" 个 "" in "" 一个 "". Answer: """,个一,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 姆 "" and "" 蒂 "" in "" 蒂姆 "". Answer: """,姆蒂,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 到 "" and "" 看 "" in "" 看到 "". Answer: """,到看,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 喜 "" and "" 欢 "" in "" 喜欢 "". Answer: """,欢喜,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 高 "" and "" 兴 "" in "" 高兴 "". Answer: """,兴高,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 友 "" and "" 朋 "" in "" 朋友 "". Answer: """,友朋,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 汤 "" and "" 姆 "" in "" 汤姆 "". Answer: """,姆汤,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 起 "" and "" 一 "" in "" 一起 "". Answer: """,起一,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 一 "" and "" 天 "" in "" 一天 "". Answer: """,天一,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 感 "" and "" 到 "" in "" 感到 "". Answer: """,到感,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 是 "" and "" 但 "" in "" 但是 "". Answer: """,是但,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 只 "" and "" 一 "" in "" 一只 "". Answer: """,只一,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 非 "" and "" 常 "" in "" 非常 "". Answer: """,常非,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 具 "" and "" 玩 "" in "" 玩具 "". Answer: """,具玩,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 始 "" and "" 开 "" in "" 开始 "". Answer: """,始开,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 过 "" and "" 难 "" in "" 难过 "". Answer: """,过难,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 心 "" and "" 开 "" in "" 开心 "". Answer: """,心开,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 帮 "" and "" 助 "" in "" 帮助 "". Answer: """,助帮,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 姆 "" and "" 山 "" in "" 山姆 "". Answer: """,姆山,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 一 "" and "" 些 "" in "" 一些 "". Answer: """,些一,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 后 "" and "" 然 "" in "" 然后 "". Answer: """,后然,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 到 "" and "" 找 "" in "" 找到 "". Answer: """,到找,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 看 "" and "" 着 "" in "" 看着 "". Answer: """,着看,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 麦 "" and "" 克 "" in "" 麦克斯 "". Answer: """,克麦斯,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 园 "" and "" 公 "" in "" 公园 "". Answer: """,园公,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 以 "" and "" 可 "" in "" 可以 "". Answer: """,以可,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 怕 "" and "" 害 "" in "" 害怕 "". Answer: """,怕害,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 知 "" and "" 道 "" in "" 知道 "". Answer: """,道知,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 情 "" and "" 事 "" in "" 事情 "". Answer: """,情事,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 没 "" and "" 有 "" in "" 没有 "". Answer: """,有没,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 己 "" and "" 自 "" in "" 自己 "". Answer: """,己自,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 到 "" and "" 听 "" in "" 听到 "". Answer: """,到听,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 微 "" and "" 笑 "" in "" 微笑 "". Answer: """,笑微,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 盒 "" and "" 子 "" in "" 盒子 "". Answer: """,子盒,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 米 "" and "" 娅 "" in "" 米娅 "". Answer: """,娅米,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 很 "" and "" 多 "" in "" 很多 "". Answer: """,多很,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 从 "" and "" 前 "" in "" 从前 "". Answer: """,前从,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 为 "" and "" 成 "" in "" 成为 "". Answer: """,为成,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 玩 "" and "" 得 "" in "" 玩得 "". Answer: """,得玩,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 意 "" and "" 外 "" in "" 意外 "". Answer: """,外意,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 声 "" and "" 音 "" in "" 声音 "". Answer: """,音声,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 有 "" and "" 趣 "" in "" 有趣 "". Answer: """,趣有,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 西 "" and "" 东 "" in "" 东西 "". Answer: """,西东,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 整 "" and "" 天 "" in "" 整天 "". Answer: """,天整,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 个 "" and "" 这 "" in "" 这个 "". Answer: """,个这,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 男 "" and "" 孩 "" in "" 男孩 "". Answer: """,孩男,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 为 "" and "" 认 "" in "" 认为 "". Answer: """,为认,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 试 "" and "" 图 "" in "" 试图 "". Answer: """,图试,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 乐 "" and "" 快 "" in "" 快乐 "". Answer: """,乐快,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 意 "" and "" 主 "" in "" 主意 "". Answer: """,意主,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 惊 "" and "" 讶 "" in "" 惊讶 "". Answer: """,讶惊,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 西 "" and "" 露 "" in "" 露西 "". Answer: """,西露,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 奋 "" and "" 兴 "" in "" 兴奋 "". Answer: """,奋兴,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 此 "" and "" 因 "" in "" 因此 "". Answer: """,此因,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 是 "" and "" 这 "" in "" 这是 "". Answer: """,是这,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 拥 "" and "" 抱 "" in "" 拥抱 "". Answer: """,抱拥,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 再 "" and "" 次 "" in "" 再次 "". Answer: """,次再,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 我 "" and "" 们 "" in "" 我们 "". Answer: """,们我,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 望 "" and "" 希 "" in "" 希望 "". Answer: """,望希,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 现 "" and "" 发 "" in "" 发现 "". Answer: """,现发,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 打 "" and "" 开 "" in "" 打开 "". Answer: """,开打,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 娜 "" and "" 安 "" in "" 安娜 "". Answer: """,娜安,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 定 "" and "" 决 "" in "" 决定 "". Answer: """,定决,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 小 "" and "" 女 "" in "" 小女孩 "". Answer: """,女小孩,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 一 "" and "" 棵 "" in "" 一棵 "". Answer: """,棵一,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 多 "" and "" 许 "" in "" 许多 "". Answer: """,多许,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 每 "" and "" 个 "" in "" 每个 "". Answer: """,个每,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 面 "" and "" 外 "" in "" 外面 "". Answer: """,面外,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 亮 "" and "" 漂 "" in "" 漂亮 "". Answer: """,亮漂,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 女 "" and "" 孩 "" in "" 女孩 "". Answer: """,孩女,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 分 "" and "" 享 "" in "" 分享 "". Answer: """,享分,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 每 "" and "" 天 "" in "" 每天 "". Answer: """,天每,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 萨 "" and "" 拉 "" in "" 萨拉 "". Answer: """,拉萨,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 们 "" and "" 它 "" in "" 它们 "". Answer: """,们它,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 岩 "" and "" 石 "" in "" 岩石 "". Answer: """,石岩,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 汽 "" and "" 车 "" in "" 汽车 "". Answer: """,车汽,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 么 "" and "" 什 "" in "" 什么 "". Answer: """,么什,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 勃 "" and "" 鲍 "" in "" 鲍勃 "". Answer: """,勃鲍,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 最 "" and "" 好 "" in "" 最好 "". Answer: """,好最,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 想 "" and "" 不 "" in "" 不想 "". Answer: """,想不,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 突 "" and "" 然 "" in "" 突然 "". Answer: """,然突,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 气 "" and "" 生 "" in "" 生气 "". Answer: """,气生,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 住 "" and "" 抓 "" in "" 抓住 "". Answer: """,住抓,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 大 "" and "" 树 "" in "" 大树 "". Answer: """,树大,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 快 "" and "" 很 "" in "" 很快 "". Answer: """,快很,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 回 "" and "" 家 "" in "" 回家 "". Answer: """,家回,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 所 "" and "" 有 "" in "" 所有 "". Answer: """,有所,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 附 "" and "" 近 "" in "" 附近 "". Answer: """,近附,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 色 "" and "" 红 "" in "" 红色 "". Answer: """,色红,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 放 "" and "" 在 "" in "" 放在 "". Answer: """,在放,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 谢 "" and "" 感 "" in "" 感谢 "". Answer: """,谢感,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 色 "" and "" 蓝 "" in "" 蓝色 "". Answer: """,色蓝,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 男 "" and "" 人 "" in "" 男人 "". Answer: """,人男,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 子 "" and "" 房 "" in "" 房子 "". Answer: """,子房,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 因 "" and "" 为 "" in "" 因为 "". Answer: """,为因,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 房 "" and "" 间 "" in "" 房间 "". Answer: """,间房,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 要 "" and "" 想 "" in "" 想要 "". Answer: """,要想,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 物 "" and "" 动 "" in "" 动物 "". Answer: """,物动,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 发 "" and "" 生 "" in "" 发生 "". Answer: "" 生发 ""
+            2. Swap "" 那 "" and "" 样 "" in "" 那样 "". Answer: "" 样那 ""
+            3. Swap "" 愤 "" and "" 怒 "" in "" 愤怒 "". Answer: "" 怒愤 ""
+            4. Swap "" 大 "" and "" 巨 "" in "" 巨大 "". Answer: "" 大巨 ""
+            
+            Question: Swap "" 再 "" and "" 不 "" in "" 不再 "". Answer: """,再不,-inf,0

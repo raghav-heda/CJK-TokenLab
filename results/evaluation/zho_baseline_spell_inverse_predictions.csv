@@ -1,0 +1,801 @@
+context,true_target,mean_token_logprob,token_count
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 的 "". Answer: """,的,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 了 "". Answer: """,了,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 他 们 "". Answer: """,他们,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 他 "". Answer: """,他,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 她 "". Answer: """,她,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 很 "". Answer: """,很,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 和 "". Answer: """,和,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 有 "". Answer: """,有,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 在 "". Answer: """,在,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 一 个 "". Answer: """,一个,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 蒂 姆 "". Answer: """,蒂姆,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 看 到 "". Answer: """,看到,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 喜 欢 "". Answer: """,喜欢,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 玩 "". Answer: """,玩,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 它 "". Answer: """,它,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 高 兴 "". Answer: """,高兴,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 朋 友 "". Answer: """,朋友,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 莉 莉 "". Answer: """,莉莉,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 是 "". Answer: """,是,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 汤 姆 "". Answer: """,汤姆,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 一 起 "". Answer: """,一起,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 一 天 "". Answer: """,一天,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 想 "". Answer: """,想,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 都 "". Answer: """,都,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 妈 妈 "". Answer: """,妈妈,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 并 "". Answer: """,并,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 感 到 "". Answer: """,感到,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 但 是 "". Answer: """,但是,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 上 "". Answer: """,上,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 一 只 "". Answer: """,一只,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 非 常 "". Answer: """,非常,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 着 "". Answer: """,着,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 那 "". Answer: """,那,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 玩 具 "". Answer: """,玩具,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 不 "". Answer: """,不,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 开 始 "". Answer: """,开始,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 鸟 "". Answer: """,鸟,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 难 过 "". Answer: """,难过,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 开 心 "". Answer: """,开心,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 大 "". Answer: """,大,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 帮 助 "". Answer: """,帮助,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 只 "". Answer: """,只,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 狗 "". Answer: """,狗,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 我 "". Answer: """,我,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 山 姆 "". Answer: """,山姆,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 一 些 "". Answer: """,一些,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 这 "". Answer: """,这,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 叫 "". Answer: """,叫,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 笑 "". Answer: """,笑,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 猫 "". Answer: """,猫,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 然 后 "". Answer: """,然后,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 你 "". Answer: """,你,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 去 "". Answer: """,去,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 找 到 "". Answer: """,找到,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 看 着 "". Answer: """,看着,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 麦 克 斯 "". Answer: """,麦克斯,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 公 园 "". Answer: """,公园,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 把 "". Answer: """,把,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 苏 "". Answer: """,苏,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 到 "". Answer: """,到,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 可 以 "". Answer: """,可以,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 本 "". Answer: """,本,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 但 "". Answer: """,但,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 也 "". Answer: """,也,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 说 "". Answer: """,说,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 害 怕 "". Answer: """,害怕,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 时 "". Answer: """,时,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 知 道 "". Answer: """,知道,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 事 情 "". Answer: """,事情,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 人 "". Answer: """,人,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 没 有 "". Answer: """,没有,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 好 "". Answer: """,好,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 自 己 "". Answer: """,自己,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 跑 "". Answer: """,跑,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 发 生 "". Answer: """,发生,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 为 "". Answer: """,为,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 听 到 "". Answer: """,听到,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 微 笑 "". Answer: """,微笑,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 球 "". Answer: """,球,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 新 "". Answer: """,新,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 盒 子 "". Answer: """,盒子,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 当 "". Answer: """,当,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 米 娅 "". Answer: """,米娅,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 很 多 "". Answer: """,很多,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 从 前 "". Answer: """,从前,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 成 为 "". Answer: """,成为,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 玩 得 "". Answer: """,玩得,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 意 外 "". Answer: """,意外,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 吃 "". Answer: """,吃,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 中 "". Answer: """,中,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 声 音 "". Answer: """,声音,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 您 "". Answer: """,您,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 有 趣 "". Answer: """,有趣,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 东 西 "". Answer: """,东西,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 整 天 "". Answer: """,整天,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 来 "". Answer: """,来,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 这 个 "". Answer: """,这个,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 男 孩 "". Answer: """,男孩,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 认 为 "". Answer: """,认为,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 里 "".  Answer: "" 里 ""
+            2. Write the word "" 黛 西 "". Answer: "" 黛西 ""
+            3. Write the word "" 令 人 恶 心 "". Answer: "" 令人恶心 ""
+            4. Write the word "" 蛋 糕 "". Answer: "" 蛋糕 ""
+            
+            Question: Write the word "" 听 "". Answer: """,听,-inf,0

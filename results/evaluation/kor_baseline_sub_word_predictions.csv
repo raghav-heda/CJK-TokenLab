@@ -1,0 +1,801 @@
+context,true_target,mean_token_logprob,token_count
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 톰의 "" with "" 앨리스는 "" in "" 톰의 모자를 날려 버렸습니다. "". Answer: """,앨리스는 모자를 날려 버렸습니다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 그는 "" with "" 바뀌고 "" in "" 그는 릴리의 손을 잡고 길을 이끌었다. "". Answer: """,바뀌고 릴리의 손을 잡고 길을 이끌었다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 춤을 "" with "" 은색 "" in "" 그들은 하루 종일 춤을 추고 연주했습니다. "". Answer: """,그들은 하루 종일 은색 추고 연주했습니다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 사람에게 "" with "" 부러졌고 "" in "" 그는 모든 사람에게 자신이 찾을 수있는 물었다. "". Answer: """,그는 모든 부러졌고 자신이 찾을 수있는 물었다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 상자에 "" with "" 소녀 "" in "" 그들은 키를 상자에 넣고 돌렸다. "". Answer: """,그들은 키를 소녀 넣고 돌렸다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 좋아합니다 "" with "" 맞지 "" in "" 릴리와 벤은 공원에서 놀기를 좋아합니다. "". Answer: """,릴리와 벤은 공원에서 놀기를 맞지.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 울기 "" with "" 다양한 "" in "" 그는 울기 시작했다. "". Answer: """,그는 다양한 시작했다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 새로운 "" with "" 다음으로 "" in "" 이제 그들은 함께 놀 수있는 새로운 친구가있었습니다. "". Answer: """,이제 그들은 함께 놀 수있는 다음으로 친구가있었습니다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 것이다 "" with "" 테디라는 "" in "" 나는 겸손하고 친절 할 것이다. "". Answer: """,나는 겸손하고 친절 할 테디라는.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 수있었습니다 "" with "" 저었다 "" in "" 그는 무언가를 인쇄 할 수있었습니다. "". Answer: """,그는 무언가를 인쇄 할 저었다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 차를 "" with "" 담을 "" in "" 그는 차를 가지고 놀고 싶었습니다. "". Answer: """,그는 담을 가지고 놀고 싶었습니다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 그런 "" with "" 나무에있는 "" in "" 그런 다음 맥스라는 큰 개가 공원에 왔습니다. "". Answer: """,나무에있는 다음 맥스라는 큰 개가 공원에 왔습니다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 않았습니다 "" with "" 그림을 "" in "" 그들은 더 이상 공을 가지고 놀지 않았습니다. "". Answer: """,그들은 더 이상 공을 가지고 놀지 그림을.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 살았던 "" with "" 운전하기 "" in "" 일단 벌집에 살았던 꿀벌이있었습니다. "". Answer: """,일단 벌집에 운전하기 꿀벌이있었습니다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 토끼와 "" with "" 나서 "" in "" 그녀는 장난감 토끼와 놀기를 좋아했습니다. "". Answer: """,그녀는 장난감 나서 놀기를 좋아했습니다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 예상치 "" with "" 없기를 "" in "" 그러나 예상치 못한 일이 일어났습니다! "". Answer: """,그러나 없기를 못한 일이 일어났습니다!,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 릴리는 "" with "" 큰 "" in "" 릴리는 너무 흥분했습니다. "". Answer: """,큰 너무 흥분했습니다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 순종했다 "" with "" 마우스와 "" in "" 앨리스는 그녀의 교훈을 배웠고 나중에 더 순종했다. "". Answer: """,앨리스는 그녀의 교훈을 배웠고 나중에 더 마우스와.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 어떻게 "" with "" 연못 "" in "" 당신은 어떻게 생각하십니까, 소년? "". Answer: ""","당신은 연못 생각하십니까, 소년?",-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 아이들은 "" with "" 궁금합니다 "" in "" 아이들은 놀랐고 조금 무서웠습니다. "". Answer: """,궁금합니다 놀랐고 조금 무서웠습니다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 그는 "" with "" 끝났다 "" in "" 그는 나무가 흔들리기 위해 너무 많이 춤을 추었다. "". Answer: """,끝났다 나무가 흔들리기 위해 너무 많이 춤을 추었다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 큰 "" with "" 화려한 "" in "" 공원에서 팀은 큰 나무를 보았습니다. "". Answer: """,공원에서 팀은 화려한 나무를 보았습니다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 찾고있었습니다 "" with "" 가격이 "" in "" 그녀는 열쇠를 찾고있었습니다. "". Answer: """,그녀는 열쇠를 가격이.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 마우스를 "" with "" 이상하고 "" in "" 고양이는 고개를 끄덕이며 마우스를 도왔습니다. "". Answer: """,고양이는 고개를 끄덕이며 이상하고 도왔습니다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 함께 "" with "" 무엇인지보고 "" in "" 그들은 그녀와 함께 회전했다. "". Answer: """,그들은 그녀와 무엇인지보고 회전했다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 원했습니다 "" with "" 귀를 "" in "" 그녀는 예쁜 인형을 원했습니다. "". Answer: """,그녀는 예쁜 인형을 귀를.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 그는 "" with "" 진주를 "" in "" 내부, 그는 공을 보았다! "". Answer: ""","내부, 진주를 공을 보았다!",-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 마침내 "" with "" 무겁고 "" in "" 포스트가 마침내 움직였습니다! "". Answer: """,포스트가 무겁고 움직였습니다!,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 왔습니다 "" with "" 단단합니다 "" in "" 어느 날, 어린 소녀가 새를 보러 왔습니다. "". Answer: ""","어느 날, 어린 소녀가 새를 보러 단단합니다.",-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 천장이 "" with "" 끄덕 "" in "" 집에는 천장이 매우 높았습니다. "". Answer: """,집에는 끄덕 매우 높았습니다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 공처럼되고 "" with "" 빠진다 "" in "" 그는 광고판의 공처럼되고 싶었다. "". Answer: """,그는 광고판의 빠진다 싶었다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 시작하고 "" with "" 의자를 "" in "" 그는 로즈와 싸움을 시작하고 그녀를 밀었다. "". Answer: """,그는 로즈와 싸움을 의자를 그녀를 밀었다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 메리라는 "" with "" 봅니다 "" in "" 옛날 옛적에 메리라는 소녀가있었습니다. "". Answer: """,옛날 옛적에 봅니다 소녀가있었습니다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 항상 "" with "" 벨트를 "" in "" 그들은 항상 최고의 장난감을 얻는 사람을 놓고 싸우고 있습니다. "". Answer: """,그들은 벨트를 최고의 장난감을 얻는 사람을 놓고 싸우고 있습니다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 그녀의 "" with "" 종이로 "" in "" 릴리는 그녀의 친구 팀을 보았다. "". Answer: """,릴리는 종이로 친구 팀을 보았다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 날아 "" with "" 제공합니다 "" in "" 장난감과 게임이 방 주위로 날아 가기 시작했습니다! "". Answer: """,장난감과 게임이 방 주위로 제공합니다 가기 시작했습니다!,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 매우 "" with "" 커졌습니다 "" in "" 소년은 매우 행복했습니다. "". Answer: """,소년은 커졌습니다 행복했습니다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 작은 "" with "" 쳤지 "" in "" 나무 아래에서 그들은 작은 상자를 찾았습니다. "". Answer: """,나무 아래에서 그들은 쳤지 상자를 찾았습니다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 소녀는 "" with "" 연주하는 "" in "" 소녀는 매우 행복했습니다. "". Answer: """,연주하는 매우 행복했습니다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 그는 "" with "" 친구들을 "" in "" 그는 땅에서 빨간색을 보았다. "". Answer: """,친구들을 땅에서 빨간색을 보았다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 고양이를 "" with "" 빗에 "" in "" 개는 고양이를 잡았다. "". Answer: """,개는 빗에 잡았다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 듣습니다 "" with "" 벤치에 "" in "" 그는 릴리와 벤을 듣습니다. "". Answer: """,그는 릴리와 벤을 벤치에.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 다람쥐는 "" with "" 뚱뚱한 "" in "" 다람쥐는 그들을 되돌아 보았다. "". Answer: """,뚱뚱한 그들을 되돌아 보았다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 먹자 "" with "" 게되어 "" in "" 이제 가서 주스와 쿠키를 먹자. "". Answer: """,이제 가서 주스와 쿠키를 게되어.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 시작했다 "" with "" 행동 "" in "" 그들은 달리기 시작했다. "". Answer: """,그들은 달리기 행동.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 유용한 "" with "" 웃고 "" in "" 팀은 유용한 사다리를 가졌습니다. "". Answer: """,팀은 웃고 사다리를 가졌습니다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 릴리는 "" with "" 꿀벌에게서 "" in "" 톰과 릴리는 코끼리를 좋아했습니다. "". Answer: """,톰과 꿀벌에게서 코끼리를 좋아했습니다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 먹이를주고 "" with "" 당신처럼되고 "" in "" 그는 새에게 먹이를주고 싶어합니다. "". Answer: """,그는 새에게 당신처럼되고 싶어합니다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 그러나 "" with "" 기어 "" in "" 그러나 상자는 매우 무겁고 단단합니다. "". Answer: """,기어 상자는 매우 무겁고 단단합니다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 팀과 "" with "" 제발 "" in "" 팀과 스팟도 무서웠다. "". Answer: """,제발 스팟도 무서웠다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 장난감 "" with "" 신문을 "" in "" 그들은 단지 장난감 총을 가지고 놀고 싶었습니다. "". Answer: """,그들은 단지 신문을 총을 가지고 놀고 싶었습니다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 많은 "" with "" 잠 "" in "" 그것은 많은 사람들을 도왔습니다. "". Answer: """,그것은 잠 사람들을 도왔습니다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 고양이와 "" with "" 말하려고했지만 "" in "" 고양이와 개는 서로를 바라 보았다. "". Answer: """,말하려고했지만 개는 서로를 바라 보았다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 작은 "" with "" 찾고있었습니다 "" in "" 작은 새가 나무에 살았습니다. "". Answer: """,찾고있었습니다 새가 나무에 살았습니다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 천천히 "" with "" 예기치 "" in "" 그들은 토끼로 천천히 걸었습니다. "". Answer: """,그들은 토끼로 예기치 걸었습니다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 많다 "" with "" 헝겊 "" in "" 나는 장난감이 많다. "". Answer: """,나는 장난감이 헝겊.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 찾도록 "" with "" 셀러리를 "" in "" 릴리는 톰이 자신의 공을 찾도록 도와주고 싶었습니다. "". Answer: """,릴리는 톰이 자신의 공을 셀러리를 도와주고 싶었습니다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 만지기 "" with "" 사과를 "" in "" 에이미는 새를 만지기 위해 손가락을 뻗었다. "". Answer: """,에이미는 새를 사과를 위해 손가락을 뻗었다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 그들은 "" with "" 음식으로 "" in "" 그들은 모두 현기증을 느꼈다. "". Answer: """,음식으로 모두 현기증을 느꼈다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 자신이 "" with "" 뜨겁다 "" in "" 어느 날 Tim은 자신이 좋아하는 장난감 자동차를 찾고 싶었습니다. "". Answer: """,어느 날 Tim은 뜨겁다 좋아하는 장난감 자동차를 찾고 싶었습니다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 소년이 "" with "" 강아지는 "" in "" 어린 소년이 공급 업체에 왔습니다. "". Answer: """,어린 강아지는 공급 업체에 왔습니다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 아기는 "" with "" 노란색 "" in "" 아기는 당신을 갖게되어 운이 좋다. "". Answer: """,노란색 당신을 갖게되어 운이 좋다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 살았습니다 "" with "" 수중 "" in "" 새는 큰 나무에서 살았습니다. "". Answer: """,새는 큰 나무에서 수중.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 들었다 "" with "" 사전이라는 "" in "" 톰은 껍질을 집어 들었다. "". Answer: """,톰은 껍질을 집어 사전이라는.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 보았다 "" with "" 굽히고 "" in "" 공원에서 그녀는 간호사를 보았다. "". Answer: """,공원에서 그녀는 간호사를 굽히고.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 그들은 "" with "" 닭고기에 "" in "" 그들은 많은 재미를 보았습니다. "". Answer: """,닭고기에 많은 재미를 보았습니다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 키티는 "" with "" 맡고 "" in "" 키티는 마당으로 들어갔다. "". Answer: """,맡고 마당으로 들어갔다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 그렇지 "" with "" 쫓아냅니다 "" in "" 에밀리는 친절했고 팻은 그렇지 않았습니다. "". Answer: """,에밀리는 친절했고 팻은 쫓아냅니다 않았습니다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 좋아했습니다 "" with "" 전화를 "" in "" Anna는 블록을 가지고 노는 것을 좋아했습니다. "". Answer: """,Anna는 블록을 가지고 노는 것을 전화를.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 팀은 "" with "" 그림이 "" in "" 팀은 물건을 모으는 것을 좋아했습니다. "". Answer: """,그림이 물건을 모으는 것을 좋아했습니다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 그들은 "" with "" 놀랐습니다 "" in "" 그들은 책을 읽고 이야기를 듣습니다. "". Answer: """,놀랐습니다 책을 읽고 이야기를 듣습니다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 장난감 "" with "" 똑같이하려고한다 "" in "" 그리고 당신의 장난감. "". Answer: """,그리고 당신의 똑같이하려고한다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 그녀는 "" with "" 신맛이났다 "" in "" 그녀는 시계와 벤을 본다. "". Answer: """,신맛이났다 시계와 벤을 본다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 그들은 "" with "" 수영을하고있었습니다 "" in "" 그들은 슬프고 미안합니다. "". Answer: """,수영을하고있었습니다 슬프고 미안합니다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 매우 "" with "" 겸손한 "" in "" 매우 빨리 확대 할 수 있습니다. "". Answer: """,겸손한 빨리 확대 할 수 있습니다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 큰 "" with "" 개울을 "" in "" 갑자기 그들은 큰 소리를 들었습니다. "". Answer: """,갑자기 그들은 개울을 소리를 들었습니다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 그들은 "" with "" 땅콩을 "" in "" 그들은 저녁 식사를 위해 스테이크를 가졌습니다. "". Answer: """,땅콩을 저녁 식사를 위해 스테이크를 가졌습니다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 그녀는 "" with "" 원숭이가 "" in "" 그녀는 주위를 둘러보고 팬을 보았다. "". Answer: """,원숭이가 주위를 둘러보고 팬을 보았다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 여우가있었습니다 "" with "" 구했습니다 "" in "" 옛날 옛적에, 노인 여우가있었습니다. "". Answer: ""","옛날 옛적에, 노인 구했습니다.",-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 더럽습니다 "" with "" 조심하고 "" in "" 돼지는 크고 분홍색이며 더럽습니다. "". Answer: """,돼지는 크고 분홍색이며 조심하고.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 따라 "" with "" 토마토를보고 "" in "" 그녀는 큰 녹색 파리를 따라 달렸다. "". Answer: """,그녀는 큰 녹색 파리를 토마토를보고 달렸다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 고양이는 "" with "" 바다에서 "" in "" 고양이는 사라의 손에 머리를 문지릅니다. "". Answer: """,바다에서 사라의 손에 머리를 문지릅니다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 검은 "" with "" 맥스는 "" in "" 그녀는이 신비한 검은 섬에서 무언가를 발견했습니다. "". Answer: """,그녀는이 신비한 맥스는 섬에서 무언가를 발견했습니다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 그들은 "" with "" 핀과 "" in "" 그들은 행복하고 따뜻하다고 느낍니다. "". Answer: """,핀과 행복하고 따뜻하다고 느낍니다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 생각했습니다 "" with "" 서핑합니다 "" in "" 그들은 영원히 사라 졌다고 생각했습니다. "". Answer: """,그들은 영원히 사라 졌다고 서핑합니다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 싶었습니다 "" with "" 들지 "" in "" 케이크를 먹고 싶었습니다. "". Answer: """,케이크를 먹고 들지.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 누가 "" with "" 일치시킬 "" in "" 오래된 집에 누가 있었습니까? "". Answer: """,오래된 집에 일치시킬 있었습니까?,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" Tom은 "" with "" 계란을 "" in "" Lila와 Tom은 행복합니다. "". Answer: """,Lila와 계란을 행복합니다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 녹색 "" with "" 신문을 "" in "" 옛날 옛적에 녹색 모자가있었습니다. "". Answer: """,옛날 옛적에 신문을 모자가있었습니다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 내고 "" with "" 바닥에서 "" in "" 그들은 화를 내고 슬퍼했습니다. "". Answer: """,그들은 화를 바닥에서 슬퍼했습니다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 받아 "" with "" 우산을 "" in "" 팀은 행복했고 그 사람의 제안을 받아 들였다. "". Answer: """,팀은 행복했고 그 사람의 제안을 우산을 들였다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 요청했습니다 "" with "" 동의했다는 "" in "" 그녀는 친구 Tom에게 그녀를 도와달라고 요청했습니다. "". Answer: """,그녀는 친구 Tom에게 그녀를 도와달라고 동의했다는.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 넣었습니다 "" with "" 교실은 "" in "" 반점은 공을 상자에 밀어 넣었습니다. "". Answer: """,반점은 공을 상자에 밀어 교실은.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" Tom과 "" with "" 도토리가 "" in "" Tom과 Max는 너무 행복했습니다! "". Answer: """,도토리가 Max는 너무 행복했습니다!,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 루시는 "" with "" 재미있게 "" in "" 어느 날, 루시는 친구 톰을 방문하기로 결정했습니다. "". Answer: ""","어느 날, 재미있게 친구 톰을 방문하기로 결정했습니다.",-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 도와주고 "" with "" 노란색과 "" in "" Tim은 Sue를 도와주고 싶었습니다. "". Answer: """,Tim은 Sue를 노란색과 싶었습니다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 슬퍼 "" with "" 연과 "" in "" 다람쥐는 슬퍼 보였다. "". Answer: """,다람쥐는 연과 보였다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 나무를 "" with "" 감사하고 "" in "" 그들은 큰 나무를 보았다. "". Answer: """,그들은 큰 감사하고 보았다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 잡아 "" with "" 아프게합니다 "" in "" 그들은 잡아 당기고 소리 쳤다. "". Answer: """,그들은 아프게합니다 당기고 소리 쳤다.,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 긴 "" with "" 편안한 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 편안한 수염과 편안한 막대기를 가졌다. ""
+            2. Substitute "" 보았습니다 "" with "" 채찍을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은 날, 작은 새가 고양이가 오는 것을 채찍을. ""
+            3. Substitute "" 요트를 "" with "" 지점을 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 지점을 땅으로 가져갔습니다. ""
+            4. Substitute "" 싶었습니다 "" with "" 넘어지지 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 의상을 입고 넘어지지. ""
+            
+            Question: Substitute "" 앉아서 "" with "" 있다는 "" in "" 그녀는 그것에 앉아서 쉬고 싶었다. "". Answer: """,그녀는 그것에 있다는 쉬고 싶었다.,-inf,0

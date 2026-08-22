@@ -1,0 +1,801 @@
+context,true_target,mean_token_logprob,token_count
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" の "" and "" 。 "" in "" 私はあなたのようになりたいです。 "". Answer: """,私はあなた。ようになりたいですの,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" 公園 "" and "" ボタン "" in "" ボタンは公園の箱にありました。 "". Answer: """,公園はボタンの箱にありました。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" 彼 "" and "" でし "" in "" 彼はとても幸せでした。 "". Answer: """,でしはとても幸せ彼た。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" ませ "" and "" て "" in "" 彼女は理解していません。 "". Answer: """,彼女は理解しませいてん。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" た "" and "" は "" in "" ティムはポップコーンが大好きでした。 "". Answer: """,ティムたポップコーンが大好きでしは。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" た "" and "" まし "" in "" 彼女はコショウを吐き出して捨てました。 "". Answer: """,彼女はコショウを吐き出して捨てたまし。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" 本 "" and "" 好き "" in "" 私は本が好きです。 "". Answer: """,私は好きが本です。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" まし "" and "" 。 "" in "" 翌日、卵は割れ始めました。 "". Answer: """,翌日、卵は割れ始め。たまし,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" て "" and "" ます "" in "" 壊れています。 "". Answer: """,壊れますいて。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" ミックス "" and "" と "" in "" 青と緑のミックスでした。 "". Answer: """,青ミックス緑のとでした。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" た "" and "" 好き "" in "" リリーはその考えが好きでした。 "". Answer: """,リリーはその考えがたでし好き。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" 彼女 "" and "" ます "" in "" 彼女はケーキがやれるのを待ちます。 "". Answer: """,ますはケーキがやれるのを待ち彼女。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" 見 "" and "" アンナ "" in "" アンナはベンを見た。 "". Answer: """,見はベンをアンナた。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" だ "" and "" 彼 "" in "" 彼らは笑って楽しんだ。 "". Answer: """,だらは笑って楽しん彼。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" い "" and "" トム "" in "" トムはとても興奮していました! "". Answer: """,いはとても興奮してトムました!,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" でし "" and "" キャッスル "" in "" しかし、サンドキャッスルは魔法でした! "". Answer: """,しかし、サンドでしは魔法キャッスルた!,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" それ "" and "" で "" in "" それは卵でユリを見ました。 "". Answer: """,では卵それユリを見ました。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" で "" and "" 毎日 "" in "" 彼女は毎日そこで遊んだ。 "". Answer: """,彼女はでそこ毎日遊んだ。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" 非常 "" and "" 子供 "" in "" あなたは非常に悪い子供です! "". Answer: """,あなたは子供に悪い非常です!,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" て "" and "" 。 "" in "" 彼らは抱きしめて笑います。 "". Answer: """,彼らは抱きしめ。笑いますて,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" 彼女 "" and "" を "" in "" 彼女は手を見た。 "". Answer: """,をは手彼女見た。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" た "" and "" 動揺 "" in "" 動揺し始めました。 "". Answer: """,たし始めまし動揺。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" た "" and "" 木 "" in "" 彼らは大きな木を見ました。 "". Answer: """,彼らは大きなたを見まし木。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" 楽しい "" and "" です "" in "" チェスは楽しいです。 "". Answer: """,チェスはです楽しい。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" 悲しく "" and "" 感じ "" in "" ティムは悲しく感じた。 "". Answer: """,ティムは感じ悲しくた。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" もらえ "" and "" か "" in "" 手伝ってもらえますか? "". Answer: """,手伝ってかますもらえ?,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" ティム "" and "" 驚い "" in "" ティムは驚いた! "". Answer: """,驚いはティムた!,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" を "" and "" は "" in "" 彼女は難しいレッスンを学びました。 "". Answer: """,彼女を難しいレッスンは学びました。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" 疲れ "" and "" た "" in "" 彼は疲れて悲しかった。 "". Answer: """,彼はたて悲しかっ疲れ。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" 拾い "" and "" まし "" in "" ティミーは微笑んでボールを拾いました。 "". Answer: """,ティミーは微笑んでボールをまし拾いた。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" が "" and "" 見つけ "" in "" 小さな女の子が宝石を見つけました。 "". Answer: """,小さな女の子見つけ宝石をがました。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" ます "" and "" 。 "" in "" ママは彼らを許します。 "". Answer: """,ママは彼らを許し。ます,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" 茶色 "" and "" 不潔 "" in "" 茶色で不潔でした。 "". Answer: """,不潔で茶色でした。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" よう "" and "" 見え "" in "" ベンは安心したように見えた。 "". Answer: """,ベンは安心した見えにようた。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" だ "" and "" 安全 "" in "" 彼は自分が安全だと思った。 "". Answer: """,彼は自分がだ安全と思った。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" デザイン "" and "" 上手 "" in "" スポットはデザインがとても上手でした。 "". Answer: """,スポットは上手がとてもデザインでした。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" ため "" and "" に "" in "" 彼は彼を助けるために潜ります。 "". Answer: """,彼は彼を助けるにため潜ります。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" た "" and "" 友達 "" in "" 彼らは良い友達になりました。 "". Answer: """,彼らは良いたになりまし友達。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" ベン "" and "" た "" in "" ベンとリリーはうなずいた。 "". Answer: """,たとリリーはうなずいベン。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" た "" and "" 驚き "" in "" ティムはとても驚きました。 "". Answer: """,ティムはとてもたまし驚き。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" 幸せ "" and "" でし "" in "" 彼らは幸せでした。 "". Answer: """,彼らはでし幸せた。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" が "" and "" です "" in "" 太陽が必要です。 "". Answer: """,太陽です必要が。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" ら "" and "" スライド "" in "" 彼らはスライドに走り、楽しんだ。 "". Answer: """,彼スライドはらに走り、楽しんだ。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" 。 "" and "" 尋ね "" in "" リリーはベンに尋ねた。 "". Answer: """,リリーはベンに。た尋ね,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" は "" and "" 。 "" in "" 彼は食べ物を食べたかった。 "". Answer: """,彼。食べ物を食べたかったは,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" 彼 "" and "" 幸せ "" in "" 彼らは幸せです。 "". Answer: """,幸せらは彼です。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" い "" and "" 。 "" in "" 猿はバナナを持っていました。 "". Answer: """,猿はバナナを持って。ましたい,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" だっ "" and "" が "" in "" 彼女は男の演技が好きだった。 "". Answer: """,彼女は男の演技だっ好きがた。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" 。 "" and "" でし "" in "" スポットは珍しい犬でした。 "". Answer: """,スポットは珍しい犬。たでし,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" 。 "" and "" トム "" in "" トムはボールで遊んでいた。 "". Answer: """,。はボールで遊んでいたトム,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" まし "" and "" は "" in "" 彼女は大きなボールを見ました。 "". Answer: """,彼女まし大きなボールを見はた。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" 。 "" and "" で "" in "" 混乱しないでください。 "". Answer: """,混乱しない。くださいで,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" 。 "" and "" 私 "" in "" 私はそれを呼んで挨拶します。 "". Answer: """,。はそれを呼んで挨拶します私,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" を "" and "" い "" in "" 彼らは犬を忘れています。 "". Answer: """,彼らは犬い忘れてをます。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" と "" and "" 。 "" in "" ベンとサムは一人です。 "". Answer: """,ベン。サムは一人ですと,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" 。 "" and "" クジラ "" in "" クジラはとても幸せでした。 "". Answer: """,。はとても幸せでしたクジラ,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" です "" and "" の "" in "" 彼はあなたの兄弟です。 "". Answer: """,彼はあなたです兄弟の。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" い "" and "" 家 "" in "" 誰が古い家にいましたか? "". Answer: """,誰が古いいに家ましたか?,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" 悪い "" and "" 。 "" in "" 彼は悪いです。 "". Answer: """,彼は。です悪い,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" ます "" and "" を "" in "" ティムは帽子と口ひげを拾います。 "". Answer: """,ティムは帽子と口ひげます拾いを。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" 尾 "" and "" 。 "" in "" スポットはbarえ、尾を振った。 "". Answer: """,スポットは barえ、。を振った尾,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" 。 "" and "" 好き "" in "" 太陽と雨が好きでした。 "". Answer: """,太陽と雨が。でした好き,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" ます "" and "" 大きな "" in "" 彼らは大きな音を聞きます。 "". Answer: """,彼らはます音を聞き大きな。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" ら "" and "" た "" in "" 彼らはペニーを落としました。 "". Answer: """,彼たはペニーを落としましら。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" は "" and "" リリー "" in "" リリーとベンは悲しいです。 "". Answer: """,はとベンリリー悲しいです。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" 。 "" and "" ん "" in "" 彼は勝ちません。 "". Answer: """,彼は勝ちませ。ん,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" 彼 "" and "" 悲しく "" in "" 彼は悲しくて怒っています。 "". Answer: """,悲しくは彼て怒っています。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" 彼 "" and "" たかっ "" in "" 彼は入りたかった。 "". Answer: """,たかっは入り彼た。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" を "" and "" た "" in "" 突然、彼女は声を聞いた。 "". Answer: """,突然、彼女は声た聞いを。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" 毎日 "" and "" 彼 "" in "" 毎日、彼らはとても楽しいでしょう! "". Answer: """,彼、毎日らはとても楽しいでしょう!,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" を "" and "" 。 "" in "" 鳥はヨットを土地に戻しました。 "". Answer: """,鳥はヨット。土地に戻しましたを,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" まし "" and "" に "" in "" リリーは鳥に悲しみを感じました。 "". Answer: """,リリーは鳥まし悲しみを感じにた。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" 踊り "" and "" は "" in "" 彼らは歌って踊ります。 "". Answer: """,彼ら踊り歌ってはます。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" は "" and "" 猫 "" in "" 猫は悲しかった。 "". Answer: """,は猫悲しかった。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" た "" and "" むかしむかし "" in "" むかしむかし、小さな家がありました。 "". Answer: """,た、小さな家がありましむかしむかし。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" それ "" and "" 。 "" in "" 彼女はそれらを見て微笑んだ。 "". Answer: """,彼女は。らを見て微笑んだそれ,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" たかっ "" and "" は "" in "" リリーはそれを家に持ち帰りたかった。 "". Answer: """,リリーたかっそれを家に持ち帰りはた。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" まし "" and "" 高い "" in "" 彼は高い木を見ました。 "". Answer: """,彼はまし木を見高いた。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" アンナ "" and "" ママ "" in "" アンナとベンはママをフォローします。 "". Answer: """,ママとベンはアンナをフォローします。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" は "" and "" 強い "" in "" 彼は大きくて強いです。 "". Answer: """,彼強い大きくてはです。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" は "" and "" リラ "" in "" リラとトムは幸せです。 "". Answer: """,はとトムリラ幸せです。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" た "" and "" 冗談 "" in "" 私は冗談を言っていました。 "". Answer: """,私はたを言っていまし冗談。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" た "" and "" ベン "" in "" ベンとリリーはうなずいた。 "". Answer: """,たとリリーはうなずいベン。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" 写真 "" and "" 惑星 "" in "" 星や惑星の写真がありました。 "". Answer: """,星や写真の惑星がありました。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" 大変 "" and "" 最初 "" in "" 最初は大変でした。 "". Answer: """,大変は最初でした。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" 。 "" and "" 彼 "" in "" 彼らは空腹で好奇心が強い。 "". Answer: """,。らは空腹で好奇心が強い彼,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" は "" and "" 幸せ "" in "" 彼らはずっと幸せに暮らしました。 "". Answer: """,彼ら幸せずっとはに暮らしました。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" 彼 "" and "" おもちゃ "" in "" 彼はおもちゃを探しました。 "". Answer: """,おもちゃは彼を探しました。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" それ "" and "" に "" in "" 彼女はそれをテーブルに置きます。 "". Answer: """,彼女はにをテーブルそれ置きます。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" ゲーム "" and "" 設定 "" in "" スパイクとブルーはゲームを設定します。 "". Answer: """,スパイクとブルーは設定をゲームします。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" 。 "" and "" だっ "" in "" トムとリリーは象が好きだった。 "". Answer: """,トムとリリーは象が好き。ただっ,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" 彼 "" and "" た "" in "" 彼は宝物を見つけました! "". Answer: """,たは宝物を見つけまし彼!,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" た "" and "" まし "" in "" スポットは本を読み始めました。 "". Answer: """,スポットは本を読み始めたまし。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" は "" and "" 彼 "" in "" 彼らは楽しんでいます。 "". Answer: """,はら彼楽しんでいます。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" と "" and "" こと "" in "" 電気と熱を作ることができます。 "". Answer: """,電気こと熱を作るとができます。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" は "" and "" 笑っ "" in "" リリーとベンは笑った。 "". Answer: """,リリーとベン笑っはた。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" 。 "" and "" を "" in "" ティムと鳥は公園を歩いた。 "". Answer: """,ティムと鳥は公園。歩いたを,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" 。 "" and "" て "" in "" 子供たちは驚いて、少し怖かった。 "". Answer: """,子供たちは驚い。、少し怖かったて,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" 幸せ "" and "" ティム "" in "" ティムは幸せでした。 "". Answer: """,幸せはティムでした。,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" て "" and "" た "" in "" 彼は考えて考えました。 "". Answer: "" 彼は考えた考えまして。 ""
+            2. Swap "" 見え "" and "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足の見えにようます。 ""
+            3. Swap "" 始め "" and "" タイヤ "" in "" タイヤが動き始めました! "". Answer: "" 始めが動きタイヤました! ""
+            4. Swap "" でし "" and "" ませ "" in "" 私は良くありませんでした。 "". Answer: "" 私は良くありでしんませた。 ""
+            
+            Question: Swap "" スパイシー "" and "" でし "" in "" スパイシーなコショウでした。 "". Answer: """,でしなコショウスパイシーた。,-inf,0

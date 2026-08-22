@@ -1,0 +1,801 @@
+context,true_target,pred_label,is_correct,scores
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" の "" in "" 私はあなたのようになりたいです。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 。 "" in "" ボタンは公園の箱にありました。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" は "" in "" 彼はとても幸せでした。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" ん "" in "" 彼女は理解していません。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" ポップ "" in "" ティムはポップコーンが大好きでした。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 捨て "" in "" 彼女はコショウを吐き出して捨てました。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 好き "" in "" 私は本が好きです。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" まし "" in "" 翌日、卵は割れ始めました。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 。 "" in "" 壊れています。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" の "" in "" 青と緑のミックスでした。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" その "" in "" リリーはその考えが好きでした。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" が "" in "" 彼女はケーキがやれるのを待ちます。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 見 "" in "" アンナはベンを見た。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 笑っ "" in "" 彼らは笑って楽しんだ。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" し "" in "" トムはとても興奮していました! ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" サンド "" in "" しかし、サンドキャッスルは魔法でした! ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 見 "" in "" それは卵でユリを見ました。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" で "" in "" 彼女は毎日そこで遊んだ。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" は "" in "" あなたは非常に悪い子供です! ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" ら "" in "" 彼らは抱きしめて笑います。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 見 "" in "" 彼女は手を見た。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 。 "" in "" 動揺し始めました。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 大きな "" in "" 彼らは大きな木を見ました。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 。 "" in "" チェスは楽しいです。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" ティム "" in "" ティムは悲しく感じた。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" て "" in "" 手伝ってもらえますか? ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" た "" in "" ティムは驚いた! ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" まし "" in "" 彼女は難しいレッスンを学びました。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 疲れ "" in "" 彼は疲れて悲しかった。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 微笑ん "" in "" ティミーは微笑んでボールを拾いました。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" が "" in "" 小さな女の子が宝石を見つけました。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" ママ "" in "" ママは彼らを許します。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" でし "" in "" 茶色で不潔でした。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" は "" in "" ベンは安心したように見えた。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" と "" in "" 彼は自分が安全だと思った。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 上手 "" in "" スポットはデザインがとても上手でした。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 潜り "" in "" 彼は彼を助けるために潜ります。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 良い "" in "" 彼らは良い友達になりました。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" は "" in "" ベンとリリーはうなずいた。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" は "" in "" ティムはとても驚きました。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" ら "" in "" 彼らは幸せでした。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" です "" in "" 太陽が必要です。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" に "" in "" 彼らはスライドに走り、楽しんだ。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" た "" in "" リリーはベンに尋ねた。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" たかっ "" in "" 彼は食べ物を食べたかった。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 幸せ "" in "" 彼らは幸せです。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" は "" in "" 猿はバナナを持っていました。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" が "" in "" 彼女は男の演技が好きだった。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 犬 "" in "" スポットは珍しい犬でした。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" た "" in "" トムはボールで遊んでいた。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" た "" in "" 彼女は大きなボールを見ました。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 混乱 "" in "" 混乱しないでください。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 挨拶 "" in "" 私はそれを呼んで挨拶します。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 忘れ "" in "" 彼らは犬を忘れています。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 一人 "" in "" ベンとサムは一人です。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" クジラ "" in "" クジラはとても幸せでした。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 彼 "" in "" 彼はあなたの兄弟です。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" に "" in "" 誰が古い家にいましたか? ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 彼 "" in "" 彼は悪いです。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" ティム "" in "" ティムは帽子と口ひげを拾います。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" を "" in "" スポットはbarえ、尾を振った。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" が "" in "" 太陽と雨が好きでした。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 大きな "" in "" 彼らは大きな音を聞きます。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" まし "" in "" 彼らはペニーを落としました。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" リリー "" in "" リリーとベンは悲しいです。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 。 "" in "" 彼は勝ちません。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 彼 "" in "" 彼は悲しくて怒っています。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" たかっ "" in "" 彼は入りたかった。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 、 "" in "" 突然、彼女は声を聞いた。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" とても "" in "" 毎日、彼らはとても楽しいでしょう! ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 。 "" in "" 鳥はヨットを土地に戻しました。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 感じ "" in "" リリーは鳥に悲しみを感じました。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" て "" in "" 彼らは歌って踊ります。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 。 "" in "" 猫は悲しかった。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" が "" in "" むかしむかし、小さな家がありました。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 見 "" in "" 彼女はそれらを見て微笑んだ。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" を "" in "" リリーはそれを家に持ち帰りたかった。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 彼 "" in "" 彼は高い木を見ました。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 。 "" in "" アンナとベンはママをフォローします。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 。 "" in "" 彼は大きくて強いです。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" です "" in "" リラとトムは幸せです。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 冗談 "" in "" 私は冗談を言っていました。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" ベン "" in "" ベンとリリーはうなずいた。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 。 "" in "" 星や惑星の写真がありました。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" は "" in "" 最初は大変でした。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" が "" in "" 彼らは空腹で好奇心が強い。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" ずっと "" in "" 彼らはずっと幸せに暮らしました。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" おもちゃ "" in "" 彼はおもちゃを探しました。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" ます "" in "" 彼女はそれをテーブルに置きます。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" ゲーム "" in "" スパイクとブルーはゲームを設定します。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 。 "" in "" トムとリリーは象が好きだった。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" を "" in "" 彼は宝物を見つけました! ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" た "" in "" スポットは本を読み始めました。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" は "" in "" 彼らは楽しんでいます。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" ます "" in "" 電気と熱を作ることができます。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 笑っ "" in "" リリーとベンは笑った。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" と "" in "" ティムと鳥は公園を歩いた。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" たち "" in "" 子供たちは驚いて、少し怖かった。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 幸せ "" in "" ティムは幸せでした。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" とても "" in "" とても大きくてとても速かった。 ""? Answer: "" Yes ""
+            2. Is there a "" すぎ "" in "" 大きな動物の足のように見えます。 ""? Answer: "" No ""
+            3. Is there a "" 投稿 "" in "" タイヤが動き始めました! ""? Answer: "" No ""
+            4. Is there a "" は "" in "" 私は良くありませんでした。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" た "" in "" スパイシーなコショウでした。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"

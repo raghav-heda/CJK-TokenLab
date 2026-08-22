@@ -1,0 +1,801 @@
+context,true_target,mean_token_logprob,token_count
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 飞出 "" after every "" 的 "" in "" 每个人都喜欢著名的m子。 "". Answer: """,每个人都喜欢著名的飞出 m 子。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 丰富多彩 "" after every "" 剪刀 "" in "" 苏给了他纸和剪刀。 "". Answer: """,苏给了他纸和剪刀丰富多彩。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 猛扑 "" after every "" 在 "" in "" 麦克斯住在大山附近。 "". Answer: """,麦克斯住在猛扑大山附近。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 更长 "" after every "" 天鹅 "" in "" 天鹅很好奇和友好。 "". Answer: """,天鹅更长很好奇和友好。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 混合 "" after every "" 握住 "" in "" 他握住绿色部分，努力拉动。 "". Answer: """,他握住混合绿色部分 ， 努力拉动。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 线 "" after every "" 卑鄙 "" in "" 那是一个卑鄙的笑话。 "". Answer: """,那是一个卑鄙线的笑话。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 牙齿 "" after every "" 东西 "" in "" 它感觉到背面的东西。 "". Answer: """,它感觉到背面的东西牙齿。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 并且 "" after every "" 住 "" in "" 一只叫马克斯的大狗住在那儿。 "". Answer: """,一只叫马克斯的大狗住并且在那儿。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 风吹 "" after every "" 岩石 "" in "" 最后，Slinky无法获得闪亮的岩石。 "". Answer: """,最后 ， Slinky 无法获得闪亮的岩石风吹。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 花朵 "" after every "" 。 "" in "" 他也想要漂亮的东西。 "". Answer: """,他也想要漂亮的东西。花朵,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 留下 "" after every "" 狗 "" in "" 狗大声吠叫，猫逃跑了。 "". Answer: """,狗留下大声吠叫 ， 猫逃跑了。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 可可 "" after every "" 说 "" in "" 莉莉微笑着说。 "". Answer: """,莉莉微笑着说可可。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 写 "" after every "" 和 "" in "" 和你的膀胱。 "". Answer: """,和写你的膀胱。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 车库里 "" after every "" 他 "" in "" 他想告诉妈妈关于卵石的信息。 "". Answer: """,他车库里想告诉妈妈关于卵石的信息。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 浪潮 "" after every "" 苏 "" in "" 蒂姆和苏决定一起骑自行车。 "". Answer: """,蒂姆和苏浪潮决定一起骑自行车。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 冰 "" after every "" 玩具 "" in "" 他们打开案件并与玩具一起玩。 "". Answer: """,他们打开案件并与玩具冰一起玩。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 桥 "" after every "" 他 "" in "" 他说这还不错。 "". Answer: """,他桥说这还不错。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 自豪 "" after every "" 人 "" in "" 每个人都下火车。 "". Answer: """,每个人自豪都下火车。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 硬币 "" after every "" 和 "" in "" 汤姆和那只鸟很伤心。 "". Answer: """,汤姆和硬币那只鸟很伤心。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 欢呼雀跃 "" after every "" 很 "" in "" 大鱼很好，虾很高兴。 "". Answer: """,大鱼很欢呼雀跃好 ， 虾很欢呼雀跃高兴。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 他 "" after every "" 小猫 "" in "" 从前，有一只可爱的小猫。 "". Answer: """,从前 ， 有一只可爱的小猫他。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 睡觉 "" after every "" 自己 "" in "" 他想要自己所有的三明治。 "". Answer: """,他想要自己睡觉所有的三明治。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 关心 "" after every "" 。 "" in "" 他们玩得很开心。 "". Answer: """,他们玩得很开心。关心,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 星期三 "" after every "" 没有 "" in "" 但是他们没有听到哔哔声。 "". Answer: """,但是他们没有星期三听到哔哔声。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 舒适 "" after every "" 。 "" in "" 斑点显示蓬松的水在水中。 "". Answer: """,斑点显示蓬松的水在水中。舒适,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 手里 "" after every "" ， "" in "" 但是首先，他需要找到头盔。 "". Answer: """,但是首先 ， 手里他需要找到头盔。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 长大 "" after every "" 地面 "" in "" 他们感到飞机往下触摸地面。 "". Answer: """,他们感到飞机往下触摸地面长大。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 迷路 "" after every "" 演奏 "" in "" 演奏后，汤姆和苏很累。 "". Answer: """,演奏迷路后 ， 汤姆和苏很累。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 地笑 "" after every "" 了 "" in "" 最后，他们在滑梯附近找到了它。 "". Answer: """,最后 ， 他们在滑梯附近找到了地笑它。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 安装 "" after every "" 不能 "" in "" 但是他们不能。 "". Answer: """,但是他们不能安装。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 看时 "" after every "" 不要 "" in "" 请不要生气。 "". Answer: """,请不要看时生气。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 公园 "" after every "" 说 "" in "" 他们对马说再见并拥抱它。 "". Answer: """,他们对马说公园再见并拥抱它。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 意识 "" after every "" 。 "" in "" 阳光明媚，鸟儿在唱歌。 "". Answer: """,阳光明媚 ， 鸟儿在唱歌。意识,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 击中 "" after every "" 汤姆 "" in "" 汤姆很兴奋。 "". Answer: """,汤姆击中很兴奋。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 砖头 "" after every "" 好奇 "" in "" 她看到了哥哥的房间，感到好奇。 "". Answer: """,她看到了哥哥的房间 ， 感到好奇砖头。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 逃跑 "" after every "" 我 "" in "" 他是我最好的朋友。 "". Answer: """,他是我逃跑最好的朋友。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 睁开 "" after every "" 。 "" in "" 他们俩都开始哭泣。 "". Answer: """,他们俩都开始哭泣。睁开,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 直升机 "" after every "" 喜欢 "" in "" 蓬松喜欢玩和跑步。 "". Answer: """,蓬松喜欢直升机玩和跑步。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 背面 "" after every "" 一起 "" in "" 三个朋友整天一起玩。 "". Answer: """,三个朋友整天一起背面玩。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 继续前进 "" after every "" 穿过 "" in "" 也许我们可以穿过那里。 "". Answer: """,也许我们可以穿过继续前进那里。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 正方形 "" after every "" 她 "" in "" 她想让它变得有趣。 "". Answer: """,她正方形想让它变得有趣。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 老狐狸 "" after every "" 一起 "" in "" 他们一起读书，度过了愉快的时光。 "". Answer: """,他们一起老狐狸读书 ， 度过了愉快的时光。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 想教 "" after every "" 害怕 "" in "" 麦克斯感到困惑和害怕。 "". Answer: """,麦克斯感到困惑和害怕想教。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 客人 "" after every "" ， "" in "" 莉莉的妈妈看见她，眨了眨眼。 "". Answer: """,莉莉的妈妈看见她 ， 客人眨了眨眼。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 围巾 "" after every "" 决定 "" in "" 然后，一个小组决定使公园清洁。 "". Answer: """,然后 ， 一个小组决定围巾使公园清洁。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 圆圈 "" after every "" 他们 "" in "" 他们找到了一个叫苏的女孩。 "". Answer: """,他们圆圈找到了一个叫苏的女孩。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 航行 "" after every "" 。 "" in "" 我只是在开玩笑。 "". Answer: """,我只是在开玩笑。航行,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 混乱 "" after every "" 炎热 "" in "" 阳光很炎热。 "". Answer: """,阳光很炎热混乱。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 免费 "" after every "" 印记 "" in "" 她对自己的印记感到满意。 "". Answer: """,她对自己的印记免费感到满意。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 飞 "" after every "" 的 "" in "" 你是可靠而善良的。 "". Answer: """,你是可靠而善良的飞。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 号角 "" after every "" 回家 "" in "" 小女孩感谢医生并跳过回家。 "". Answer: """,小女孩感谢医生并跳过回家号角。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 信封 "" after every "" 。 "" in "" 他想看到阳光明媚的阳光近在咫尺。 "". Answer: """,他想看到阳光明媚的阳光近在咫尺。信封,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 送 "" after every "" 很 "" in "" 他很友好。 "". Answer: """,他很送友好。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 球越过 "" after every "" 大门 "" in "" 蒂姆在他家附近看到一扇大门。 "". Answer: """,蒂姆在他家附近看到一扇大门球越过。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 大门 "" after every "" 上学 "" in "" 有一天，一个叫蒂姆的小男孩上学。 "". Answer: """,有一天 ， 一个叫蒂姆的小男孩上学大门。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 紫色 "" after every "" 高兴 "" in "" 他们很高兴，整天玩玩具。 "". Answer: """,他们很高兴紫色 ， 整天玩玩具。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 气味 "" after every "" 妈妈 "" in "" 莎莉和她的妈妈开始打开包装。 "". Answer: """,莎莉和她的妈妈气味开始打开包装。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 说话 "" after every "" 很多 "" in "" 他们看到很多人。 "". Answer: """,他们看到很多说话人。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 借 "" after every "" 安娜 "" in "" 他寻找安娜。 "". Answer: """,他寻找安娜借。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 航行 "" after every "" 是 "" in "" 他意识到莉莉是对的。 "". Answer: """,他意识到莉莉是航行对的。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 演讲 "" after every "" 。 "" in "" 他的朋友很担心。 "". Answer: """,他的朋友很担心。演讲,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 菜 "" after every "" 猫 "" in "" 猫和狗很难过。 "". Answer: """,猫菜和狗很难过。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 地点 "" after every "" 的 "" in "" 莉莉看到一只大的橙色泰迪熊。 "". Answer: """,莉莉看到一只大的地点橙色泰迪熊。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 一起 "" after every "" 吃 "" in "" 蒂姆吃了三明治，感觉好多了。 "". Answer: """,蒂姆吃一起了三明治 ， 感觉好多了。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 巨响 "" after every "" 短 "" in "" 狗的尾巴很短。 "". Answer: """,狗的尾巴很短巨响。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 送给 "" after every "" 。 "" in "" 我们爱他。 "". Answer: """,我们爱他。送给,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 摩托车 "" after every "" 和 "" in "" 莉莉和她的妈妈去了烤架。 "". Answer: """,莉莉和摩托车她的妈妈去了烤架。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 手电筒 "" after every "" 小鸟 "" in "" 愤怒的小鸟感到燃烧，飞走了。 "". Answer: """,愤怒的小鸟手电筒感到燃烧 ， 飞走了。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 仔细 "" after every "" 手电筒 "" in "" 蒂姆带着手电筒去了山姆的家。 "". Answer: """,蒂姆带着手电筒仔细去了山姆的家。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" ： "" after every "" 了 "" in "" 面纱使狼入睡了100年！ "". Answer: """,面纱使狼入睡了 ： 100 年 ！,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 这样 "" after every "" 和 "" in "" 安娜和她的猫回家了。 "". Answer: """,安娜和这样她的猫回家了。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 乌龟 "" after every "" 了 "" in "" 他们演奏直到该回家了。 "". Answer: """,他们演奏直到该回家了乌龟。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 肥皂 "" after every "" ， "" in "" 有一天，火车看到了一只小鸟。 "". Answer: """,有一天 ， 肥皂火车看到了一只小鸟。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 作为 "" after every "" 而 "" in "" 这是痛苦而又糟糕的。 "". Answer: """,这是痛苦而作为又糟糕的。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 北极星 "" after every "" 。 "" in "" 他们使它变得丰富多彩又有趣。 "". Answer: """,他们使它变得丰富多彩又有趣。北极星,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 脆弱 "" after every "" 把 "" in "" 蒂姆听了鲍勃，把玩具放开了。 "". Answer: """,蒂姆听了鲍勃 ， 把脆弱玩具放开了。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 剪纸 "" after every "" 是 "" in "" 他们是一个家庭。 "". Answer: """,他们是剪纸一个家庭。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 公平 "" after every "" 感到 "" in "" Bobo开始感到沮丧。 "". Answer: """,Bobo 开始感到公平沮丧。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 制成 "" after every "" 找到 "" in "" 她决定找到一种修理项链的方法。 "". Answer: """,她决定找到制成一种修理项链的方法。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 胸部 "" after every "" 。 "" in "" 白豹来到了房子。 "". Answer: """,白豹来到了房子。胸部,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 坦克 "" after every "" 。 "" in "" 莉莉和蒂姆很高兴，更加笑了。 "". Answer: """,莉莉和蒂姆很高兴 ， 更加笑了。坦克,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 里奇 "" after every "" 他 "" in "" 他很好奇，想和它一起玩。 "". Answer: """,他里奇很好奇 ， 想和它一起玩。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 港口 "" after every "" 了 "" in "" 他感谢青蛙，他们成为了朋友。 "". Answer: """,他感谢青蛙 ， 他们成为了港口朋友。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 锁 "" after every "" 他 "" in "" 他很疯狂。 "". Answer: """,他锁很疯狂。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 踏板 "" after every "" 。 "" in "" 汤姆看着莉莉。 "". Answer: """,汤姆看着莉莉。踏板,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 看见 "" after every "" 。 "" in "" 这只鸟把游艇带回了土地。 "". Answer: """,这只鸟把游艇带回了土地。看见,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 苏不 "" after every "" 妈妈 "" in "" 她妈妈热情地微笑。 "". Answer: """,她妈妈苏不热情地微笑。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 小鸡 "" after every "" 了 "" in "" 他们玩得开心，彼此分享了砖头。 "". Answer: """,他们玩得开心 ， 彼此分享了小鸡砖头。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 太酷 "" after every "" 。 "" in "" 这个虫子使婴儿皱眉。 "". Answer: """,这个虫子使婴儿皱眉。太酷,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 装饰 "" after every "" 但 "" in "" 山姆试图告诉麦克斯，但麦克斯没有听。 "". Answer: """,山姆试图告诉麦克斯 ， 但装饰麦克斯没有听。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 拖车 "" after every "" 很 "" in "" 这只鸟看上去很难过。 "". Answer: """,这只鸟看上去很拖车难过。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 回头 "" after every "" 哭泣 "" in "" 萨拉听到大声疾呼和哭泣。 "". Answer: """,萨拉听到大声疾呼和哭泣回头。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 父母 "" after every "" 。 "" in "" 它有一个朋友，飞机也很高兴。 "". Answer: """,它有一个朋友 ， 飞机也很高兴。父母,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 中救 "" after every "" 苏 "" in "" 蒂姆想帮助苏。 "". Answer: """,蒂姆想帮助苏中救。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 这辆 "" after every "" 它 "" in "" 它是红色，柔软而温暖的。 "". Answer: """,它这辆是红色 ， 柔软而温暖的。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 声 "" after every "" 过 "" in "" 他们都过着幸福的生活。 "". Answer: """,他们都过声着幸福的生活。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 掉 "" after every "" 带有 "" in "" 任务是建造一个带有街区的塔。 "". Answer: """,任务是建造一个带有掉街区的塔。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 简直 "" after every "" 喜欢 "" in "" 他们喜欢一起玩。 "". Answer: """,他们喜欢简直一起玩。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 这样 "" after every "" 开始 "" in "" 该植物开始越来越高。 "". Answer: """,该植物开始这样越来越高。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 一把 "" after every "" 他们 "" in "" 他们说他们很傻。 "". Answer: "" 他们一把说他们一把很傻。 ""
+            2. Add "" 想得到 "" after every "" 了 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了想得到一个主意。 ""
+            3. Add "" 引起 "" after every "" 勇气 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气引起 ， 您无能为力 ！ ""
+            4. Add "" 护照 "" after every "" 试图 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手试图护照接受它。 ""
+            
+            Question: Add "" 大个子 "" after every "" 高兴 "" in "" 她很高兴和兴奋。 "". Answer: """,她很高兴大个子和兴奋。,-inf,0

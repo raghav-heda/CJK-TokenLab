@@ -1,0 +1,801 @@
+context,true_target,mean_token_logprob,token_count
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" は "". Answer: """,は,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" た "". Answer: """,た,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" を "". Answer: """,を,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" ま し "". Answer: """,まし,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 彼 "". Answer: """,彼,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" に "". Answer: """,に,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" の "". Answer: """,の,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" が "". Answer: """,が,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" て "". Answer: """,て,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" ら "". Answer: """,ら,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" で "". Answer: """,で,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" と "". Answer: """,と,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" い "". Answer: """,い,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" で し "". Answer: """,でし,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 彼 女 "". Answer: """,彼女,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" し "". Answer: """,し,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" ま す "". Answer: """,ます,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" そ れ "". Answer: """,それ,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 見 "". Answer: """,見,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" と て も "". Answer: """,とても,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" こ と "". Answer: """,こと,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" テ ィ ム "". Answer: """,ティム,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" ま せ "". Answer: """,ませ,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" ん "". Answer: """,ん,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" あ り "". Answer: """,あり,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 幸 せ "". Answer: """,幸せ,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" あ る "". Answer: """,ある,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 日 "". Answer: """,日,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 大 き な "". Answer: """,大きな,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" で す "". Answer: """,です,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" リ リ ー "". Answer: """,リリー,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" ト ム "". Answer: """,トム,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" だ "". Answer: """,だ,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" お "". Answer: """,お,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" な "". Answer: """,な,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 好 き "". Answer: """,好き,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 一 緒 "". Answer: """,一緒,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" し か し "". Answer: """,しかし,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 小 さ な "". Answer: """,小さな,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" も "". Answer: """,も,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" た か っ "". Answer: """,たかっ,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 遊 ん "". Answer: """,遊ん,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" お も ち ゃ "". Answer: """,おもちゃ,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" か "". Answer: """,か,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 鳥 "". Answer: """,鳥,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 犬 "". Answer: """,犬,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" さ ん "". Answer: """,さん,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" な り "". Answer: """,なり,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" そ の "". Answer: """,その,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" す る "". Answer: """,する,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 思 っ "". Answer: """,思っ,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 友 達 "". Answer: """,友達,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 始 め "". Answer: """,始め,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" マ ッ ク ス "". Answer: """,マックス,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" あ な た "". Answer: """,あなた,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" で き "". Answer: """,でき,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 持 っ "". Answer: """,持っ,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 木 "". Answer: """,木,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" か ら "". Answer: """,から,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 猫 "". Answer: """,猫,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 中 "". Answer: """,中,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 母 "". Answer: """,母,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 名 前 "". Answer: """,名前,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 友 人 "". Answer: """,友人,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" い う "". Answer: """,いう,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" ス ー "". Answer: """,スー,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 遊 ぶ "". Answer: """,遊ぶ,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 後 "". Answer: """,後,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 見 つ け "". Answer: """,見つけ,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 家 "". Answer: """,家,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" い る "". Answer: """,いる,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" サ ム "". Answer: """,サム,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 大 好 き "". Answer: """,大好き,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" ベ ン "". Answer: """,ベン,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 私 "". Answer: """,私,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 外 "". Answer: """,外,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 助 け "". Answer: """,助け,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 行 き "". Answer: """,行き,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" た め "". Answer: """,ため,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 来 "". Answer: """,来,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" ボ ー ル "". Answer: """,ボール,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 公 園 "". Answer: """,公園,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 何 "". Answer: """,何,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 感 じ "". Answer: """,感じ,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 多 く "". Answer: """,多く,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" よ う "". Answer: """,よう,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 微 笑 ん "". Answer: """,微笑ん,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 一 "". Answer: """,一,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 悲 し か っ "". Answer: """,悲しかっ,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 車 "". Answer: """,車,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" む か し む か し "". Answer: """,むかしむかし,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" ス ポ ッ ト "". Answer: """,スポット,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 新 し い "". Answer: """,新しい,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 女 の 子 "". Answer: """,女の子,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 箱 "". Answer: """,箱,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 皆 "". Answer: """,皆,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" と き "". Answer: """,とき,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 手 "". Answer: """,手,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" 起 こ り "". Answer: """,起こり,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" か わ い い "".  Answer: "" かわいい ""
+            2. Write the word "" 出 し "". Answer: "" 出し ""
+            3. Write the word "" 応 援 "". Answer: "" 応援 ""
+            4. Write the word "" 親 友 "". Answer: "" 親友 ""
+            
+            Question: Write the word "" ミ ア "". Answer: """,ミア,-inf,0

@@ -1,0 +1,801 @@
+context,true_target,pred_label,is_correct,scores
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 톰의 "" in "" 톰의 모자를 날려 버렸습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 그는 "" in "" 그는 릴리의 손을 잡고 길을 이끌었다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 춤을 "" in "" 그들은 하루 종일 춤을 추고 연주했습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 사람에게 "" in "" 그는 모든 사람에게 자신이 찾을 수있는 물었다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 상자에 "" in "" 그들은 키를 상자에 넣고 돌렸다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 좋아합니다 "" in "" 릴리와 벤은 공원에서 놀기를 좋아합니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 울기 "" in "" 그는 울기 시작했다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 새로운 "" in "" 이제 그들은 함께 놀 수있는 새로운 친구가있었습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 것이다 "" in "" 나는 겸손하고 친절 할 것이다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 수있었습니다 "" in "" 그는 무언가를 인쇄 할 수있었습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 차를 "" in "" 그는 차를 가지고 놀고 싶었습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 그런 "" in "" 그런 다음 맥스라는 큰 개가 공원에 왔습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 않았습니다 "" in "" 그들은 더 이상 공을 가지고 놀지 않았습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 살았던 "" in "" 일단 벌집에 살았던 꿀벌이있었습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 토끼와 "" in "" 그녀는 장난감 토끼와 놀기를 좋아했습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 예상치 "" in "" 그러나 예상치 못한 일이 일어났습니다! ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 릴리는 "" in "" 릴리는 너무 흥분했습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 순종했다 "" in "" 앨리스는 그녀의 교훈을 배웠고 나중에 더 순종했다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 어떻게 "" in "" 당신은 어떻게 생각하십니까, 소년? ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 아이들은 "" in "" 아이들은 놀랐고 조금 무서웠습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 그는 "" in "" 그는 나무가 흔들리기 위해 너무 많이 춤을 추었다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 큰 "" in "" 공원에서 팀은 큰 나무를 보았습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 찾고있었습니다 "" in "" 그녀는 열쇠를 찾고있었습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 마우스를 "" in "" 고양이는 고개를 끄덕이며 마우스를 도왔습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 함께 "" in "" 그들은 그녀와 함께 회전했다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 원했습니다 "" in "" 그녀는 예쁜 인형을 원했습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 그는 "" in "" 내부, 그는 공을 보았다! ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 마침내 "" in "" 포스트가 마침내 움직였습니다! ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 왔습니다 "" in "" 어느 날, 어린 소녀가 새를 보러 왔습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 천장이 "" in "" 집에는 천장이 매우 높았습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 공처럼되고 "" in "" 그는 광고판의 공처럼되고 싶었다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 시작하고 "" in "" 그는 로즈와 싸움을 시작하고 그녀를 밀었다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 메리라는 "" in "" 옛날 옛적에 메리라는 소녀가있었습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 항상 "" in "" 그들은 항상 최고의 장난감을 얻는 사람을 놓고 싸우고 있습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 그녀의 "" in "" 릴리는 그녀의 친구 팀을 보았다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 날아 "" in "" 장난감과 게임이 방 주위로 날아 가기 시작했습니다! ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 매우 "" in "" 소년은 매우 행복했습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 작은 "" in "" 나무 아래에서 그들은 작은 상자를 찾았습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 소녀는 "" in "" 소녀는 매우 행복했습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 그는 "" in "" 그는 땅에서 빨간색을 보았다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 고양이를 "" in "" 개는 고양이를 잡았다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 듣습니다 "" in "" 그는 릴리와 벤을 듣습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 다람쥐는 "" in "" 다람쥐는 그들을 되돌아 보았다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 먹자 "" in "" 이제 가서 주스와 쿠키를 먹자. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 시작했다 "" in "" 그들은 달리기 시작했다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 유용한 "" in "" 팀은 유용한 사다리를 가졌습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 릴리는 "" in "" 톰과 릴리는 코끼리를 좋아했습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 먹이를주고 "" in "" 그는 새에게 먹이를주고 싶어합니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 그러나 "" in "" 그러나 상자는 매우 무겁고 단단합니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 팀과 "" in "" 팀과 스팟도 무서웠다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 장난감 "" in "" 그들은 단지 장난감 총을 가지고 놀고 싶었습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 많은 "" in "" 그것은 많은 사람들을 도왔습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 고양이와 "" in "" 고양이와 개는 서로를 바라 보았다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 작은 "" in "" 작은 새가 나무에 살았습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 천천히 "" in "" 그들은 토끼로 천천히 걸었습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 많다 "" in "" 나는 장난감이 많다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 찾도록 "" in "" 릴리는 톰이 자신의 공을 찾도록 도와주고 싶었습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 만지기 "" in "" 에이미는 새를 만지기 위해 손가락을 뻗었다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 그들은 "" in "" 그들은 모두 현기증을 느꼈다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 자신이 "" in "" 어느 날 Tim은 자신이 좋아하는 장난감 자동차를 찾고 싶었습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 소년이 "" in "" 어린 소년이 공급 업체에 왔습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 아기는 "" in "" 아기는 당신을 갖게되어 운이 좋다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 살았습니다 "" in "" 새는 큰 나무에서 살았습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 들었다 "" in "" 톰은 껍질을 집어 들었다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 보았다 "" in "" 공원에서 그녀는 간호사를 보았다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 그들은 "" in "" 그들은 많은 재미를 보았습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 키티는 "" in "" 키티는 마당으로 들어갔다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 그렇지 "" in "" 에밀리는 친절했고 팻은 그렇지 않았습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 좋아했습니다 "" in "" Anna는 블록을 가지고 노는 것을 좋아했습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 팀은 "" in "" 팀은 물건을 모으는 것을 좋아했습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 그들은 "" in "" 그들은 책을 읽고 이야기를 듣습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 장난감 "" in "" 그리고 당신의 장난감. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 그녀는 "" in "" 그녀는 시계와 벤을 본다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 그들은 "" in "" 그들은 슬프고 미안합니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 매우 "" in "" 매우 빨리 확대 할 수 있습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 큰 "" in "" 갑자기 그들은 큰 소리를 들었습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 그들은 "" in "" 그들은 저녁 식사를 위해 스테이크를 가졌습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 그녀는 "" in "" 그녀는 주위를 둘러보고 팬을 보았다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 여우가있었습니다 "" in "" 옛날 옛적에, 노인 여우가있었습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 더럽습니다 "" in "" 돼지는 크고 분홍색이며 더럽습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 따라 "" in "" 그녀는 큰 녹색 파리를 따라 달렸다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 고양이는 "" in "" 고양이는 사라의 손에 머리를 문지릅니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 검은 "" in "" 그녀는이 신비한 검은 섬에서 무언가를 발견했습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 그들은 "" in "" 그들은 행복하고 따뜻하다고 느낍니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 생각했습니다 "" in "" 그들은 영원히 사라 졌다고 생각했습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 싶었습니다 "" in "" 케이크를 먹고 싶었습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 누가 "" in "" 오래된 집에 누가 있었습니까? ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" Tom은 "" in "" Lila와 Tom은 행복합니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 녹색 "" in "" 옛날 옛적에 녹색 모자가있었습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 내고 "" in "" 그들은 화를 내고 슬퍼했습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 받아 "" in "" 팀은 행복했고 그 사람의 제안을 받아 들였다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 요청했습니다 "" in "" 그녀는 친구 Tom에게 그녀를 도와달라고 요청했습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 넣었습니다 "" in "" 반점은 공을 상자에 밀어 넣었습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" Tom과 "" in "" Tom과 Max는 너무 행복했습니다! ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 루시는 "" in "" 어느 날, 루시는 친구 톰을 방문하기로 결정했습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 도와주고 "" in "" Tim은 Sue를 도와주고 싶었습니다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 슬퍼 "" in "" 다람쥐는 슬퍼 보였다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 나무를 "" in "" 그들은 큰 나무를 보았다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 잡아 "" in "" 그들은 잡아 당기고 소리 쳤다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. ""? Answer: "" Yes ""
+            2. Is there a "" 책을 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. ""? Answer: "" No ""
+            3. Is there a "" 지켰다 "" in "" 새가 요트를 땅으로 가져갔습니다. ""? Answer: "" No ""
+            4. Is there a "" 싶었습니다 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 앉아서 "" in "" 그녀는 그것에 앉아서 쉬고 싶었다. ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"

@@ -1,0 +1,801 @@
+context,true_target,mean_token_logprob,token_count
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 들 "" and "" 그 "" in "" 그들은 "". Answer: """,들그은,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 는 "" and "" 그 "" in "" 그는 "". Answer: """,는그,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 녀 "" and "" 는 "" in "" 그녀는 "". Answer: """,그는녀,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 매 "" and "" 우 "" in "" 매우 "". Answer: """,우매,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 을 "" and "" 것 "" in "" 것을 "". Answer: """,을것,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 은 "" and "" 팀 "" in "" 팀은 "". Answer: """,은팀,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 느 "" and "" 어 "" in "" 어느 "". Answer: """,느어,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 함 "" and "" 께 "" in "" 함께 "". Answer: """,께함,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 아 "" and "" 했 "" in "" 좋아했습니다 "". Answer: """,좋했아습니다,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 나 "" and "" 그 "" in "" 그러나 "". Answer: """,나러그,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 갔 "" and "" 다 "" in "" 갔다 "". Answer: """,다갔,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 았 "" and "" 다 "" in "" 보았다 "". Answer: """,보다았,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 무 "" and "" 너 "" in "" 너무 "". Answer: """,무너,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 니 "" and "" 다 "" in "" 싶었습니다 "". Answer: """,싶었습다니,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 는 "" and "" 릴 "" in "" 릴리는 "". Answer: """,는리릴,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 았 "" and "" 습 "" in "" 보았습니다 "". Answer: """,보습았니다,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 그 "" and "" 의 "" in "" 그의 "". Answer: """,의그,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 습 "" and "" 았 "" in "" 않았습니다 "". Answer: """,않습았니다,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 은 "" and "" 많 "" in "" 많은 "". Answer: """,은많,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 했 "" and "" 행 "" in "" 행복했습니다 "". Answer: """,했복행습니다,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 작 "" and "" 은 "" in "" 작은 "". Answer: """,은작,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 그 "" and "" 을 "" in "" 그것을 "". Answer: """,을것그,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 습 "" and "" 니 "" in "" 있습니다 "". Answer: """,있니습다,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 은 "" and "" 톰 "" in "" 톰은 "". Answer: """,은톰,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 가 "" and "" 지 "" in "" 가지고 "". Answer: """,지가고,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 그 "" and "" 의 "" in "" 그녀의 "". Answer: """,의녀그,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 니 "" and "" 작 "" in "" 시작했습니다 "". Answer: """,시니했습작다,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 해 "" and "" 위 "" in "" 위해 "". Answer: """,해위,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 엄 "" and "" 마 "" in "" 엄마는 "". Answer: """,마엄는,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 런 "" and "" 그 "" in "" 그런 "". Answer: """,런그,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 다 "" and "" 음 "" in "" 다음 "". Answer: """,음다,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 옛 "" and "" 날 "" in "" 옛날 "". Answer: """,날옛,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 에 "" and "" 적 "" in "" 옛적에 "". Answer: """,옛에적,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 두 "" and "" 모 "" in "" 모두 "". Answer: """,두모,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 것 "" and "" 그 "" in "" 그것은 "". Answer: """,것그은,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 이 "" and "" 일 "" in "" 일이 "". Answer: """,이일,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 개 "" and "" 는 "" in "" 개는 "". Answer: """,는개,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 었 "" and "" 니 "" in "" 없었습니다 "". Answer: """,없니습었다,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 감 "" and "" 을 "" in "" 장난감을 "". Answer: """,장난을감,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 공 "" and "" 을 "" in "" 공을 "". Answer: """,을공,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 신 "" and "" 당 "" in "" 당신은 "". Answer: """,신당은,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 를 "" and "" 기 "" in "" 놀기를 "". Answer: """,놀를기,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 다 "" and "" 시 "" in "" 다시 "". Answer: """,시다,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 니 "" and "" 견 "" in "" 발견했습니다 "". Answer: """,발니했습견다,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 다 "" and "" 었 "" in "" 웃었다 "". Answer: """,웃다었,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 어 "" and "" 린 "" in "" 어린 "". Answer: """,린어,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 로 "" and "" 새 "" in "" 새로운 "". Answer: """,로새운,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 습 "" and "" 니 "" in "" 일어났습니다 "". Answer: """,일어났니습다,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 이 "" and "" 고 "" in "" 고양이는 "". Answer: """,이양고는,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 못 "" and "" 한 "" in "" 못한 "". Answer: """,한못,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 는 "" and "" 나 "" in "" 나는 "". Answer: """,는나,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 스 "" and "" 는 "" in "" 맥스는 "". Answer: """,맥는스,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 치 "" and "" 상 "" in "" 예상치 "". Answer: """,예치상,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 다 "" and "" 습 "" in "" 생각했습니다 "". Answer: """,생각했다니습,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 놀 "" and "" 습 "" in "" 놀았습니다 "". Answer: """,습았놀니다,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 고 "" and "" 놀 "" in "" 놀고 "". Answer: """,고놀,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 았 "" and "" 살 "" in "" 살았습니다 "". Answer: """,았살습니다,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 은 "" and "" 샘 "" in "" 샘은 "". Answer: """,은샘,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 습 "" and "" 기 "" in "" 기뻤습니다 "". Answer: """,습뻤기니다,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 고 "" and "" 니 "" in "" 가지고있었습니다 "". Answer: """,가지니있었습고다,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 그 "" and "" 들 "" in "" 그들을 "". Answer: """,들그을,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 고 "" and "" 크 "" in "" 크고 "". Answer: """,고크,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 하 "" and "" 루 "" in "" 하루 "". Answer: """,루하,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 종 "" and "" 일 "" in "" 종일 "". Answer: """,일종,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 그 "" and "" 를 "" in "" 그를 "". Answer: """,를그,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 새 "" and "" 가 "" in "" 새가 "". Answer: """,가새,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 다 "" and "" 습 "" in "" 왔습니다 "". Answer: """,왔다니습,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 래 "" and "" 서 "" in "" 그래서 "". Answer: """,그서래,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 새 "" and "" 는 "" in "" 새는 "". Answer: """,는새,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 와 "" and "" 리 "" in "" 릴리와 "". Answer: """,릴와리,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 그 "" and "" 것 "" in "" 그것이 "". Answer: """,것그이,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 장 "" and "" 감 "" in "" 장난감 "". Answer: """,감난장,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 친 "" and "" 구 "" in "" 친구 "". Answer: """,구친,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 모 "" and "" 든 "" in "" 모든 "". Answer: """,든모,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 고 "" and "" 그 "" in "" 그리고 "". Answer: """,고리그,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 은 "" and "" 좋 "" in "" 좋은 "". Answer: """,은좋,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 은 "" and "" 벤 "" in "" 벤은 "". Answer: """,은벤,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 고 "" and "" 행 "" in "" 행복했고 "". Answer: """,고복했행,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 니 "" and "" 합 "" in "" 좋아합니다 "". Answer: """,좋아니합다,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 과 "" and "" 팀 "" in "" 팀과 "". Answer: """,과팀,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 녀 "" and "" 그 "" in "" 그녀를 "". Answer: """,녀그를,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 들 "" and "" 이 "" in "" 그들이 "". Answer: """,그이들,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 들 "" and "" 습 "" in "" 들었습니다 "". Answer: """,습었들니다,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 하 "" and "" 게 "" in "" 행복하게 "". Answer: """,행복게하,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 고 "" and "" 행 "" in "" 행복하고 "". Answer: """,고복하행,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 다 "" and "" 른 "" in "" 다른 "". Answer: """,른다,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 로 "" and "" 으 "" in "" 집으로 "". Answer: """,집로으,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 해 "" and "" 대 "" in "" 대해 "". Answer: """,해대,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 주 "" and "" 었 "" in "" 주었다 "". Answer: """,었주다,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 에 "" and "" 원 "" in "" 공원에서 "". Answer: """,공에원서,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 니 "" and "" 입 "" in "" 것입니다 "". Answer: """,것니입다,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 다 "" and "" 결 "" in "" 결정했습니다 "". Answer: """,다정했습니결,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 다 "" and "" 말 "" in "" 말했다 "". Answer: """,다했말,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 미 "" and "" 재 "" in "" 재미있었습니다 "". Answer: """,미재있었습니다,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 장 "" and "" 가 "" in "" 가장 "". Answer: """,장가,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 습 "" and "" 니 "" in "" 않습니다 "". Answer: """,않니습다,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 어 "" and "" 뛰 "" in "" 뛰어 "". Answer: """,어뛰,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 가 "" and "" 져 "" in "" 가져 "". Answer: """,져가,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 고 "" and "" 개 "" in "" 고개를 "". Answer: """,개고를,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" 무 "" and "" 워 "" in "" 무서워서 "". Answer: "" 워서무서 ""
+            2. Swap "" 은 "" and "" 인 "" in "" 노인은 "". Answer: "" 노은인 ""
+            3. Swap "" 블 "" and "" 테 "" in "" 테이블에서 "". Answer: "" 블이테에서 ""
+            4. Swap "" 했 "" and "" 생 "" in "" 생각했다 "". Answer: "" 했각생다 ""
+            
+            Question: Swap "" 습 "" and "" 다 "" in "" 찾았습니다 "". Answer: """,찾았다니습,-inf,0

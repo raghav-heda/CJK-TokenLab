@@ -1,0 +1,801 @@
+context,true_target,pred_label,is_correct,scores
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 들 "" in "" 그들은 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 는 "" in "" 그는 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 그 "" in "" 그녀는 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 우 "" in "" 매우 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 큰 "" in "" 큰 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 을 "" in "" 것을 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 날 "" in "" 날 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 팀 "" in "" 팀은 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 어 "" in "" 어느 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 께 "" in "" 함께 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 좋 "" in "" 좋아했습니다 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 그 "" in "" 그러나 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 다 "" in "" 갔다 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 다 "" in "" 보았다 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 너 "" in "" 너무 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 었 "" in "" 싶었습니다 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 리 "" in "" 릴리는 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 았 "" in "" 보았습니다 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 그 "" in "" 그의 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 수 "" in "" 수 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 니 "" in "" 않았습니다 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 많 "" in "" 많은 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 행 "" in "" 행복했습니다 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 작 "" in "" 작은 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 그 "" in "" 그것을 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 니 "" in "" 있습니다 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 톰 "" in "" 톰은 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 더 "" in "" 더 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 고 "" in "" 가지고 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 의 "" in "" 그녀의 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 했 "" in "" 시작했습니다 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 위 "" in "" 위해 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 엄 "" in "" 엄마는 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 런 "" in "" 그런 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 음 "" in "" 다음 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 옛 "" in "" 옛날 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 에 "" in "" 옛적에 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 두 "" in "" 모두 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 것 "" in "" 그것은 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 일 "" in "" 일이 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 개 "" in "" 개는 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 었 "" in "" 없었습니다 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 장 "" in "" 장난감을 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 을 "" in "" 공을 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 당 "" in "" 당신은 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 를 "" in "" 놀기를 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 시 "" in "" 다시 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 했 "" in "" 발견했습니다 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 다 "" in "" 웃었다 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 린 "" in "" 어린 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 운 "" in "" 새로운 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 니 "" in "" 일어났습니다 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 는 "" in "" 고양이는 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 때 "" in "" 때 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 한 "" in "" 못한 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 나 "" in "" 나는 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 는 "" in "" 맥스는 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 예 "" in "" 예상치 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 습 "" in "" 생각했습니다 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 습 "" in "" 놀았습니다 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 고 "" in "" 놀고 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 살 "" in "" 살았습니다 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 은 "" in "" 샘은 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 기 "" in "" 기뻤습니다 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 었 "" in "" 가지고있었습니다 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 을 "" in "" 그들을 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 고 "" in "" 크고 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 하 "" in "" 하루 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 종 "" in "" 종일 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 그 "" in "" 그를 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 새 "" in "" 새가 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 습 "" in "" 왔습니다 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 서 "" in "" 그래서 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 는 "" in "" 새는 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 릴 "" in "" 릴리와 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 것 "" in "" 그것이 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 감 "" in "" 장난감 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 구 "" in "" 친구 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 든 "" in "" 모든 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 할 "" in "" 할 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 그 "" in "" 그리고 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 은 "" in "" 좋은 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 벤 "" in "" 벤은 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 복 "" in "" 행복했고 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 다 "" in "" 좋아합니다 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 과 "" in "" 팀과 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 그 "" in "" 그녀를 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 이 "" in "" 그들이 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 다 "" in "" 다 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 었 "" in "" 들었습니다 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 하 "" in "" 행복하게 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 복 "" in "" 행복하고 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 다 "" in "" 다른 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 집 "" in "" 집으로 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 해 "" in "" 대해 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 주 "" in "" 주었다 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 그 "" in "" 그 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 원 "" in "" 공원에서 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 입 "" in "" 것입니다 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 때 "" in "" 때때로 ""? Answer: "" Yes ""
+            2. Is there a "" 빛 "" in "" 농부는 ""? Answer: "" No ""
+            3. Is there a "" 비 "" in "" 개와 ""? Answer: "" No ""
+            4. Is there a "" 다 "" in "" 있었다 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 했 "" in "" 결정했습니다 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"

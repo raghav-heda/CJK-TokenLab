@@ -1,0 +1,801 @@
+context,true_target,mean_token_logprob,token_count
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 立 "" after every "" は "" in "" は "". Answer: """,は立,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" ず "" after every "" た "" in "" た "". Answer: """,たず,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 形 "" after every "" を "" in "" を "". Answer: """,を形,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 味 "" after every "" ま "" in "" まし "". Answer: """,ま味し,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 岩 "" after every "" 彼 "" in "" 彼 "". Answer: """,彼岩,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 教 "" after every "" に "" in "" に "". Answer: """,に教,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 引 "" after every "" の "" in "" の "". Answer: """,の引,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 中 "" after every "" が "" in "" が "". Answer: """,が中,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 空 "" after every "" て "" in "" て "". Answer: """,て空,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 服 "" after every "" ら "" in "" ら "". Answer: """,ら服,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 金 "" after every "" で "" in "" で "". Answer: """,で金,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 会 "" after every "" と "" in "" と "". Answer: """,と会,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 白 "" after every "" い "" in "" い "". Answer: """,い白,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 遠 "" after every "" し "" in "" でし "". Answer: """,でし遠,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 尾 "" after every "" 彼 "" in "" 彼女 "". Answer: """,彼尾女,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 冒 "" after every "" し "" in "" し "". Answer: """,し冒,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 住 "" after every "" ま "" in "" ます "". Answer: """,ま住す,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 戦 "" after every "" そ "" in "" それ "". Answer: """,そ戦れ,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 奮 "" after every "" 見 "" in "" 見 "". Answer: """,見奮,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" ン "" after every "" も "" in "" とても "". Answer: """,とてもン,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 色 "" after every "" こ "" in "" こと "". Answer: """,こ色と,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 間 "" after every "" ム "" in "" ティム "". Answer: """,ティム間,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" ま "" after every "" せ "" in "" ませ "". Answer: """,ませま,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 猫 "" after every "" ん "" in "" ん "". Answer: """,ん猫,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 書 "" after every "" あ "" in "" あり "". Answer: """,あ書り,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 触 "" after every "" 幸 "" in "" 幸せ "". Answer: """,幸触せ,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" ヤ "" after every "" る "" in "" ある "". Answer: """,あるヤ,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 特 "" after every "" 日 "" in "" 日 "". Answer: """,日特,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" ト "" after every "" き "" in "" 大きな "". Answer: """,大きトな,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" モ "" after every "" す "" in "" です "". Answer: """,ですモ,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" ほ "" after every "" ム "" in "" トム "". Answer: """,トムほ,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 作 "" after every "" だ "" in "" だ "". Answer: """,だ作,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" ょ "" after every "" お "" in "" お "". Answer: """,おょ,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 戦 "" after every "" な "" in "" な "". Answer: """,な戦,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 犬 "" after every "" 好 "" in "" 好き "". Answer: """,好犬き,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 感 "" after every "" 一 "" in "" 一緒 "". Answer: """,一感緒,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 葉 "" after every "" し "" in "" しかし "". Answer: """,し葉かし葉,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" バ "" after every "" 小 "" in "" 小さな "". Answer: """,小バさな,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 女 "" after every "" も "" in "" も "". Answer: """,も女,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 族 "" after every "" か "" in "" たかっ "". Answer: """,たか族っ,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 何 "" after every "" 遊 "" in "" 遊ん "". Answer: """,遊何ん,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 事 "" after every "" ち "" in "" おもちゃ "". Answer: """,おもち事ゃ,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" デ "" after every "" か "" in "" か "". Answer: """,かデ,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" さ "" after every "" 鳥 "" in "" 鳥 "". Answer: """,鳥さ,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 山 "" after every "" 犬 "" in "" 犬 "". Answer: """,犬山,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" べ "" after every "" さ "" in "" さん "". Answer: """,さべん,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 返 "" after every "" な "" in "" なり "". Answer: """,な返り,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 隠 "" after every "" そ "" in "" その "". Answer: """,そ隠の,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 誰 "" after every "" す "" in "" する "". Answer: """,す誰る,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 違 "" after every "" っ "" in "" 思っ "". Answer: """,思っ違,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 誇 "" after every "" 達 "" in "" 友達 "". Answer: """,友達誇,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 心 "" after every "" 始 "" in "" 始め "". Answer: """,始心め,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 買 "" after every "" ス "" in "" マックス "". Answer: """,マックス買,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 達 "" after every "" あ "" in "" あなた "". Answer: """,あ達なた,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 描 "" after every "" で "" in "" でき "". Answer: """,で描き,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 嫌 "" after every "" 持 "" in "" 持っ "". Answer: """,持嫌っ,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 氏 "" after every "" 木 "" in "" 木 "". Answer: """,木氏,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" び "" after every "" ら "" in "" から "". Answer: """,からび,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 書 "" after every "" 猫 "" in "" 猫 "". Answer: """,猫書,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 常 "" after every "" 中 "" in "" 中 "". Answer: """,中常,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 謝 "" after every "" 母 "" in "" 母 "". Answer: """,母謝,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" ヤ "" after every "" 前 "" in "" 名前 "". Answer: """,名前ヤ,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 的 "" after every "" 人 "" in "" 友人 "". Answer: """,友人的,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" る "" after every "" う "" in "" いう "". Answer: """,いうる,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 加 "" after every "" ス "" in "" スー "". Answer: """,ス加ー,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 備 "" after every "" ぶ "" in "" 遊ぶ "". Answer: """,遊ぶ備,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 葉 "" after every "" 後 "" in "" 後 "". Answer: """,後葉,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" も "" after every "" け "" in "" 見つけ "". Answer: """,見つけも,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 走 "" after every "" 家 "" in "" 家 "". Answer: """,家走,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" そ "" after every "" い "" in "" いる "". Answer: """,いそる,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" げ "" after every "" サ "" in "" サム "". Answer: """,サげム,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 棚 "" after every "" き "" in "" 大好き "". Answer: """,大好き棚,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 暖 "" after every "" ベ "" in "" ベン "". Answer: """,ベ暖ン,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 口 "" after every "" 私 "" in "" 私 "". Answer: """,私口,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 力 "" after every "" 外 "" in "" 外 "". Answer: """,外力,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" じ "" after every "" け "" in "" 助け "". Answer: """,助けじ,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" ナ "" after every "" き "" in "" 行き "". Answer: """,行きナ,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 生 "" after every "" た "" in "" ため "". Answer: """,た生め,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 巣 "" after every "" 来 "" in "" 来 "". Answer: """,来巣,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 登 "" after every "" ボ "" in "" ボール "". Answer: """,ボ登ール,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 靴 "" after every "" 公 "" in "" 公園 "". Answer: """,公靴園,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 意 "" after every "" 何 "" in "" 何 "". Answer: """,何意,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 望 "" after every "" 感 "" in "" 感じ "". Answer: """,感望じ,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 話 "" after every "" く "" in "" 多く "". Answer: """,多く話,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" に "" after every "" よ "" in "" よう "". Answer: """,よにう,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" ね "" after every "" ん "" in "" 微笑ん "". Answer: """,微笑んね,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 共 "" after every "" 一 "" in "" 一 "". Answer: """,一共,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" チ "" after every "" 悲 "" in "" 悲しかっ "". Answer: """,悲チしかっ,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 庭 "" after every "" 車 "" in "" 車 "". Answer: """,車庭,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" ず "" after every "" し "" in "" むかしむかし "". Answer: """,むかしずむかしず,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 牛 "" after every "" ス "" in "" スポット "". Answer: """,ス牛ポット,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" ノ "" after every "" し "" in "" 新しい "". Answer: """,新しノい,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 出 "" after every "" 女 "" in "" 女の子 "". Answer: """,女出の子,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 語 "" after every "" 箱 "" in "" 箱 "". Answer: """,箱語,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 父 "" after every "" 皆 "" in "" 皆 "". Answer: """,皆父,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 素 "" after every "" き "" in "" とき "". Answer: """,とき素,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 者 "" after every "" 手 "" in "" 手 "". Answer: """,手者,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" コ "" after every "" 起 "" in "" 起こり "". Answer: """,起コこり,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" 光 "" after every "" ア "" in "" ミア "". Answer: """,ミア光,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 良 "" after every "" リ "" in "" リリー "". Answer: "" リ良リ良ー ""
+            2. Add an "" ザ "" after every "" し "" in "" 出し "". Answer: "" 出しザ ""
+            3. Add an "" し "" after every "" 援 "" in "" 応援 "". Answer: "" 応援し ""
+            4. Add an "" で "" after every "" さ "" in "" さ "". Answer: "" さで ""
+            
+            Question: Add an "" れ "" after every "" た "" in "" たい "". Answer: """,たれい,-inf,0

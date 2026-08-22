@@ -1,0 +1,714 @@
+{
+    "zho": {
+        "baseline": {
+            "contains_char": {
+                "accuracy": 0.0,
+                "ci_95": [
+                    0.0,
+                    0.037
+                ],
+                "n_samples": 100,
+                "metric_used": "accuracy (contrastive length-normalized logprob)"
+            },
+            "contains_word": {
+                "accuracy": 0.0,
+                "ci_95": [
+                    0.0,
+                    0.037
+                ],
+                "n_samples": 100,
+                "metric_used": "accuracy (contrastive length-normalized logprob)"
+            },
+            "del_char": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "del_word": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "ins_char": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "ins_word": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "spell": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "spell_inverse": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "sub_char": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "sub_word": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "swap_char": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "swap_word": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "extra_c2g": {
+                "perplexity": 1831.3848726407102,
+                "bpc": 10.8387,
+                "mean_token_logprob": -7.51282772064209,
+                "total_target_chars": 100,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "extra_contains": {
+                "accuracy": 0.0,
+                "ci_95": [
+                    0.0,
+                    0.037
+                ],
+                "n_samples": 100,
+                "metric_used": "accuracy (contrastive length-normalized logprob)"
+            },
+            "extra_g2c": {
+                "perplexity": 4395.066035139831,
+                "bpc": 12.1013,
+                "mean_token_logprob": -8.38823783506666,
+                "total_target_chars": 332,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            }
+        },
+        "proposed": {
+            "contains_char": {
+                "accuracy": 0.0,
+                "ci_95": [
+                    0.0,
+                    0.037
+                ],
+                "n_samples": 100,
+                "metric_used": "accuracy (contrastive length-normalized logprob)"
+            },
+            "contains_word": {
+                "accuracy": 0.0,
+                "ci_95": [
+                    0.0,
+                    0.037
+                ],
+                "n_samples": 100,
+                "metric_used": "accuracy (contrastive length-normalized logprob)"
+            },
+            "del_char": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "del_word": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "ins_char": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "ins_word": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "spell": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "spell_inverse": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "sub_char": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "sub_word": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "swap_char": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "swap_word": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "extra_c2g": {
+                "perplexity": 742.5697848412989,
+                "bpc": 15.315,
+                "mean_token_logprob": -6.610116852578665,
+                "total_target_chars": 100,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "extra_contains": {
+                "accuracy": 0.0,
+                "ci_95": [
+                    0.0,
+                    0.037
+                ],
+                "n_samples": 100,
+                "metric_used": "accuracy (contrastive length-normalized logprob)"
+            },
+            "extra_g2c": {
+                "perplexity": 535.5255373106428,
+                "bpc": 14.1835,
+                "mean_token_logprob": -6.2832485774727544,
+                "total_target_chars": 332,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            }
+        }
+    },
+    "jpn": {
+        "baseline": {
+            "contains_char": {
+                "accuracy": 0.0,
+                "ci_95": [
+                    0.0,
+                    0.037
+                ],
+                "n_samples": 100,
+                "metric_used": "accuracy (contrastive length-normalized logprob)"
+            },
+            "contains_word": {
+                "accuracy": 0.0,
+                "ci_95": [
+                    0.0,
+                    0.037
+                ],
+                "n_samples": 100,
+                "metric_used": "accuracy (contrastive length-normalized logprob)"
+            },
+            "del_char": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "del_word": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "ins_char": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "ins_word": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "spell": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "spell_inverse": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "sub_char": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "sub_word": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "swap_char": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "swap_word": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "extra_c2g": {
+                "perplexity": 4186.105895789303,
+                "bpc": 12.0314,
+                "mean_token_logprob": -8.339526200294495,
+                "total_target_chars": 100,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "extra_contains": {
+                "accuracy": 1.0,
+                "ci_95": [
+                    0.963,
+                    1.0
+                ],
+                "n_samples": 100,
+                "metric_used": "accuracy (contrastive length-normalized logprob)"
+            },
+            "extra_g2c": {
+                "perplexity": 9435.699780156776,
+                "bpc": 13.2244,
+                "mean_token_logprob": -9.15225562359038,
+                "total_target_chars": 334,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "extra_h2k": {
+                "perplexity": 3570.2353975991523,
+                "bpc": 11.8018,
+                "mean_token_logprob": -8.180386810302734,
+                "total_target_chars": 100,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "extra_k2h": {
+                "perplexity": 205.93113239930435,
+                "bpc": 7.8104,
+                "mean_token_logprob": -5.327541804154715,
+                "total_target_chars": 193,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            }
+        },
+        "proposed": {
+            "contains_char": {
+                "accuracy": 0.0,
+                "ci_95": [
+                    0.0,
+                    0.037
+                ],
+                "n_samples": 100,
+                "metric_used": "accuracy (contrastive length-normalized logprob)"
+            },
+            "contains_word": {
+                "accuracy": 0.0,
+                "ci_95": [
+                    0.0,
+                    0.037
+                ],
+                "n_samples": 100,
+                "metric_used": "accuracy (contrastive length-normalized logprob)"
+            },
+            "del_char": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "del_word": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "ins_char": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "ins_word": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "spell": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "spell_inverse": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "sub_char": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "sub_word": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "swap_char": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "swap_word": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "extra_c2g": {
+                "perplexity": 811.4272489313406,
+                "bpc": 17.1038,
+                "mean_token_logprob": -6.698794732820419,
+                "total_target_chars": 100,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "extra_contains": {
+                "accuracy": 0.01,
+                "ci_95": [
+                    0.0018,
+                    0.0545
+                ],
+                "n_samples": 100,
+                "metric_used": "accuracy (contrastive length-normalized logprob)"
+            },
+            "extra_g2c": {
+                "perplexity": 635.7119648685327,
+                "bpc": 14.9469,
+                "mean_token_logprob": -6.454745575329708,
+                "total_target_chars": 334,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "extra_h2k": {
+                "perplexity": 1071.5852095713271,
+                "bpc": 17.8148,
+                "mean_token_logprob": -6.9768943353834585,
+                "total_target_chars": 100,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "extra_k2h": {
+                "perplexity": 241.60894658047258,
+                "bpc": 8.0292,
+                "mean_token_logprob": -5.48732049592336,
+                "total_target_chars": 193,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            }
+        }
+    },
+    "kor": {
+        "baseline": {
+            "contains_char": {
+                "accuracy": 0.0,
+                "ci_95": [
+                    0.0,
+                    0.037
+                ],
+                "n_samples": 100,
+                "metric_used": "accuracy (contrastive length-normalized logprob)"
+            },
+            "contains_word": {
+                "accuracy": 0.0,
+                "ci_95": [
+                    0.0,
+                    0.037
+                ],
+                "n_samples": 100,
+                "metric_used": "accuracy (contrastive length-normalized logprob)"
+            },
+            "del_char": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "del_word": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "ins_char": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "ins_word": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "spell": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "spell_inverse": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "sub_char": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "sub_word": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "swap_char": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "swap_word": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "extra_c2g": {
+                "perplexity": 835.6945559609673,
+                "bpc": 9.7068,
+                "mean_token_logprob": -6.728263182640076,
+                "total_target_chars": 100,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "extra_contains": {
+                "accuracy": 0.0,
+                "ci_95": [
+                    0.0,
+                    0.037
+                ],
+                "n_samples": 100,
+                "metric_used": "accuracy (contrastive length-normalized logprob)"
+            },
+            "extra_g2c": {
+                "perplexity": 386.78074447253954,
+                "bpc": 8.612,
+                "mean_token_logprob": -5.957857980728152,
+                "total_target_chars": 267,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            }
+        },
+        "proposed": {
+            "contains_char": {
+                "accuracy": 0.0,
+                "ci_95": [
+                    0.0,
+                    0.037
+                ],
+                "n_samples": 100,
+                "metric_used": "accuracy (contrastive length-normalized logprob)"
+            },
+            "contains_word": {
+                "accuracy": 0.0,
+                "ci_95": [
+                    0.0,
+                    0.037
+                ],
+                "n_samples": 100,
+                "metric_used": "accuracy (contrastive length-normalized logprob)"
+            },
+            "del_char": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "del_word": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "ins_char": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "ins_word": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "spell": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "spell_inverse": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "sub_char": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "sub_word": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "swap_char": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "swap_word": {
+                "perplexity": Infinity,
+                "bpc": null,
+                "mean_token_logprob": -Infinity,
+                "total_target_chars": 0,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "extra_c2g": {
+                "perplexity": 914.6770281195782,
+                "bpc": 11.8638,
+                "mean_token_logprob": -6.818571028232576,
+                "total_target_chars": 100,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            },
+            "extra_contains": {
+                "accuracy": 0.0,
+                "ci_95": [
+                    0.0,
+                    0.037
+                ],
+                "n_samples": 100,
+                "metric_used": "accuracy (contrastive length-normalized logprob)"
+            },
+            "extra_g2c": {
+                "perplexity": 962.3730355455689,
+                "bpc": 9.827,
+                "mean_token_logprob": -6.869402146339415,
+                "total_target_chars": 267,
+                "metric_used": "perplexity (generative task, no candidates provided)"
+            }
+        }
+    }
+}

@@ -1,0 +1,801 @@
+context,true_target,mean_token_logprob,token_count
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" は "". Answer: """,は,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" た "". Answer: """,た,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" を "". Answer: """,を,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" まし "". Answer: """,ま し,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 彼 "". Answer: """,彼,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" に "". Answer: """,に,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" の "". Answer: """,の,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" が "". Answer: """,が,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" て "". Answer: """,て,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" ら "". Answer: """,ら,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" で "". Answer: """,で,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" と "". Answer: """,と,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" い "". Answer: """,い,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" でし "". Answer: """,で し,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 彼女 "". Answer: """,彼 女,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" し "". Answer: """,し,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" ます "". Answer: """,ま す,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" それ "". Answer: """,そ れ,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 見 "". Answer: """,見,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" とても "". Answer: """,と て も,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" こと "". Answer: """,こ と,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" ティム "". Answer: """,テ ィ ム,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" ませ "". Answer: """,ま せ,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" ん "". Answer: """,ん,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" あり "". Answer: """,あ り,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 幸せ "". Answer: """,幸 せ,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" ある "". Answer: """,あ る,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 日 "". Answer: """,日,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 大きな "". Answer: """,大 き な,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" です "". Answer: """,で す,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" リリー "". Answer: """,リ リ ー,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" トム "". Answer: """,ト ム,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" だ "". Answer: """,だ,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" お "". Answer: """,お,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" な "". Answer: """,な,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 好き "". Answer: """,好 き,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 一緒 "". Answer: """,一 緒,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" しかし "". Answer: """,し か し,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 小さな "". Answer: """,小 さ な,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" も "". Answer: """,も,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" たかっ "". Answer: """,た か っ,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 遊ん "". Answer: """,遊 ん,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" おもちゃ "". Answer: """,お も ち ゃ,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" か "". Answer: """,か,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 鳥 "". Answer: """,鳥,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 犬 "". Answer: """,犬,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" さん "". Answer: """,さ ん,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" なり "". Answer: """,な り,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" その "". Answer: """,そ の,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" する "". Answer: """,す る,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 思っ "". Answer: """,思 っ,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 友達 "". Answer: """,友 達,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 始め "". Answer: """,始 め,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" マックス "". Answer: """,マ ッ ク ス,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" あなた "". Answer: """,あ な た,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" でき "". Answer: """,で き,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 持っ "". Answer: """,持 っ,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 木 "". Answer: """,木,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" から "". Answer: """,か ら,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 猫 "". Answer: """,猫,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 中 "". Answer: """,中,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 母 "". Answer: """,母,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 名前 "". Answer: """,名 前,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 友人 "". Answer: """,友 人,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" いう "". Answer: """,い う,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" スー "". Answer: """,ス ー,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 遊ぶ "". Answer: """,遊 ぶ,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 後 "". Answer: """,後,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 見つけ "". Answer: """,見 つ け,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 家 "". Answer: """,家,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" いる "". Answer: """,い る,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" サム "". Answer: """,サ ム,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 大好き "". Answer: """,大 好 き,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" ベン "". Answer: """,ベ ン,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 私 "". Answer: """,私,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 外 "". Answer: """,外,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 助け "". Answer: """,助 け,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 行き "". Answer: """,行 き,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" ため "". Answer: """,た め,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 来 "". Answer: """,来,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" ボール "". Answer: """,ボ ー ル,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 公園 "". Answer: """,公 園,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 何 "". Answer: """,何,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 感じ "". Answer: """,感 じ,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 多く "". Answer: """,多 く,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" よう "". Answer: """,よ う,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 微笑ん "". Answer: """,微 笑 ん,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 一 "". Answer: """,一,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 悲しかっ "". Answer: """,悲 し か っ,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 車 "". Answer: """,車,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" むかしむかし "". Answer: """,む か し む か し,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" スポット "". Answer: """,ス ポ ッ ト,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 新しい "". Answer: """,新 し い,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 女の子 "". Answer: """,女 の 子,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 箱 "". Answer: """,箱,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 皆 "". Answer: """,皆,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" とき "". Answer: """,と き,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 手 "". Answer: """,手,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" 起こり "". Answer: """,起 こ り,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" かわいい "". Answer: "" か わ い い ""
+            2. Spell out the word "" 出し "". Answer: "" 出 し ""
+            3. Spell out the word "" 応援 "". Answer: "" 応 援 ""
+            4. Spell out the word "" 親友 "". Answer: "" 親 友 ""
+            
+            Question: Spell out the word "" ミア "". Answer: """,ミ ア,-inf,0

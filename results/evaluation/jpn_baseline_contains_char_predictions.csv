@@ -1,0 +1,801 @@
+context,true_target,pred_label,is_correct,scores
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" は "" in "" は ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" た "" in "" た ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" を "" in "" を ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" ま "" in "" まし ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 彼 "" in "" 彼 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" に "" in "" に ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" の "" in "" の ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" が "" in "" が ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" て "" in "" て ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" ら "" in "" ら ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" で "" in "" で ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" と "" in "" と ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" い "" in "" い ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" し "" in "" でし ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 彼 "" in "" 彼女 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" し "" in "" し ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" ま "" in "" ます ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" そ "" in "" それ ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 見 "" in "" 見 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" も "" in "" とても ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" と "" in "" こと ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" テ "" in "" ティム ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" せ "" in "" ませ ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" ん "" in "" ん ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" り "" in "" あり ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 幸 "" in "" 幸せ ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" あ "" in "" ある ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 日 "" in "" 日 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" な "" in "" 大きな ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" で "" in "" です ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" リ "" in "" リリー ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" ト "" in "" トム ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" だ "" in "" だ ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" お "" in "" お ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" な "" in "" な ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 好 "" in "" 好き ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 緒 "" in "" 一緒 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" か "" in "" しかし ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 小 "" in "" 小さな ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" も "" in "" も ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" っ "" in "" たかっ ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" ん "" in "" 遊ん ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" ち "" in "" おもちゃ ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" か "" in "" か ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 鳥 "" in "" 鳥 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 犬 "" in "" 犬 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" ん "" in "" さん ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" な "" in "" なり ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" そ "" in "" その ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" る "" in "" する ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 思 "" in "" 思っ ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 友 "" in "" 友達 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 始 "" in "" 始め ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" ッ "" in "" マックス ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" な "" in "" あなた ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" き "" in "" でき ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 持 "" in "" 持っ ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 木 "" in "" 木 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" ら "" in "" から ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 猫 "" in "" 猫 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 中 "" in "" 中 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 母 "" in "" 母 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 名 "" in "" 名前 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 人 "" in "" 友人 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" う "" in "" いう ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" ス "" in "" スー ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" ぶ "" in "" 遊ぶ ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 後 "" in "" 後 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" け "" in "" 見つけ ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 家 "" in "" 家 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" る "" in "" いる ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" サ "" in "" サム ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" き "" in "" 大好き ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" ベ "" in "" ベン ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 私 "" in "" 私 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 外 "" in "" 外 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" け "" in "" 助け ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 行 "" in "" 行き ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" め "" in "" ため ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 来 "" in "" 来 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" ボ "" in "" ボール ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 園 "" in "" 公園 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 何 "" in "" 何 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 感 "" in "" 感じ ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 多 "" in "" 多く ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" よ "" in "" よう ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" ん "" in "" 微笑ん ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 一 "" in "" 一 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" か "" in "" 悲しかっ ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 車 "" in "" 車 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" む "" in "" むかしむかし ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" ト "" in "" スポット ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" い "" in "" 新しい ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" の "" in "" 女の子 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 箱 "" in "" 箱 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 皆 "" in "" 皆 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" き "" in "" とき ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 手 "" in "" 手 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" り "" in "" 起こり ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" ア "" in "" アイデア ""? Answer: "" Yes ""
+            2. Is there a "" ペ "" in "" 出し ""? Answer: "" No ""
+            3. Is there a "" に "" in "" 応援 ""? Answer: "" No ""
+            4. Is there a "" さ "" in "" さ ""? Answer: "" Yes ""
+            
+            Question: Is there a "" ア "" in "" ミア ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"

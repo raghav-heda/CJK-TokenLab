@@ -1,0 +1,12 @@
+{
+    "source_file": "C:\\Users\\Vishwa\\Downloads\\CJK-TokenLab\\data\\execute_repo\\EXECUTE-main\\data\\TinyStoriesV2-GPT4-valid.txt",
+    "source_description": "TinyStoriesV2-GPT4-valid.txt from EXECUTE benchmark",
+    "english_sample_size": 5000,
+    "random_seed": 0,
+    "translation_method": "deep_translator (Google API) - deviated from googletrans due to Python compatibility",
+    "dataset_sizes": {
+        "zho": 1000,
+        "jpn": 1000,
+        "kor": 1000
+    }
+}

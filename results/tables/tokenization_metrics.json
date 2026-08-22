@@ -1,0 +1,89 @@
+{
+    "zho": {
+        "Baseline": {
+            "Total Tokens": 1260,
+            "Total Chars": 1260,
+            "Chars per Token": 1.0,
+            "Tokens per Sentence": 12.6,
+            "Unknown Token Rate": 0.06111111111111111,
+            "Encoding Time (s)": 0.017727136611938477,
+            "Uniform Encoding Cost (bits/char)": 10.0755
+        },
+        "Byte-Level BPE": {
+            "Total Tokens": 2779,
+            "Total Chars": 1260,
+            "Chars per Token": 0.4534005037783375,
+            "Tokens per Sentence": 27.79,
+            "Unknown Token Rate": 0.0,
+            "Encoding Time (s)": 0.01310276985168457,
+            "Uniform Encoding Cost (bits/char)": 15.4389
+        },
+        "Proposed": {
+            "Total Tokens": 1707,
+            "Total Chars": 1260,
+            "Chars per Token": 0.7381370826010545,
+            "Tokens per Sentence": 17.07,
+            "Unknown Token Rate": 0.01816051552431166,
+            "Encoding Time (s)": 0.07347917556762695,
+            "Uniform Encoding Cost (bits/char)": 13.5342
+        }
+    },
+    "jpn": {
+        "Baseline": {
+            "Total Tokens": 1981,
+            "Total Chars": 1981,
+            "Chars per Token": 1.0,
+            "Tokens per Sentence": 19.81,
+            "Unknown Token Rate": 0.009591115598182737,
+            "Encoding Time (s)": 0.00360107421875,
+            "Uniform Encoding Cost (bits/char)": 9.6546
+        },
+        "Byte-Level BPE": {
+            "Total Tokens": 2849,
+            "Total Chars": 1981,
+            "Chars per Token": 0.6953316953316954,
+            "Tokens per Sentence": 28.49,
+            "Unknown Token Rate": 0.0,
+            "Encoding Time (s)": 0.003522157669067383,
+            "Uniform Encoding Cost (bits/char)": 10.0671
+        },
+        "Proposed": {
+            "Total Tokens": 2174,
+            "Total Chars": 1981,
+            "Chars per Token": 0.9112235510579577,
+            "Tokens per Sentence": 21.74,
+            "Unknown Token Rate": 0.008739650413983441,
+            "Encoding Time (s)": 0.03199625015258789,
+            "Uniform Encoding Cost (bits/char)": 10.607
+        }
+    },
+    "kor": {
+        "Baseline": {
+            "Total Tokens": 1817,
+            "Total Chars": 2257,
+            "Chars per Token": 1.2421574023115025,
+            "Tokens per Sentence": 18.17,
+            "Unknown Token Rate": 0.006053935057787562,
+            "Encoding Time (s)": 0.005258083343505859,
+            "Uniform Encoding Cost (bits/char)": 7.5578
+        },
+        "Byte-Level BPE": {
+            "Total Tokens": 4252,
+            "Total Chars": 2257,
+            "Chars per Token": 0.5308090310442145,
+            "Tokens per Sentence": 42.52,
+            "Unknown Token Rate": 0.00023518344308560678,
+            "Encoding Time (s)": 0.006624460220336914,
+            "Uniform Encoding Cost (bits/char)": 13.1874
+        },
+        "Proposed": {
+            "Total Tokens": 1930,
+            "Total Chars": 2257,
+            "Chars per Token": 1.1694300518134715,
+            "Tokens per Sentence": 19.3,
+            "Unknown Token Rate": 0.0,
+            "Encoding Time (s)": 0.06795310974121094,
+            "Uniform Encoding Cost (bits/char)": 7.8392
+        }
+    }
+}

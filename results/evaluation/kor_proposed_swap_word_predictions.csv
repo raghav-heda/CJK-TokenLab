@@ -1,0 +1,801 @@
+context,true_target,mean_token_logprob,token_count
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 톰의 "" and "" 날려 "" in "" 톰의 모자를 날려 버렸습니다. "". Answer: """,날려 모자를 톰의 버렸습니다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 이끌었다 "" and "" 손을 "" in "" 그는 릴리의 손을 잡고 길을 이끌었다. "". Answer: """,그는 릴리의 이끌었다 잡고 길을 손을.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 종일 "" and "" 추고 "" in "" 그들은 하루 종일 춤을 추고 연주했습니다. "". Answer: """,그들은 하루 추고 춤을 종일 연주했습니다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 수있는 "" and "" 모든 "" in "" 그는 모든 사람에게 자신이 찾을 수있는 물었다. "". Answer: """,그는 수있는 사람에게 자신이 찾을 모든 물었다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 넣고 "" and "" 돌렸다 "" in "" 그들은 키를 상자에 넣고 돌렸다. "". Answer: """,그들은 키를 상자에 돌렸다 넣고.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 공원에서 "" and "" 릴리와 "" in "" 릴리와 벤은 공원에서 놀기를 좋아합니다. "". Answer: """,공원에서 벤은 릴리와 놀기를 좋아합니다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 울기 "" and "" 그는 "" in "" 그는 울기 시작했다. "". Answer: """,울기 그는 시작했다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 그들은 "" and "" 친구가있었습니다 "" in "" 이제 그들은 함께 놀 수있는 새로운 친구가있었습니다. "". Answer: """,이제 친구가있었습니다 함께 놀 수있는 새로운 그들은.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 나는 "" and "" 친절 "" in "" 나는 겸손하고 친절 할 것이다. "". Answer: """,친절 겸손하고 나는 할 것이다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 그는 "" and "" 수있었습니다 "" in "" 그는 무언가를 인쇄 할 수있었습니다. "". Answer: """,수있었습니다 무언가를 인쇄 할 그는.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 놀고 "" and "" 그는 "" in "" 그는 차를 가지고 놀고 싶었습니다. "". Answer: """,놀고 차를 가지고 그는 싶었습니다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 다음 "" and "" 큰 "" in "" 그런 다음 맥스라는 큰 개가 공원에 왔습니다. "". Answer: """,그런 큰 맥스라는 다음 개가 공원에 왔습니다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 더 "" and "" 그들은 "" in "" 그들은 더 이상 공을 가지고 놀지 않았습니다. "". Answer: """,더 그들은 이상 공을 가지고 놀지 않았습니다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 꿀벌이있었습니다 "" and "" 일단 "" in "" 일단 벌집에 살았던 꿀벌이있었습니다. "". Answer: """,꿀벌이있었습니다 벌집에 살았던 일단.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 그녀는 "" and "" 좋아했습니다 "" in "" 그녀는 장난감 토끼와 놀기를 좋아했습니다. "". Answer: """,좋아했습니다 장난감 토끼와 놀기를 그녀는.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 못한 "" and "" 예상치 "" in "" 그러나 예상치 못한 일이 일어났습니다! "". Answer: """,그러나 못한 예상치 일이 일어났습니다!,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 너무 "" and "" 흥분했습니다 "" in "" 릴리는 너무 흥분했습니다. "". Answer: """,릴리는 흥분했습니다 너무.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 그녀의 "" and "" 앨리스는 "" in "" 앨리스는 그녀의 교훈을 배웠고 나중에 더 순종했다. "". Answer: """,그녀의 앨리스는 교훈을 배웠고 나중에 더 순종했다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 어떻게 "" and "" 당신은 "" in "" 당신은 어떻게 생각하십니까, 소년? "". Answer: ""","어떻게 당신은 생각하십니까, 소년?",-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 아이들은 "" and "" 조금 "" in "" 아이들은 놀랐고 조금 무서웠습니다. "". Answer: """,조금 놀랐고 아이들은 무서웠습니다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 나무가 "" and "" 너무 "" in "" 그는 나무가 흔들리기 위해 너무 많이 춤을 추었다. "". Answer: """,그는 너무 흔들리기 위해 나무가 많이 춤을 추었다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 보았습니다 "" and "" 공원에서 "" in "" 공원에서 팀은 큰 나무를 보았습니다. "". Answer: """,보았습니다 팀은 큰 나무를 공원에서.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 열쇠를 "" and "" 그녀는 "" in "" 그녀는 열쇠를 찾고있었습니다. "". Answer: """,열쇠를 그녀는 찾고있었습니다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 마우스를 "" and "" 끄덕이며 "" in "" 고양이는 고개를 끄덕이며 마우스를 도왔습니다. "". Answer: """,고양이는 고개를 마우스를 끄덕이며 도왔습니다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 그녀와 "" and "" 함께 "" in "" 그들은 그녀와 함께 회전했다. "". Answer: """,그들은 함께 그녀와 회전했다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 원했습니다 "" and "" 인형을 "" in "" 그녀는 예쁜 인형을 원했습니다. "". Answer: """,그녀는 예쁜 원했습니다 인형을.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 내부 "" and "" 공을 "" in "" 내부, 그는 공을 보았다! "". Answer: ""","공을, 그는 내부 보았다!",-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 마침내 "" and "" 포스트가 "" in "" 포스트가 마침내 움직였습니다! "". Answer: """,마침내 포스트가 움직였습니다!,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 어린 "" and "" 새를 "" in "" 어느 날, 어린 소녀가 새를 보러 왔습니다. "". Answer: ""","어느 날, 새를 소녀가 어린 보러 왔습니다.",-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 높았습니다 "" and "" 천장이 "" in "" 집에는 천장이 매우 높았습니다. "". Answer: """,집에는 높았습니다 매우 천장이.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 광고판의 "" and "" 공처럼되고 "" in "" 그는 광고판의 공처럼되고 싶었다. "". Answer: """,그는 공처럼되고 광고판의 싶었다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 싸움을 "" and "" 시작하고 "" in "" 그는 로즈와 싸움을 시작하고 그녀를 밀었다. "". Answer: """,그는 로즈와 시작하고 싸움을 그녀를 밀었다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 옛날 "" and "" 옛적에 "" in "" 옛날 옛적에 메리라는 소녀가있었습니다. "". Answer: """,옛적에 옛날 메리라는 소녀가있었습니다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 싸우고 "" and "" 장난감을 "" in "" 그들은 항상 최고의 장난감을 얻는 사람을 놓고 싸우고 있습니다. "". Answer: """,그들은 항상 최고의 싸우고 얻는 사람을 놓고 장난감을 있습니다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 보았다 "" and "" 친구 "" in "" 릴리는 그녀의 친구 팀을 보았다. "". Answer: """,릴리는 그녀의 보았다 팀을 친구.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 장난감과 "" and "" 주위로 "" in "" 장난감과 게임이 방 주위로 날아 가기 시작했습니다! "". Answer: """,주위로 게임이 방 장난감과 날아 가기 시작했습니다!,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 소년은 "" and "" 매우 "" in "" 소년은 매우 행복했습니다. "". Answer: """,매우 소년은 행복했습니다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 작은 "" and "" 그들은 "" in "" 나무 아래에서 그들은 작은 상자를 찾았습니다. "". Answer: """,나무 아래에서 작은 그들은 상자를 찾았습니다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 행복했습니다 "" and "" 소녀는 "" in "" 소녀는 매우 행복했습니다. "". Answer: """,행복했습니다 매우 소녀는.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 땅에서 "" and "" 그는 "" in "" 그는 땅에서 빨간색을 보았다. "". Answer: """,땅에서 그는 빨간색을 보았다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 고양이를 "" and "" 개는 "" in "" 개는 고양이를 잡았다. "". Answer: """,고양이를 개는 잡았다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 릴리와 "" and "" 그는 "" in "" 그는 릴리와 벤을 듣습니다. "". Answer: """,릴리와 그는 벤을 듣습니다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 보았다 "" and "" 그들을 "" in "" 다람쥐는 그들을 되돌아 보았다. "". Answer: """,다람쥐는 보았다 되돌아 그들을.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 먹자 "" and "" 쿠키를 "" in "" 이제 가서 주스와 쿠키를 먹자. "". Answer: """,이제 가서 주스와 먹자 쿠키를.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 시작했다 "" and "" 그들은 "" in "" 그들은 달리기 시작했다. "". Answer: """,시작했다 달리기 그들은.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 가졌습니다 "" and "" 유용한 "" in "" 팀은 유용한 사다리를 가졌습니다. "". Answer: """,팀은 가졌습니다 사다리를 유용한.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 릴리는 "" and "" 좋아했습니다 "" in "" 톰과 릴리는 코끼리를 좋아했습니다. "". Answer: """,톰과 좋아했습니다 코끼리를 릴리는.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 새에게 "" and "" 그는 "" in "" 그는 새에게 먹이를주고 싶어합니다. "". Answer: """,새에게 그는 먹이를주고 싶어합니다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 상자는 "" and "" 그러나 "" in "" 그러나 상자는 매우 무겁고 단단합니다. "". Answer: """,상자는 그러나 매우 무겁고 단단합니다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 무서웠다 "" and "" 팀과 "" in "" 팀과 스팟도 무서웠다. "". Answer: """,무서웠다 스팟도 팀과.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 그들은 "" and "" 장난감 "" in "" 그들은 단지 장난감 총을 가지고 놀고 싶었습니다. "". Answer: """,장난감 단지 그들은 총을 가지고 놀고 싶었습니다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 그것은 "" and "" 많은 "" in "" 그것은 많은 사람들을 도왔습니다. "". Answer: """,많은 그것은 사람들을 도왔습니다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 서로를 "" and "" 개는 "" in "" 고양이와 개는 서로를 바라 보았다. "". Answer: """,고양이와 서로를 개는 바라 보았다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 나무에 "" and "" 작은 "" in "" 작은 새가 나무에 살았습니다. "". Answer: """,나무에 새가 작은 살았습니다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 천천히 "" and "" 그들은 "" in "" 그들은 토끼로 천천히 걸었습니다. "". Answer: """,천천히 토끼로 그들은 걸었습니다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 나는 "" and "" 장난감이 "" in "" 나는 장난감이 많다. "". Answer: """,장난감이 나는 많다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 싶었습니다 "" and "" 공을 "" in "" 릴리는 톰이 자신의 공을 찾도록 도와주고 싶었습니다. "". Answer: """,릴리는 톰이 자신의 싶었습니다 찾도록 도와주고 공을.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 만지기 "" and "" 손가락을 "" in "" 에이미는 새를 만지기 위해 손가락을 뻗었다. "". Answer: """,에이미는 새를 손가락을 위해 만지기 뻗었다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 모두 "" and "" 느꼈다 "" in "" 그들은 모두 현기증을 느꼈다. "". Answer: """,그들은 느꼈다 현기증을 모두.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 싶었습니다 "" and "" 어느 "" in "" 어느 날 Tim은 자신이 좋아하는 장난감 자동차를 찾고 싶었습니다. "". Answer: """,싶었습니다 날 Tim은 자신이 좋아하는 장난감 자동차를 찾고 어느.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 소년이 "" and "" 왔습니다 "" in "" 어린 소년이 공급 업체에 왔습니다. "". Answer: """,어린 왔습니다 공급 업체에 소년이.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 좋다 "" and "" 아기는 "" in "" 아기는 당신을 갖게되어 운이 좋다. "". Answer: """,좋다 당신을 갖게되어 운이 아기는.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 큰 "" and "" 새는 "" in "" 새는 큰 나무에서 살았습니다. "". Answer: """,큰 새는 나무에서 살았습니다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 껍질을 "" and "" 들었다 "" in "" 톰은 껍질을 집어 들었다. "". Answer: """,톰은 들었다 집어 껍질을.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 그녀는 "" and "" 보았다 "" in "" 공원에서 그녀는 간호사를 보았다. "". Answer: """,공원에서 보았다 간호사를 그녀는.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 재미를 "" and "" 보았습니다 "" in "" 그들은 많은 재미를 보았습니다. "". Answer: """,그들은 많은 보았습니다 재미를.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 들어갔다 "" and "" 키티는 "" in "" 키티는 마당으로 들어갔다. "". Answer: """,들어갔다 마당으로 키티는.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 그렇지 "" and "" 에밀리는 "" in "" 에밀리는 친절했고 팻은 그렇지 않았습니다. "". Answer: """,그렇지 친절했고 팻은 에밀리는 않았습니다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" Anna는 "" and "" 블록을 "" in "" Anna는 블록을 가지고 노는 것을 좋아했습니다. "". Answer: """,블록을 Anna는 가지고 노는 것을 좋아했습니다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 모으는 "" and "" 팀은 "" in "" 팀은 물건을 모으는 것을 좋아했습니다. "". Answer: """,모으는 물건을 팀은 것을 좋아했습니다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 이야기를 "" and "" 책을 "" in "" 그들은 책을 읽고 이야기를 듣습니다. "". Answer: """,그들은 이야기를 읽고 책을 듣습니다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 당신의 "" and "" 그리고 "" in "" 그리고 당신의 장난감. "". Answer: """,당신의 그리고 장난감.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 시계와 "" and "" 본다 "" in "" 그녀는 시계와 벤을 본다. "". Answer: """,그녀는 본다 벤을 시계와.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 슬프고 "" and "" 그들은 "" in "" 그들은 슬프고 미안합니다. "". Answer: """,슬프고 그들은 미안합니다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 할 "" and "" 빨리 "" in "" 매우 빨리 확대 할 수 있습니다. "". Answer: """,매우 할 확대 빨리 수 있습니다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 그들은 "" and "" 큰 "" in "" 갑자기 그들은 큰 소리를 들었습니다. "". Answer: """,갑자기 큰 그들은 소리를 들었습니다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 저녁 "" and "" 식사를 "" in "" 그들은 저녁 식사를 위해 스테이크를 가졌습니다. "". Answer: """,그들은 식사를 저녁 위해 스테이크를 가졌습니다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 팬을 "" and "" 주위를 "" in "" 그녀는 주위를 둘러보고 팬을 보았다. "". Answer: """,그녀는 팬을 둘러보고 주위를 보았다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 옛적에 "" and "" 옛날 "" in "" 옛날 옛적에, 노인 여우가있었습니다. "". Answer: ""","옛적에 옛날, 노인 여우가있었습니다.",-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 더럽습니다 "" and "" 크고 "" in "" 돼지는 크고 분홍색이며 더럽습니다. "". Answer: """,돼지는 더럽습니다 분홍색이며 크고.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 그녀는 "" and "" 달렸다 "" in "" 그녀는 큰 녹색 파리를 따라 달렸다. "". Answer: """,달렸다 큰 녹색 파리를 따라 그녀는.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 사라의 "" and "" 손에 "" in "" 고양이는 사라의 손에 머리를 문지릅니다. "". Answer: """,고양이는 손에 사라의 머리를 문지릅니다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 섬에서 "" and "" 검은 "" in "" 그녀는이 신비한 검은 섬에서 무언가를 발견했습니다. "". Answer: """,그녀는이 신비한 섬에서 검은 무언가를 발견했습니다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 행복하고 "" and "" 느낍니다 "" in "" 그들은 행복하고 따뜻하다고 느낍니다. "". Answer: """,그들은 느낍니다 따뜻하다고 행복하고.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 영원히 "" and "" 그들은 "" in "" 그들은 영원히 사라 졌다고 생각했습니다. "". Answer: """,영원히 그들은 사라 졌다고 생각했습니다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 먹고 "" and "" 케이크를 "" in "" 케이크를 먹고 싶었습니다. "". Answer: """,먹고 케이크를 싶었습니다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 누가 "" and "" 오래된 "" in "" 오래된 집에 누가 있었습니까? "". Answer: """,누가 집에 오래된 있었습니까?,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" Tom은 "" and "" 행복합니다 "" in "" Lila와 Tom은 행복합니다. "". Answer: """,Lila와 행복합니다 Tom은.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 모자가있었습니다 "" and "" 녹색 "" in "" 옛날 옛적에 녹색 모자가있었습니다. "". Answer: """,옛날 옛적에 모자가있었습니다 녹색.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 그들은 "" and "" 화를 "" in "" 그들은 화를 내고 슬퍼했습니다. "". Answer: """,화를 그들은 내고 슬퍼했습니다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 제안을 "" and "" 팀은 "" in "" 팀은 행복했고 그 사람의 제안을 받아 들였다. "". Answer: """,제안을 행복했고 그 사람의 팀은 받아 들였다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 그녀를 "" and "" 친구 "" in "" 그녀는 친구 Tom에게 그녀를 도와달라고 요청했습니다. "". Answer: """,그녀는 그녀를 Tom에게 친구 도와달라고 요청했습니다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 공을 "" and "" 반점은 "" in "" 반점은 공을 상자에 밀어 넣었습니다. "". Answer: """,공을 반점은 상자에 밀어 넣었습니다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" Max는 "" and "" 행복했습니다 "" in "" Tom과 Max는 너무 행복했습니다! "". Answer: """,Tom과 행복했습니다 너무 Max는!,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 방문하기로 "" and "" 결정했습니다 "" in "" 어느 날, 루시는 친구 톰을 방문하기로 결정했습니다. "". Answer: ""","어느 날, 루시는 친구 톰을 결정했습니다 방문하기로.",-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" Tim은 "" and "" 도와주고 "" in "" Tim은 Sue를 도와주고 싶었습니다. "". Answer: """,도와주고 Sue를 Tim은 싶었습니다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 슬퍼 "" and "" 보였다 "" in "" 다람쥐는 슬퍼 보였다. "". Answer: """,다람쥐는 보였다 슬퍼.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 나무를 "" and "" 큰 "" in "" 그들은 큰 나무를 보았다. "". Answer: """,그들은 나무를 큰 보았다.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 그들은 "" and "" 쳤다 "" in "" 그들은 잡아 당기고 소리 쳤다. "". Answer: """,쳤다 잡아 당기고 소리 그들은.,-inf,0
+"Swap the positions of two specified words in a given sentence, based on the following examples:
+            
+            1. Swap "" 순간 "" and "" 목소리를 "" in "" 그 순간 그 여자는 목소리를 들었습니다. "". Answer: "" 그 목소리를 그 여자는 순간 들었습니다. ""
+            2. Swap "" 오는 "" and "" 맑은 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 오는 날, 작은 새가 고양이가 맑은 것을 보았습니다. ""
+            3. Swap "" 땅으로 "" and "" 요트를 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 땅으로 요트를 가져갔습니다. ""
+            4. Swap "" 그녀는 "" and "" 찾습니다 "" in "" 그녀는 녹색 지점이없는 딸기를 찾습니다. "". Answer: "" 찾습니다 녹색 지점이없는 딸기를 그녀는. ""
+            
+            Question: Swap "" 쉬고 "" and "" 앉아서 "" in "" 그녀는 그것에 앉아서 쉬고 싶었다. "". Answer: """,그녀는 그것에 쉬고 앉아서 싶었다.,-inf,0

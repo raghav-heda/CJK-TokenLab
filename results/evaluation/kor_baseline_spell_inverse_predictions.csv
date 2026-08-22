@@ -1,0 +1,801 @@
+context,true_target,mean_token_logprob,token_count
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 그 들 은 "". Answer: """,그들은,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 그 는 "". Answer: """,그는,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 그 녀 는 "". Answer: """,그녀는,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 매 우 "". Answer: """,매우,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 큰 "". Answer: """,큰,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 것 을 "". Answer: """,것을,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 날 "". Answer: """,날,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 팀 은 "". Answer: """,팀은,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 어 느 "". Answer: """,어느,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 함 께 "". Answer: """,함께,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 좋 아 했 습 니 다 "". Answer: """,좋아했습니다,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 그 러 나 "". Answer: """,그러나,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 갔 다 "". Answer: """,갔다,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 보 았 다 "". Answer: """,보았다,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 너 무 "". Answer: """,너무,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 싶 었 습 니 다 "". Answer: """,싶었습니다,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 릴 리 는 "". Answer: """,릴리는,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 보 았 습 니 다 "". Answer: """,보았습니다,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 그 의 "". Answer: """,그의,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 수 "". Answer: """,수,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 않 았 습 니 다 "". Answer: """,않았습니다,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 많 은 "". Answer: """,많은,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 행 복 했 습 니 다 "". Answer: """,행복했습니다,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 작 은 "". Answer: """,작은,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 그 것 을 "". Answer: """,그것을,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 있 습 니 다 "". Answer: """,있습니다,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 톰 은 "". Answer: """,톰은,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 더 "". Answer: """,더,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 가 지 고 "". Answer: """,가지고,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 그 녀 의 "". Answer: """,그녀의,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 시 작 했 습 니 다 "". Answer: """,시작했습니다,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 위 해 "". Answer: """,위해,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 엄 마 는 "". Answer: """,엄마는,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 그 런 "". Answer: """,그런,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 다 음 "". Answer: """,다음,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 옛 날 "". Answer: """,옛날,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 옛 적 에 "". Answer: """,옛적에,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 모 두 "". Answer: """,모두,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 그 것 은 "". Answer: """,그것은,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 일 이 "". Answer: """,일이,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 개 는 "". Answer: """,개는,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 없 었 습 니 다 "". Answer: """,없었습니다,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 장 난 감 을 "". Answer: """,장난감을,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 공 을 "". Answer: """,공을,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 당 신 은 "". Answer: """,당신은,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 놀 기 를 "". Answer: """,놀기를,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 다 시 "". Answer: """,다시,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 발 견 했 습 니 다 "". Answer: """,발견했습니다,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 웃 었 다 "". Answer: """,웃었다,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 어 린 "". Answer: """,어린,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 새 로 운 "". Answer: """,새로운,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 일 어 났 습 니 다 "". Answer: """,일어났습니다,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 고 양 이 는 "". Answer: """,고양이는,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 때 "". Answer: """,때,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 못 한 "". Answer: """,못한,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 나 는 "". Answer: """,나는,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 맥 스 는 "". Answer: """,맥스는,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 예 상 치 "". Answer: """,예상치,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 생 각 했 습 니 다 "". Answer: """,생각했습니다,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 놀 았 습 니 다 "". Answer: """,놀았습니다,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 놀 고 "". Answer: """,놀고,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 살 았 습 니 다 "". Answer: """,살았습니다,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 샘 은 "". Answer: """,샘은,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 기 뻤 습 니 다 "". Answer: """,기뻤습니다,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 가 지 고 있 었 습 니 다 "". Answer: """,가지고있었습니다,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 그 들 을 "". Answer: """,그들을,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 크 고 "". Answer: """,크고,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 하 루 "". Answer: """,하루,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 종 일 "". Answer: """,종일,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 그 를 "". Answer: """,그를,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 새 가 "". Answer: """,새가,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 왔 습 니 다 "". Answer: """,왔습니다,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 그 래 서 "". Answer: """,그래서,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 새 는 "". Answer: """,새는,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 릴 리 와 "". Answer: """,릴리와,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 그 것 이 "". Answer: """,그것이,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 장 난 감 "". Answer: """,장난감,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 친 구 "". Answer: """,친구,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 모 든 "". Answer: """,모든,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 할 "". Answer: """,할,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 그 리 고 "". Answer: """,그리고,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 좋 은 "". Answer: """,좋은,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 벤 은 "". Answer: """,벤은,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 행 복 했 고 "". Answer: """,행복했고,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 좋 아 합 니 다 "". Answer: """,좋아합니다,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 팀 과 "". Answer: """,팀과,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 그 녀 를 "". Answer: """,그녀를,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 그 들 이 "". Answer: """,그들이,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 다 "". Answer: """,다,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 들 었 습 니 다 "". Answer: """,들었습니다,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 행 복 하 게 "". Answer: """,행복하게,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 행 복 하 고 "". Answer: """,행복하고,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 다 른 "". Answer: """,다른,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 집 으 로 "". Answer: """,집으로,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 대 해 "". Answer: """,대해,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 주 었 다 "". Answer: """,주었다,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 그 "". Answer: """,그,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 공 원 에 서 "". Answer: """,공원에서,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 것 입 니 다 "". Answer: """,것입니다,-inf,0
+"Write the word that is spelled out, without any spaces, based on the following examples:
+            
+            1. Write the word "" 무 서 워 서 "".  Answer: "" 무서워서 ""
+            2. Write the word "" 농 부 는 "". Answer: "" 농부는 ""
+            3. Write the word "" 개 와 "". Answer: "" 개와 ""
+            4. Write the word "" 있 었 다 "". Answer: "" 있었다 ""
+            
+            Question: Write the word "" 결 정 했 습 니 다 "". Answer: """,결정했습니다,-inf,0

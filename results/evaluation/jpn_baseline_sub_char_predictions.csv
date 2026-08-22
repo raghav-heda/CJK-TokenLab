@@ -1,0 +1,801 @@
+context,true_target,mean_token_logprob,token_count
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" は "" with "" 立 "" in "" は "". Answer: """,立,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" た "" with "" ず "" in "" た "". Answer: """,ず,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" を "" with "" 形 "" in "" を "". Answer: """,形,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" ま "" with "" 味 "" in "" まし "". Answer: """,味し,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" 彼 "" with "" 岩 "" in "" 彼 "". Answer: """,岩,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" に "" with "" 教 "" in "" に "". Answer: """,教,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" の "" with "" 引 "" in "" の "". Answer: """,引,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" が "" with "" 中 "" in "" が "". Answer: """,中,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" て "" with "" 空 "" in "" て "". Answer: """,空,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" ら "" with "" 服 "" in "" ら "". Answer: """,服,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" で "" with "" 金 "" in "" で "". Answer: """,金,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" と "" with "" 会 "" in "" と "". Answer: """,会,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" い "" with "" 白 "" in "" い "". Answer: """,白,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" し "" with "" 遠 "" in "" でし "". Answer: """,で遠,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" 彼 "" with "" 尾 "" in "" 彼女 "". Answer: """,尾女,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" し "" with "" 冒 "" in "" し "". Answer: """,冒,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" ま "" with "" 住 "" in "" ます "". Answer: """,住す,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" そ "" with "" 戦 "" in "" それ "". Answer: """,戦れ,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" 見 "" with "" 奮 "" in "" 見 "". Answer: """,奮,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" も "" with "" ン "" in "" とても "". Answer: """,とてン,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" こ "" with "" 色 "" in "" こと "". Answer: """,色と,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" ム "" with "" 間 "" in "" ティム "". Answer: """,ティ間,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" せ "" with "" ま "" in "" ませ "". Answer: """,まま,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" ん "" with "" 猫 "" in "" ん "". Answer: """,猫,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" あ "" with "" 書 "" in "" あり "". Answer: """,書り,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" 幸 "" with "" 触 "" in "" 幸せ "". Answer: """,触せ,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" る "" with "" ヤ "" in "" ある "". Answer: """,あヤ,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" 日 "" with "" 特 "" in "" 日 "". Answer: """,特,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" き "" with "" ト "" in "" 大きな "". Answer: """,大トな,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" す "" with "" モ "" in "" です "". Answer: """,でモ,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" ム "" with "" ほ "" in "" トム "". Answer: """,トほ,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" だ "" with "" 作 "" in "" だ "". Answer: """,作,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" お "" with "" ょ "" in "" お "". Answer: """,ょ,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" な "" with "" 戦 "" in "" な "". Answer: """,戦,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" 好 "" with "" 犬 "" in "" 好き "". Answer: """,犬き,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" 一 "" with "" 感 "" in "" 一緒 "". Answer: """,感緒,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" し "" with "" 葉 "" in "" しかし "". Answer: """,葉か葉,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" 小 "" with "" バ "" in "" 小さな "". Answer: """,バさな,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" も "" with "" 女 "" in "" も "". Answer: """,女,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" か "" with "" 族 "" in "" たかっ "". Answer: """,た族っ,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" 遊 "" with "" 何 "" in "" 遊ん "". Answer: """,何ん,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" ち "" with "" 事 "" in "" おもちゃ "". Answer: """,おも事ゃ,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" か "" with "" デ "" in "" か "". Answer: """,デ,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" 鳥 "" with "" さ "" in "" 鳥 "". Answer: """,さ,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" 犬 "" with "" 山 "" in "" 犬 "". Answer: """,山,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" さ "" with "" べ "" in "" さん "". Answer: """,べん,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" な "" with "" 返 "" in "" なり "". Answer: """,返り,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" そ "" with "" 隠 "" in "" その "". Answer: """,隠の,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" す "" with "" 誰 "" in "" する "". Answer: """,誰る,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" っ "" with "" 違 "" in "" 思っ "". Answer: """,思違,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" 達 "" with "" 誇 "" in "" 友達 "". Answer: """,友誇,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" 始 "" with "" 心 "" in "" 始め "". Answer: """,心め,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" ス "" with "" 買 "" in "" マックス "". Answer: """,マック買,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" あ "" with "" 達 "" in "" あなた "". Answer: """,達なた,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" で "" with "" 描 "" in "" でき "". Answer: """,描き,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" 持 "" with "" 嫌 "" in "" 持っ "". Answer: """,嫌っ,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" 木 "" with "" 氏 "" in "" 木 "". Answer: """,氏,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" ら "" with "" び "" in "" から "". Answer: """,かび,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" 猫 "" with "" 書 "" in "" 猫 "". Answer: """,書,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" 中 "" with "" 常 "" in "" 中 "". Answer: """,常,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" 母 "" with "" 謝 "" in "" 母 "". Answer: """,謝,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" 前 "" with "" ヤ "" in "" 名前 "". Answer: """,名ヤ,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" 人 "" with "" 的 "" in "" 友人 "". Answer: """,友的,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" う "" with "" る "" in "" いう "". Answer: """,いる,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" ス "" with "" 加 "" in "" スー "". Answer: """,加ー,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" ぶ "" with "" 備 "" in "" 遊ぶ "". Answer: """,遊備,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" 後 "" with "" 葉 "" in "" 後 "". Answer: """,葉,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" け "" with "" も "" in "" 見つけ "". Answer: """,見つも,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" 家 "" with "" 走 "" in "" 家 "". Answer: """,走,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" い "" with "" そ "" in "" いる "". Answer: """,そる,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" サ "" with "" げ "" in "" サム "". Answer: """,げム,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" き "" with "" 棚 "" in "" 大好き "". Answer: """,大好棚,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" ベ "" with "" 暖 "" in "" ベン "". Answer: """,暖ン,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" 私 "" with "" 口 "" in "" 私 "". Answer: """,口,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" 外 "" with "" 力 "" in "" 外 "". Answer: """,力,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" け "" with "" じ "" in "" 助け "". Answer: """,助じ,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" き "" with "" ナ "" in "" 行き "". Answer: """,行ナ,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" た "" with "" 生 "" in "" ため "". Answer: """,生め,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" 来 "" with "" 巣 "" in "" 来 "". Answer: """,巣,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" ボ "" with "" 登 "" in "" ボール "". Answer: """,登ール,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" 公 "" with "" 靴 "" in "" 公園 "". Answer: """,靴園,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" 何 "" with "" 意 "" in "" 何 "". Answer: """,意,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" 感 "" with "" 望 "" in "" 感じ "". Answer: """,望じ,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" く "" with "" 話 "" in "" 多く "". Answer: """,多話,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" よ "" with "" に "" in "" よう "". Answer: """,にう,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" ん "" with "" ね "" in "" 微笑ん "". Answer: """,微笑ね,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" 一 "" with "" 共 "" in "" 一 "". Answer: """,共,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" 悲 "" with "" チ "" in "" 悲しかっ "". Answer: """,チしかっ,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" 車 "" with "" 庭 "" in "" 車 "". Answer: """,庭,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" し "" with "" ず "" in "" むかしむかし "". Answer: """,むかずむかず,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" ス "" with "" 牛 "" in "" スポット "". Answer: """,牛ポット,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" し "" with "" ノ "" in "" 新しい "". Answer: """,新ノい,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" 女 "" with "" 出 "" in "" 女の子 "". Answer: """,出の子,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" 箱 "" with "" 語 "" in "" 箱 "". Answer: """,語,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" 皆 "" with "" 父 "" in "" 皆 "". Answer: """,父,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" き "" with "" 素 "" in "" とき "". Answer: """,と素,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" 手 "" with "" 者 "" in "" 手 "". Answer: """,者,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" 起 "" with "" コ "" in "" 起こり "". Answer: """,コこり,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" ア "" with "" 光 "" in "" ミア "". Answer: """,ミ光,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" リ "" with "" 良 "" in "" リリー "". Answer: "" 良良ー ""
+            2. Substitute "" し "" with "" ザ "" in "" 出し "". Answer: "" 出ザ ""
+            3. Substitute "" 援 "" with "" し "" in "" 応援 "". Answer: "" 応し ""
+            4. Substitute "" さ "" with "" で "" in "" さ "". Answer: "" で ""
+            
+            Question: Substitute "" た "" with "" れ "" in "" たい "". Answer: """,れい,-inf,0

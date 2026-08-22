@@ -1,0 +1,801 @@
+context,true_target,mean_token_logprob,token_count
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 들 "" with "" 케 "" in "" 그들은 "". Answer: """,그케은,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 는 "" with "" 견 "" in "" 그는 "". Answer: """,그견,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 녀 "" with "" 씨 "" in "" 그녀는 "". Answer: """,그씨는,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 우 "" with "" 병 "" in "" 매우 "". Answer: """,매병,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 큰 "" with "" 속 "" in "" 큰 "". Answer: """,속,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 을 "" with "" 요 "" in "" 것을 "". Answer: """,것요,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 날 "" with "" 싶 "" in "" 날 "". Answer: """,싶,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 은 "" with "" 롭 "" in "" 팀은 "". Answer: """,팀롭,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 느 "" with "" 카 "" in "" 어느 "". Answer: """,어카,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 께 "" with "" 의 "" in "" 함께 "". Answer: """,함의,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 습 "" with "" 어 "" in "" 좋아했습니다 "". Answer: """,좋아했어니다,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 러 "" with "" 평 "" in "" 그러나 "". Answer: """,그평나,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 갔 "" with "" 만 "" in "" 갔다 "". Answer: """,만다,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 다 "" with "" 청 "" in "" 보았다 "". Answer: """,보았청,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 너 "" with "" 혼 "" in "" 너무 "". Answer: """,혼무,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 습 "" with "" 성 "" in "" 싶었습니다 "". Answer: """,싶었성니다,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 릴 "" with "" 꿀 "" in "" 릴리는 "". Answer: """,꿀리는,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 보 "" with "" 빠 "" in "" 보았습니다 "". Answer: """,빠았습니다,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 의 "" with "" 으 "" in "" 그의 "". Answer: """,그으,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 수 "" with "" 여 "" in "" 수 "". Answer: """,여,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 않 "" with "" 쁘 "" in "" 않았습니다 "". Answer: """,쁘았습니다,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 은 "" with "" 과 "" in "" 많은 "". Answer: """,많과,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 했 "" with "" 강 "" in "" 행복했습니다 "". Answer: """,행복강습니다,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 은 "" with "" 찾 "" in "" 작은 "". Answer: """,작찾,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 그 "" with "" 짝 "" in "" 그것을 "". Answer: """,짝것을,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 니 "" with "" 은 "" in "" 있습니다 "". Answer: """,있습은다,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 톰 "" with "" 한 "" in "" 톰은 "". Answer: """,한은,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 더 "" with "" 란 "" in "" 더 "". Answer: """,란,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 지 "" with "" 머 "" in "" 가지고 "". Answer: """,가머고,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 의 "" with "" 관 "" in "" 그녀의 "". Answer: """,그녀관,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 다 "" with "" 오 "" in "" 시작했습니다 "". Answer: """,시작했습니오,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 위 "" with "" 라 "" in "" 위해 "". Answer: """,라해,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 는 "" with "" 퍼 "" in "" 엄마는 "". Answer: """,엄마퍼,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 런 "" with "" 깨 "" in "" 그런 "". Answer: """,그깨,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 다 "" with "" 망 "" in "" 다음 "". Answer: """,망음,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 옛 "" with "" 끝 "" in "" 옛날 "". Answer: """,끝날,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 옛 "" with "" 여 "" in "" 옛적에 "". Answer: """,여적에,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 모 "" with "" 집 "" in "" 모두 "". Answer: """,집두,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 것 "" with "" 엌 "" in "" 그것은 "". Answer: """,그엌은,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 일 "" with "" 푸 "" in "" 일이 "". Answer: """,푸이,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 개 "" with "" 판 "" in "" 개는 "". Answer: """,판는,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 었 "" with "" 엌 "" in "" 없었습니다 "". Answer: """,없엌습니다,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 을 "" with "" 쁜 "" in "" 장난감을 "". Answer: """,장난감쁜,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 공 "" with "" 웃 "" in "" 공을 "". Answer: """,웃을,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 신 "" with "" 맛 "" in "" 당신은 "". Answer: """,당맛은,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 를 "" with "" 락 "" in "" 놀기를 "". Answer: """,놀기락,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 시 "" with "" 돌 "" in "" 다시 "". Answer: """,다돌,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 니 "" with "" 피 "" in "" 발견했습니다 "". Answer: """,발견했습피다,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 다 "" with "" 겁 "" in "" 웃었다 "". Answer: """,웃었겁,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 어 "" with "" 소 "" in "" 어린 "". Answer: """,소린,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 로 "" with "" 까 "" in "" 새로운 "". Answer: """,새까운,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 일 "" with "" 커 "" in "" 일어났습니다 "". Answer: """,커어났습니다,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 는 "" with "" 놓 "" in "" 고양이는 "". Answer: """,고양이놓,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 때 "" with "" 험 "" in "" 때 "". Answer: """,험,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 못 "" with "" 직 "" in "" 못한 "". Answer: """,직한,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 는 "" with "" 해 "" in "" 나는 "". Answer: """,나해,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 스 "" with "" 애 "" in "" 맥스는 "". Answer: """,맥애는,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 예 "" with "" 았 "" in "" 예상치 "". Answer: """,았상치,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 니 "" with "" 호 "" in "" 생각했습니다 "". Answer: """,생각했습호다,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 니 "" with "" 조 "" in "" 놀았습니다 "". Answer: """,놀았습조다,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 놀 "" with "" 왔 "" in "" 놀고 "". Answer: """,왔고,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 살 "" with "" 살 "" in "" 살았습니다 "". Answer: """,살았습니다,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 은 "" with "" 전 "" in "" 샘은 "". Answer: """,샘전,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 다 "" with "" 기 "" in "" 기뻤습니다 "". Answer: """,기뻤습니기,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 었 "" with "" 은 "" in "" 가지고있었습니다 "". Answer: """,가지고있은습니다,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 그 "" with "" 스 "" in "" 그들을 "". Answer: """,스들을,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 크 "" with "" 현 "" in "" 크고 "". Answer: """,현고,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 루 "" with "" 란 "" in "" 하루 "". Answer: """,하란,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 일 "" with "" 체 "" in "" 종일 "". Answer: """,종체,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 를 "" with "" 난 "" in "" 그를 "". Answer: """,그난,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 가 "" with "" 반 "" in "" 새가 "". Answer: """,새반,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 다 "" with "" 멋 "" in "" 왔습니다 "". Answer: """,왔습니멋,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 래 "" with "" 푸 "" in "" 그래서 "". Answer: """,그푸서,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 는 "" with "" 꿀 "" in "" 새는 "". Answer: """,새꿀,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 리 "" with "" 화 "" in "" 릴리와 "". Answer: """,릴화와,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 이 "" with "" 따 "" in "" 그것이 "". Answer: """,그것따,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 감 "" with "" 프 "" in "" 장난감 "". Answer: """,장난프,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 구 "" with "" 걷 "" in "" 친구 "". Answer: """,친걷,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 든 "" with "" 잊 "" in "" 모든 "". Answer: """,모잊,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 할 "" with "" 윙 "" in "" 할 "". Answer: """,윙,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 리 "" with "" 남 "" in "" 그리고 "". Answer: """,그남고,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 좋 "" with "" 깨 "" in "" 좋은 "". Answer: """,깨은,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 은 "" with "" 합 "" in "" 벤은 "". Answer: """,벤합,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 고 "" with "" 게 "" in "" 행복했고 "". Answer: """,행복했게,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 합 "" with "" 걱 "" in "" 좋아합니다 "". Answer: """,좋아걱니다,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 과 "" with "" 돌 "" in "" 팀과 "". Answer: """,팀돌,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 를 "" with "" 내 "" in "" 그녀를 "". Answer: """,그녀내,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 들 "" with "" 듣 "" in "" 그들이 "". Answer: """,그듣이,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 다 "" with "" 조 "" in "" 다 "". Answer: """,조,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 니 "" with "" 엇 "" in "" 들었습니다 "". Answer: """,들었습엇다,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 행 "" with "" 이 "" in "" 행복하게 "". Answer: """,이복하게,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 고 "" with "" 항 "" in "" 행복하고 "". Answer: """,행복하항,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 른 "" with "" 구 "" in "" 다른 "". Answer: """,다구,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 로 "" with "" 국 "" in "" 집으로 "". Answer: """,집으국,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 해 "" with "" 못 "" in "" 대해 "". Answer: """,대못,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 었 "" with "" 데 "" in "" 주었다 "". Answer: """,주데다,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 그 "" with "" 십 "" in "" 그 "". Answer: """,십,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 원 "" with "" 견 "" in "" 공원에서 "". Answer: """,공견에서,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 것 "" with "" 직 "" in "" 것입니다 "". Answer: """,직입니다,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 다 "" with "" 연 "" in "" 기다렸다 "". Answer: "" 기연렸연 ""
+            2. Substitute "" 부 "" with "" 연 "" in "" 농부는 "". Answer: "" 농연는 ""
+            3. Substitute "" 와 "" with "" 니 "" in "" 개와 "". Answer: "" 개니 ""
+            4. Substitute "" 었 "" with "" 난 "" in "" 있었다 "". Answer: "" 있난다 ""
+            
+            Question: Substitute "" 습 "" with "" 둥 "" in "" 결정했습니다 "". Answer: """,결정했둥니다,-inf,0

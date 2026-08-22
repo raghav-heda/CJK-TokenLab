@@ -1,0 +1,801 @@
+context,true_target,mean_token_logprob,token_count
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" ま "" and "" し "" in "" まし "". Answer: """,しま,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" で "" and "" し "" in "" でし "". Answer: """,しで,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" 彼 "" and "" 女 "" in "" 彼女 "". Answer: """,女彼,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" ま "" and "" す "" in "" ます "". Answer: """,すま,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" れ "" and "" そ "" in "" それ "". Answer: """,れそ,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" も "" and "" て "" in "" とても "". Answer: """,ともて,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" と "" and "" こ "" in "" こと "". Answer: """,とこ,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" テ "" and "" ム "" in "" ティム "". Answer: """,ムィテ,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" ま "" and "" せ "" in "" ませ "". Answer: """,せま,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" あ "" and "" り "" in "" あり "". Answer: """,りあ,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" せ "" and "" 幸 "" in "" 幸せ "". Answer: """,せ幸,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" る "" and "" あ "" in "" ある "". Answer: """,るあ,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" な "" and "" き "" in "" 大きな "". Answer: """,大なき,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" す "" and "" で "" in "" です "". Answer: """,すで,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" ム "" and "" ト "" in "" トム "". Answer: """,ムト,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" き "" and "" 好 "" in "" 好き "". Answer: """,き好,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" 緒 "" and "" 一 "" in "" 一緒 "". Answer: """,緒一,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" さ "" and "" 小 "" in "" 小さな "". Answer: """,さ小な,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" っ "" and "" た "" in "" たかっ "". Answer: """,っかた,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" ん "" and "" 遊 "" in "" 遊ん "". Answer: """,ん遊,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" も "" and "" ち "" in "" おもちゃ "". Answer: """,おちもゃ,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" さ "" and "" ん "" in "" さん "". Answer: """,んさ,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" な "" and "" り "" in "" なり "". Answer: """,りな,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" の "" and "" そ "" in "" その "". Answer: """,のそ,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" る "" and "" す "" in "" する "". Answer: """,るす,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" 思 "" and "" っ "" in "" 思っ "". Answer: """,っ思,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" 友 "" and "" 達 "" in "" 友達 "". Answer: """,達友,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" め "" and "" 始 "" in "" 始め "". Answer: """,め始,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" ス "" and "" ッ "" in "" マックス "". Answer: """,マスクッ,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" あ "" and "" た "" in "" あなた "". Answer: """,たなあ,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" で "" and "" き "" in "" でき "". Answer: """,きで,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" っ "" and "" 持 "" in "" 持っ "". Answer: """,っ持,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" ら "" and "" か "" in "" から "". Answer: """,らか,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" 名 "" and "" 前 "" in "" 名前 "". Answer: """,前名,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" 人 "" and "" 友 "" in "" 友人 "". Answer: """,人友,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" う "" and "" い "" in "" いう "". Answer: """,うい,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" ー "" and "" ス "" in "" スー "". Answer: """,ース,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" 遊 "" and "" ぶ "" in "" 遊ぶ "". Answer: """,ぶ遊,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" 見 "" and "" つ "" in "" 見つけ "". Answer: """,つ見け,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" い "" and "" る "" in "" いる "". Answer: """,るい,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" ム "" and "" サ "" in "" サム "". Answer: """,ムサ,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" 好 "" and "" 大 "" in "" 大好き "". Answer: """,好大き,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" ベ "" and "" ン "" in "" ベン "". Answer: """,ンベ,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" 助 "" and "" け "" in "" 助け "". Answer: """,け助,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" き "" and "" 行 "" in "" 行き "". Answer: """,き行,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" め "" and "" た "" in "" ため "". Answer: """,めた,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" ボ "" and "" ル "" in "" ボール "". Answer: """,ルーボ,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" 園 "" and "" 公 "" in "" 公園 "". Answer: """,園公,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" 感 "" and "" じ "" in "" 感じ "". Answer: """,じ感,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" く "" and "" 多 "" in "" 多く "". Answer: """,く多,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" う "" and "" よ "" in "" よう "". Answer: """,うよ,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" 笑 "" and "" 微 "" in "" 微笑ん "". Answer: """,笑微ん,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" か "" and "" し "" in "" 悲しかっ "". Answer: """,悲かしっ,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" ッ "" and "" ポ "" in "" スポット "". Answer: """,スッポト,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" し "" and "" い "" in "" 新しい "". Answer: """,新いし,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" 子 "" and "" 女 "" in "" 女の子 "". Answer: """,子の女,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" と "" and "" き "" in "" とき "". Answer: """,きと,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" り "" and "" こ "" in "" 起こり "". Answer: """,起りこ,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" ア "" and "" ミ "" in "" ミア "". Answer: """,アミ,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" た "" and "" い "" in "" たい "". Answer: """,いた,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" い "" and "" な "" in "" ない "". Answer: """,いな,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" っ "" and "" 言 "" in "" 言っ "". Answer: """,っ言,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" っ "" and "" 笑 "" in "" 笑っ "". Answer: """,っ笑,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" ん "" and "" 望 "" in "" 望ん "". Answer: """,ん望,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" 奮 "" and "" 興 "" in "" 興奮 "". Answer: """,奮興,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" 子 "" and "" の "" in "" 男の子 "". Answer: """,男子の,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" い "" and "" 聞 "" in "" 聞い "". Answer: """,い聞,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" そ "" and "" し "" in "" そして "". Answer: """,しそて,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" し "" and "" 楽 "" in "" 楽しん "". Answer: """,し楽ん,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" 非 "" and "" 常 "" in "" 非常 "". Answer: """,常非,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" 自 "" and "" 分 "" in "" 自分 "". Answer: """,分自,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" 走 "" and "" っ "" in "" 走っ "". Answer: """,っ走,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" て "" and "" べ "" in "" すべて "". Answer: """,すてべ,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" べ "" and "" 食 "" in "" 食べ "". Answer: """,べ食,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" も "" and "" の "" in "" もの "". Answer: """,のも,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" な "" and "" か "" in "" なかっ "". Answer: """,かなっ,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" ル "" and "" シ "" in "" ルーシー "". Answer: """,シールー,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" 再 "" and "" び "" in "" 再び "". Answer: """,び再,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" 大 "" and "" き "" in "" 大きく "". Answer: """,き大く,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" 遊 "" and "" び "" in "" 遊び "". Answer: """,び遊,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" っ "" and "" だ "" in "" だっ "". Answer: """,っだ,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" も "" and "" う "" in "" もう "". Answer: """,うも,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" サ "" and "" ラ "" in "" サラ "". Answer: """,ラサ,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" ち "" and "" た "" in "" たち "". Answer: """,ちた,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" し "" and "" く "" in "" 悲しく "". Answer: """,悲くし,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" き "" and "" れ "" in "" きれい "". Answer: """,れきい,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" 近 "" and "" く "" in "" 近く "". Answer: """,く近,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" ん "" and "" 住 "" in "" 住ん "". Answer: """,ん住,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" ア "" and "" ン "" in "" アンナ "". Answer: """,ンアナ,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" さ "" and "" た "" in "" たくさん "". Answer: """,さくたん,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" 予 "" and "" 想 "" in "" 予想 "". Answer: """,想予,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" 共 "" and "" 有 "" in "" 共有 "". Answer: """,有共,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" 与 "" and "" え "" in "" 与え "". Answer: """,え与,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" ボ "" and "" ブ "" in "" ボブ "". Answer: """,ブボ,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" く "" and "" た "" in "" たく "". Answer: """,くた,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" し "" and "" 抱 "" in "" 抱きしめ "". Answer: """,しき抱め,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" か "" and "" 怖 "" in "" 怖かっ "". Answer: """,か怖っ,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" 太 "" and "" 陽 "" in "" 太陽 "". Answer: """,陽太,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" 考 "" and "" え "" in "" 考え "". Answer: """,え考,-inf,0
+"Swap the positions of two specified letters in a given word, based on the following examples:
+            
+            1. Swap "" イ "" and "" デ "" in "" アイデア "". Answer: "" アデイア ""
+            2. Swap "" し "" and "" 干 "" in "" 干し草 "". Answer: "" し干草 ""
+            3. Swap "" 中 "" and "" 水 "" in "" 水中 "". Answer: "" 中水 ""
+            4. Swap "" 別 "" and "" 特 "" in "" 特別 "". Answer: "" 別特 ""
+            
+            Question: Swap "" っ "" and "" 知 "" in "" 知っ "". Answer: """,っ知,-inf,0

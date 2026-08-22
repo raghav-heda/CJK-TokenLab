@@ -1,0 +1,801 @@
+context,true_target,mean_token_logprob,token_count
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" の "" in "" 私はあなたのようになりたいです。 "". Answer: """,私はあなたようになりたいです。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" まし "" in "" ボタンは公園の箱にありました。 "". Answer: """,ボタンは公園の箱にありた。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" 。 "" in "" 彼はとても幸せでした。 "". Answer: """,彼はとても幸せでした,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" は "" in "" 彼女は理解していません。 "". Answer: """,彼女理解していません。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" 大好き "" in "" ティムはポップコーンが大好きでした。 "". Answer: """,ティムはポップコーンがでした。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" 吐き出し "" in "" 彼女はコショウを吐き出して捨てました。 "". Answer: """,彼女はコショウをて捨てました。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" は "" in "" 私は本が好きです。 "". Answer: """,私本が好きです。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" まし "" in "" 翌日、卵は割れ始めました。 "". Answer: """,翌日、卵は割れ始めた。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" ます "" in "" 壊れています。 "". Answer: """,壊れてい。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" ミックス "" in "" 青と緑のミックスでした。 "". Answer: """,青と緑のでした。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" た "" in "" リリーはその考えが好きでした。 "". Answer: """,リリーはその考えが好きでし。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" 彼女 "" in "" 彼女はケーキがやれるのを待ちます。 "". Answer: """,はケーキがやれるのを待ちます。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" た "" in "" アンナはベンを見た。 "". Answer: """,アンナはベンを見。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" ら "" in "" 彼らは笑って楽しんだ。 "". Answer: """,彼は笑って楽しんだ。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" た "" in "" トムはとても興奮していました! "". Answer: """,トムはとても興奮していまし!,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" しかし "" in "" しかし、サンドキャッスルは魔法でした! "". Answer: """,、サンドキャッスルは魔法でした!,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" 見 "" in "" それは卵でユリを見ました。 "". Answer: """,それは卵でユリをました。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" は "" in "" 彼女は毎日そこで遊んだ。 "". Answer: """,彼女毎日そこで遊んだ。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" 子供 "" in "" あなたは非常に悪い子供です! "". Answer: """,あなたは非常に悪いです!,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" は "" in "" 彼らは抱きしめて笑います。 "". Answer: """,彼ら抱きしめて笑います。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" は "" in "" 彼女は手を見た。 "". Answer: """,彼女手を見た。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" 。 "" in "" 動揺し始めました。 "". Answer: """,動揺し始めました,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" た "" in "" 彼らは大きな木を見ました。 "". Answer: """,彼らは大きな木を見まし。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" は "" in "" チェスは楽しいです。 "". Answer: """,チェス楽しいです。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" ティム "" in "" ティムは悲しく感じた。 "". Answer: """,は悲しく感じた。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" 手伝っ "" in "" 手伝ってもらえますか? "". Answer: """,てもらえますか?,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" た "" in "" ティムは驚いた! "". Answer: """,ティムは驚い!,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" レッスン "" in "" 彼女は難しいレッスンを学びました。 "". Answer: """,彼女は難しいを学びました。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" は "" in "" 彼は疲れて悲しかった。 "". Answer: """,彼疲れて悲しかった。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" を "" in "" ティミーは微笑んでボールを拾いました。 "". Answer: """,ティミーは微笑んでボール拾いました。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" まし "" in "" 小さな女の子が宝石を見つけました。 "". Answer: """,小さな女の子が宝石を見つけた。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" 許し "" in "" ママは彼らを許します。 "". Answer: """,ママは彼らをます。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" でし "" in "" 茶色で不潔でした。 "". Answer: """,茶色で不潔た。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" 見え "" in "" ベンは安心したように見えた。 "". Answer: """,ベンは安心したようにた。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" と "" in "" 彼は自分が安全だと思った。 "". Answer: """,彼は自分が安全だ思った。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" 。 "" in "" スポットはデザインがとても上手でした。 "". Answer: """,スポットはデザインがとても上手でした,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" 潜り "" in "" 彼は彼を助けるために潜ります。 "". Answer: """,彼は彼を助けるためにます。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" 。 "" in "" 彼らは良い友達になりました。 "". Answer: """,彼らは良い友達になりました,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" 。 "" in "" ベンとリリーはうなずいた。 "". Answer: """,ベンとリリーはうなずいた,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" ティム "" in "" ティムはとても驚きました。 "". Answer: """,はとても驚きました。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" 彼 "" in "" 彼らは幸せでした。 "". Answer: """,らは幸せでした。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" 太陽 "" in "" 太陽が必要です。 "". Answer: """,が必要です。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" 、 "" in "" 彼らはスライドに走り、楽しんだ。 "". Answer: """,彼らはスライドに走り楽しんだ。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" ベン "" in "" リリーはベンに尋ねた。 "". Answer: """,リリーはに尋ねた。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" 食べ物 "" in "" 彼は食べ物を食べたかった。 "". Answer: """,彼はを食べたかった。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" は "" in "" 彼らは幸せです。 "". Answer: """,彼ら幸せです。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" て "" in "" 猿はバナナを持っていました。 "". Answer: """,猿はバナナを持っいました。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" は "" in "" 彼女は男の演技が好きだった。 "". Answer: """,彼女男の演技が好きだった。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" 犬 "" in "" スポットは珍しい犬でした。 "". Answer: """,スポットは珍しいでした。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" い "" in "" トムはボールで遊んでいた。 "". Answer: """,トムはボールで遊んでた。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" まし "" in "" 彼女は大きなボールを見ました。 "". Answer: """,彼女は大きなボールを見た。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" ない "" in "" 混乱しないでください。 "". Answer: """,混乱しでください。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" で "" in "" 私はそれを呼んで挨拶します。 "". Answer: """,私はそれを呼ん挨拶します。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" は "" in "" 彼らは犬を忘れています。 "". Answer: """,彼ら犬を忘れています。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" 一人 "" in "" ベンとサムは一人です。 "". Answer: """,ベンとサムはです。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" た "" in "" クジラはとても幸せでした。 "". Answer: """,クジラはとても幸せでし。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" 彼 "" in "" 彼はあなたの兄弟です。 "". Answer: """,はあなたの兄弟です。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" 誰 "" in "" 誰が古い家にいましたか? "". Answer: """,が古い家にいましたか?,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" 彼 "" in "" 彼は悪いです。 "". Answer: """,は悪いです。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" と "" in "" ティムは帽子と口ひげを拾います。 "". Answer: """,ティムは帽子口ひげを拾います。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" 、 "" in "" スポットはbarえ、尾を振った。 "". Answer: """,スポットは barえ尾を振った。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" 太陽 "" in "" 太陽と雨が好きでした。 "". Answer: """,と雨が好きでした。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" 音 "" in "" 彼らは大きな音を聞きます。 "". Answer: """,彼らは大きなを聞きます。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" 彼 "" in "" 彼らはペニーを落としました。 "". Answer: """,らはペニーを落としました。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" 。 "" in "" リリーとベンは悲しいです。 "". Answer: """,リリーとベンは悲しいです,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" ませ "" in "" 彼は勝ちません。 "". Answer: """,彼は勝ちん。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" ます "" in "" 彼は悲しくて怒っています。 "". Answer: """,彼は悲しくて怒ってい。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" 彼 "" in "" 彼は入りたかった。 "". Answer: """,は入りたかった。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" 。 "" in "" 突然、彼女は声を聞いた。 "". Answer: """,突然、彼女は声を聞いた,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" 彼 "" in "" 毎日、彼らはとても楽しいでしょう! "". Answer: """,毎日、らはとても楽しいでしょう!,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" 戻し "" in "" 鳥はヨットを土地に戻しました。 "". Answer: """,鳥はヨットを土地にました。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" は "" in "" リリーは鳥に悲しみを感じました。 "". Answer: """,リリー鳥に悲しみを感じました。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" ら "" in "" 彼らは歌って踊ります。 "". Answer: """,彼は歌って踊ります。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" 悲しかっ "" in "" 猫は悲しかった。 "". Answer: """,猫はた。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" 。 "" in "" むかしむかし、小さな家がありました。 "". Answer: """,むかしむかし、小さな家がありました,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" 見 "" in "" 彼女はそれらを見て微笑んだ。 "". Answer: """,彼女はそれらをて微笑んだ。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" を "" in "" リリーはそれを家に持ち帰りたかった。 "". Answer: """,リリーはそれ家に持ち帰りたかった。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" 彼 "" in "" 彼は高い木を見ました。 "". Answer: """,は高い木を見ました。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" ママ "" in "" アンナとベンはママをフォローします。 "". Answer: """,アンナとベンはをフォローします。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" て "" in "" 彼は大きくて強いです。 "". Answer: """,彼は大きく強いです。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" と "" in "" リラとトムは幸せです。 "". Answer: """,リラトムは幸せです。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" た "" in "" 私は冗談を言っていました。 "". Answer: """,私は冗談を言っていまし。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" うなずい "" in "" ベンとリリーはうなずいた。 "". Answer: """,ベンとリリーはた。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" が "" in "" 星や惑星の写真がありました。 "". Answer: """,星や惑星の写真ありました。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" 。 "" in "" 最初は大変でした。 "". Answer: """,最初は大変でした,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" 空腹 "" in "" 彼らは空腹で好奇心が強い。 "". Answer: """,彼らはで好奇心が強い。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" は "" in "" 彼らはずっと幸せに暮らしました。 "". Answer: """,彼らずっと幸せに暮らしました。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" 探し "" in "" 彼はおもちゃを探しました。 "". Answer: """,彼はおもちゃをました。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" それ "" in "" 彼女はそれをテーブルに置きます。 "". Answer: """,彼女はをテーブルに置きます。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" し "" in "" スパイクとブルーはゲームを設定します。 "". Answer: """,スパイクとブルーはゲームを設定ます。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" た "" in "" トムとリリーは象が好きだった。 "". Answer: """,トムとリリーは象が好きだっ。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" は "" in "" 彼は宝物を見つけました! "". Answer: """,彼宝物を見つけました!,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" 。 "" in "" スポットは本を読み始めました。 "". Answer: """,スポットは本を読み始めました,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" い "" in "" 彼らは楽しんでいます。 "". Answer: """,彼らは楽しんでます。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" 熱 "" in "" 電気と熱を作ることができます。 "". Answer: """,電気とを作ることができます。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" リリー "" in "" リリーとベンは笑った。 "". Answer: """,とベンは笑った。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" 公園 "" in "" ティムと鳥は公園を歩いた。 "". Answer: """,ティムと鳥はを歩いた。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" 怖かっ "" in "" 子供たちは驚いて、少し怖かった。 "". Answer: """,子供たちは驚いて、少した。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" でし "" in "" ティムは幸せでした。 "". Answer: """,ティムは幸せた。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" が "" in "" 誰もがアボカドスナックが好きでした。 "". Answer: "" 誰もアボカドスナック好きでした。 ""
+            2. Delete every instance of "" の "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物足ように見えます。 ""
+            3. Delete every instance of "" た "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始めまし! ""
+            4. Delete every instance of "" 。 "" in "" ソフィーは微笑んだ。 "". Answer: "" ソフィーは微笑んだ ""
+            
+            Question: Delete every instance of "" コショウ "" in "" スパイシーなコショウでした。 "". Answer: """,スパイシーなでした。,-inf,0

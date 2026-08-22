@@ -1,0 +1,801 @@
+context,true_target,pred_label,is_correct,scores
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 的 "" in "" 的 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 了 "" in "" 了 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 他 "" in "" 他们 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 他 "" in "" 他 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 她 "" in "" 她 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 很 "" in "" 很 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 和 "" in "" 和 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 有 "" in "" 有 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 在 "" in "" 在 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 一 "" in "" 一个 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 姆 "" in "" 蒂姆 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 看 "" in "" 看到 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 喜 "" in "" 喜欢 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 玩 "" in "" 玩 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 它 "" in "" 它 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 兴 "" in "" 高兴 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 朋 "" in "" 朋友 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 莉 "" in "" 莉莉 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 是 "" in "" 是 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 汤 "" in "" 汤姆 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 起 "" in "" 一起 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 一 "" in "" 一天 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 想 "" in "" 想 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 都 "" in "" 都 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 妈 "" in "" 妈妈 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 并 "" in "" 并 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 感 "" in "" 感到 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 是 "" in "" 但是 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 上 "" in "" 上 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 一 "" in "" 一只 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 常 "" in "" 非常 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 着 "" in "" 着 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 那 "" in "" 那 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 玩 "" in "" 玩具 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 不 "" in "" 不 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 始 "" in "" 开始 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 鸟 "" in "" 鸟 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 过 "" in "" 难过 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 开 "" in "" 开心 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 大 "" in "" 大 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 助 "" in "" 帮助 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 只 "" in "" 只 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 狗 "" in "" 狗 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 我 "" in "" 我 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 姆 "" in "" 山姆 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 些 "" in "" 一些 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 这 "" in "" 这 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 叫 "" in "" 叫 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 笑 "" in "" 笑 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 猫 "" in "" 猫 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 后 "" in "" 然后 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 你 "" in "" 你 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 去 "" in "" 去 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 找 "" in "" 找到 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 着 "" in "" 看着 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 克 "" in "" 麦克斯 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 园 "" in "" 公园 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 把 "" in "" 把 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 苏 "" in "" 苏 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 到 "" in "" 到 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 以 "" in "" 可以 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 本 "" in "" 本 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 但 "" in "" 但 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 也 "" in "" 也 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 说 "" in "" 说 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 怕 "" in "" 害怕 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 时 "" in "" 时 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 知 "" in "" 知道 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 事 "" in "" 事情 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 人 "" in "" 人 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 有 "" in "" 没有 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 好 "" in "" 好 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 自 "" in "" 自己 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 跑 "" in "" 跑 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 发 "" in "" 发生 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 为 "" in "" 为 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 听 "" in "" 听到 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 笑 "" in "" 微笑 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 球 "" in "" 球 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 新 "" in "" 新 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 盒 "" in "" 盒子 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 当 "" in "" 当 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 米 "" in "" 米娅 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 多 "" in "" 很多 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 前 "" in "" 从前 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 成 "" in "" 成为 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 得 "" in "" 玩得 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 外 "" in "" 意外 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 吃 "" in "" 吃 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 中 "" in "" 中 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 声 "" in "" 声音 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 您 "" in "" 您 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 趣 "" in "" 有趣 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 东 "" in "" 东西 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 整 "" in "" 整天 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 来 "" in "" 来 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 个 "" in "" 这个 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 孩 "" in "" 男孩 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 为 "" in "" 认为 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified letter is in the given word, based on the following examples:
+            
+            1. Is there a "" 里 "" in "" 里 ""? Answer: "" Yes ""
+            2. Is there a "" 突 "" in "" 黛西 ""? Answer: "" No ""
+            3. Is there a "" 形 "" in "" 令人恶心 ""? Answer: "" No ""
+            4. Is there a "" 糕 "" in "" 蛋糕 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 听 "" in "" 听 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"

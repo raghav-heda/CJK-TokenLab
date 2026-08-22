@@ -1,0 +1,801 @@
+context,true_target,mean_token_logprob,token_count
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 그들은 "". Answer: """,그 들 은,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 그는 "". Answer: """,그 는,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 그녀는 "". Answer: """,그 녀 는,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 매우 "". Answer: """,매 우,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 큰 "". Answer: """,큰,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 것을 "". Answer: """,것 을,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 날 "". Answer: """,날,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 팀은 "". Answer: """,팀 은,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 어느 "". Answer: """,어 느,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 함께 "". Answer: """,함 께,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 좋아했습니다 "". Answer: """,좋 아 했 습 니 다,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 그러나 "". Answer: """,그 러 나,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 갔다 "". Answer: """,갔 다,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 보았다 "". Answer: """,보 았 다,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 너무 "". Answer: """,너 무,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 싶었습니다 "". Answer: """,싶 었 습 니 다,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 릴리는 "". Answer: """,릴 리 는,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 보았습니다 "". Answer: """,보 았 습 니 다,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 그의 "". Answer: """,그 의,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 수 "". Answer: """,수,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 않았습니다 "". Answer: """,않 았 습 니 다,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 많은 "". Answer: """,많 은,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 행복했습니다 "". Answer: """,행 복 했 습 니 다,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 작은 "". Answer: """,작 은,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 그것을 "". Answer: """,그 것 을,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 있습니다 "". Answer: """,있 습 니 다,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 톰은 "". Answer: """,톰 은,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 더 "". Answer: """,더,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 가지고 "". Answer: """,가 지 고,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 그녀의 "". Answer: """,그 녀 의,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 시작했습니다 "". Answer: """,시 작 했 습 니 다,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 위해 "". Answer: """,위 해,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 엄마는 "". Answer: """,엄 마 는,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 그런 "". Answer: """,그 런,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 다음 "". Answer: """,다 음,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 옛날 "". Answer: """,옛 날,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 옛적에 "". Answer: """,옛 적 에,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 모두 "". Answer: """,모 두,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 그것은 "". Answer: """,그 것 은,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 일이 "". Answer: """,일 이,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 개는 "". Answer: """,개 는,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 없었습니다 "". Answer: """,없 었 습 니 다,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 장난감을 "". Answer: """,장 난 감 을,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 공을 "". Answer: """,공 을,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 당신은 "". Answer: """,당 신 은,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 놀기를 "". Answer: """,놀 기 를,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 다시 "". Answer: """,다 시,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 발견했습니다 "". Answer: """,발 견 했 습 니 다,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 웃었다 "". Answer: """,웃 었 다,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 어린 "". Answer: """,어 린,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 새로운 "". Answer: """,새 로 운,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 일어났습니다 "". Answer: """,일 어 났 습 니 다,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 고양이는 "". Answer: """,고 양 이 는,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 때 "". Answer: """,때,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 못한 "". Answer: """,못 한,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 나는 "". Answer: """,나 는,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 맥스는 "". Answer: """,맥 스 는,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 예상치 "". Answer: """,예 상 치,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 생각했습니다 "". Answer: """,생 각 했 습 니 다,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 놀았습니다 "". Answer: """,놀 았 습 니 다,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 놀고 "". Answer: """,놀 고,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 살았습니다 "". Answer: """,살 았 습 니 다,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 샘은 "". Answer: """,샘 은,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 기뻤습니다 "". Answer: """,기 뻤 습 니 다,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 가지고있었습니다 "". Answer: """,가 지 고 있 었 습 니 다,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 그들을 "". Answer: """,그 들 을,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 크고 "". Answer: """,크 고,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 하루 "". Answer: """,하 루,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 종일 "". Answer: """,종 일,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 그를 "". Answer: """,그 를,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 새가 "". Answer: """,새 가,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 왔습니다 "". Answer: """,왔 습 니 다,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 그래서 "". Answer: """,그 래 서,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 새는 "". Answer: """,새 는,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 릴리와 "". Answer: """,릴 리 와,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 그것이 "". Answer: """,그 것 이,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 장난감 "". Answer: """,장 난 감,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 친구 "". Answer: """,친 구,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 모든 "". Answer: """,모 든,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 할 "". Answer: """,할,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 그리고 "". Answer: """,그 리 고,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 좋은 "". Answer: """,좋 은,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 벤은 "". Answer: """,벤 은,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 행복했고 "". Answer: """,행 복 했 고,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 좋아합니다 "". Answer: """,좋 아 합 니 다,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 팀과 "". Answer: """,팀 과,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 그녀를 "". Answer: """,그 녀 를,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 그들이 "". Answer: """,그 들 이,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 다 "". Answer: """,다,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 들었습니다 "". Answer: """,들 었 습 니 다,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 행복하게 "". Answer: """,행 복 하 게,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 행복하고 "". Answer: """,행 복 하 고,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 다른 "". Answer: """,다 른,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 집으로 "". Answer: """,집 으 로,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 대해 "". Answer: """,대 해,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 주었다 "". Answer: """,주 었 다,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 그 "". Answer: """,그,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 공원에서 "". Answer: """,공 원 에 서,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 것입니다 "". Answer: """,것 입 니 다,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 무서워서 "". Answer: "" 무 서 워 서 ""
+            2. Spell out the word "" 농부는 "". Answer: "" 농 부 는 ""
+            3. Spell out the word "" 개와 "". Answer: "" 개 와 ""
+            4. Spell out the word "" 있었다 "". Answer: "" 있 었 다 ""
+            
+            Question: Spell out the word "" 결정했습니다 "". Answer: """,결 정 했 습 니 다,-inf,0

@@ -1,0 +1,801 @@
+context,true_target,mean_token_logprob,token_count
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 케 "" after every "" 들 "" in "" 그들은 "". Answer: """,그들케은,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 견 "" after every "" 는 "" in "" 그는 "". Answer: """,그는견,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 씨 "" after every "" 녀 "" in "" 그녀는 "". Answer: """,그녀씨는,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 병 "" after every "" 우 "" in "" 매우 "". Answer: """,매우병,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 속 "" after every "" 큰 "" in "" 큰 "". Answer: """,큰속,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 요 "" after every "" 을 "" in "" 것을 "". Answer: """,것을요,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 싶 "" after every "" 날 "" in "" 날 "". Answer: """,날싶,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 롭 "" after every "" 은 "" in "" 팀은 "". Answer: """,팀은롭,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 카 "" after every "" 느 "" in "" 어느 "". Answer: """,어느카,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 의 "" after every "" 께 "" in "" 함께 "". Answer: """,함께의,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 어 "" after every "" 습 "" in "" 좋아했습니다 "". Answer: """,좋아했습어니다,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 평 "" after every "" 러 "" in "" 그러나 "". Answer: """,그러평나,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 만 "" after every "" 갔 "" in "" 갔다 "". Answer: """,갔만다,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 청 "" after every "" 다 "" in "" 보았다 "". Answer: """,보았다청,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 혼 "" after every "" 너 "" in "" 너무 "". Answer: """,너혼무,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 성 "" after every "" 습 "" in "" 싶었습니다 "". Answer: """,싶었습성니다,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 꿀 "" after every "" 릴 "" in "" 릴리는 "". Answer: """,릴꿀리는,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 빠 "" after every "" 보 "" in "" 보았습니다 "". Answer: """,보빠았습니다,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 으 "" after every "" 의 "" in "" 그의 "". Answer: """,그의으,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 여 "" after every "" 수 "" in "" 수 "". Answer: """,수여,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 쁘 "" after every "" 않 "" in "" 않았습니다 "". Answer: """,않쁘았습니다,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 과 "" after every "" 은 "" in "" 많은 "". Answer: """,많은과,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 강 "" after every "" 했 "" in "" 행복했습니다 "". Answer: """,행복했강습니다,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 찾 "" after every "" 은 "" in "" 작은 "". Answer: """,작은찾,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 짝 "" after every "" 그 "" in "" 그것을 "". Answer: """,그짝것을,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 은 "" after every "" 니 "" in "" 있습니다 "". Answer: """,있습니은다,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 한 "" after every "" 톰 "" in "" 톰은 "". Answer: """,톰한은,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 란 "" after every "" 더 "" in "" 더 "". Answer: """,더란,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 머 "" after every "" 지 "" in "" 가지고 "". Answer: """,가지머고,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 관 "" after every "" 의 "" in "" 그녀의 "". Answer: """,그녀의관,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 오 "" after every "" 다 "" in "" 시작했습니다 "". Answer: """,시작했습니다오,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 라 "" after every "" 위 "" in "" 위해 "". Answer: """,위라해,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 퍼 "" after every "" 는 "" in "" 엄마는 "". Answer: """,엄마는퍼,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 깨 "" after every "" 런 "" in "" 그런 "". Answer: """,그런깨,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 망 "" after every "" 다 "" in "" 다음 "". Answer: """,다망음,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 끝 "" after every "" 옛 "" in "" 옛날 "". Answer: """,옛끝날,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 여 "" after every "" 옛 "" in "" 옛적에 "". Answer: """,옛여적에,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 집 "" after every "" 모 "" in "" 모두 "". Answer: """,모집두,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 엌 "" after every "" 것 "" in "" 그것은 "". Answer: """,그것엌은,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 푸 "" after every "" 일 "" in "" 일이 "". Answer: """,일푸이,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 판 "" after every "" 개 "" in "" 개는 "". Answer: """,개판는,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 엌 "" after every "" 었 "" in "" 없었습니다 "". Answer: """,없었엌습니다,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 쁜 "" after every "" 을 "" in "" 장난감을 "". Answer: """,장난감을쁜,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 웃 "" after every "" 공 "" in "" 공을 "". Answer: """,공웃을,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 맛 "" after every "" 신 "" in "" 당신은 "". Answer: """,당신맛은,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 락 "" after every "" 를 "" in "" 놀기를 "". Answer: """,놀기를락,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 돌 "" after every "" 시 "" in "" 다시 "". Answer: """,다시돌,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 피 "" after every "" 니 "" in "" 발견했습니다 "". Answer: """,발견했습니피다,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 겁 "" after every "" 다 "" in "" 웃었다 "". Answer: """,웃었다겁,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 소 "" after every "" 어 "" in "" 어린 "". Answer: """,어소린,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 까 "" after every "" 로 "" in "" 새로운 "". Answer: """,새로까운,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 커 "" after every "" 일 "" in "" 일어났습니다 "". Answer: """,일커어났습니다,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 놓 "" after every "" 는 "" in "" 고양이는 "". Answer: """,고양이는놓,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 험 "" after every "" 때 "" in "" 때 "". Answer: """,때험,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 직 "" after every "" 못 "" in "" 못한 "". Answer: """,못직한,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 해 "" after every "" 는 "" in "" 나는 "". Answer: """,나는해,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 애 "" after every "" 스 "" in "" 맥스는 "". Answer: """,맥스애는,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 았 "" after every "" 예 "" in "" 예상치 "". Answer: """,예았상치,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 호 "" after every "" 니 "" in "" 생각했습니다 "". Answer: """,생각했습니호다,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 조 "" after every "" 니 "" in "" 놀았습니다 "". Answer: """,놀았습니조다,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 왔 "" after every "" 놀 "" in "" 놀고 "". Answer: """,놀왔고,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 살 "" after every "" 살 "" in "" 살았습니다 "". Answer: """,살살았습니다,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 전 "" after every "" 은 "" in "" 샘은 "". Answer: """,샘은전,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 기 "" after every "" 다 "" in "" 기뻤습니다 "". Answer: """,기뻤습니다기,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 은 "" after every "" 었 "" in "" 가지고있었습니다 "". Answer: """,가지고있었은습니다,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 스 "" after every "" 그 "" in "" 그들을 "". Answer: """,그스들을,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 현 "" after every "" 크 "" in "" 크고 "". Answer: """,크현고,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 란 "" after every "" 루 "" in "" 하루 "". Answer: """,하루란,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 체 "" after every "" 일 "" in "" 종일 "". Answer: """,종일체,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 난 "" after every "" 를 "" in "" 그를 "". Answer: """,그를난,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 반 "" after every "" 가 "" in "" 새가 "". Answer: """,새가반,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 멋 "" after every "" 다 "" in "" 왔습니다 "". Answer: """,왔습니다멋,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 푸 "" after every "" 래 "" in "" 그래서 "". Answer: """,그래푸서,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 꿀 "" after every "" 는 "" in "" 새는 "". Answer: """,새는꿀,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 화 "" after every "" 리 "" in "" 릴리와 "". Answer: """,릴리화와,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 따 "" after every "" 이 "" in "" 그것이 "". Answer: """,그것이따,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 프 "" after every "" 감 "" in "" 장난감 "". Answer: """,장난감프,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 걷 "" after every "" 구 "" in "" 친구 "". Answer: """,친구걷,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 잊 "" after every "" 든 "" in "" 모든 "". Answer: """,모든잊,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 윙 "" after every "" 할 "" in "" 할 "". Answer: """,할윙,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 남 "" after every "" 리 "" in "" 그리고 "". Answer: """,그리남고,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 깨 "" after every "" 좋 "" in "" 좋은 "". Answer: """,좋깨은,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 합 "" after every "" 은 "" in "" 벤은 "". Answer: """,벤은합,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 게 "" after every "" 고 "" in "" 행복했고 "". Answer: """,행복했고게,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 걱 "" after every "" 합 "" in "" 좋아합니다 "". Answer: """,좋아합걱니다,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 돌 "" after every "" 과 "" in "" 팀과 "". Answer: """,팀과돌,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 내 "" after every "" 를 "" in "" 그녀를 "". Answer: """,그녀를내,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 듣 "" after every "" 들 "" in "" 그들이 "". Answer: """,그들듣이,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 조 "" after every "" 다 "" in "" 다 "". Answer: """,다조,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 엇 "" after every "" 니 "" in "" 들었습니다 "". Answer: """,들었습니엇다,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 이 "" after every "" 행 "" in "" 행복하게 "". Answer: """,행이복하게,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 항 "" after every "" 고 "" in "" 행복하고 "". Answer: """,행복하고항,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 구 "" after every "" 른 "" in "" 다른 "". Answer: """,다른구,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 국 "" after every "" 로 "" in "" 집으로 "". Answer: """,집으로국,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 못 "" after every "" 해 "" in "" 대해 "". Answer: """,대해못,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 데 "" after every "" 었 "" in "" 주었다 "". Answer: """,주었데다,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 십 "" after every "" 그 "" in "" 그 "". Answer: """,그십,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 견 "" after every "" 원 "" in "" 공원에서 "". Answer: """,공원견에서,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 직 "" after every "" 것 "" in "" 것입니다 "". Answer: """,것직입니다,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 연 "" after every "" 다 "" in "" 기다렸다 "". Answer: "" 기다연렸다연 ""
+            2. Add an "" 연 "" after every "" 부 "" in "" 농부는 "". Answer: "" 농부연는 ""
+            3. Add an "" 니 "" after every "" 와 "" in "" 개와 "". Answer: "" 개와니 ""
+            4. Add an "" 난 "" after every "" 었 "" in "" 있었다 "". Answer: "" 있었난다 ""
+            
+            Question: Add an "" 둥 "" after every "" 습 "" in "" 결정했습니다 "". Answer: """,결정했습둥니다,-inf,0

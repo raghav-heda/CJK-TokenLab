@@ -1,0 +1,801 @@
+context,true_target,mean_token_logprob,token_count
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 的 "". Answer: """,的,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 了 "". Answer: """,了,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 他们 "". Answer: """,他 们,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 他 "". Answer: """,他,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 她 "". Answer: """,她,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 很 "". Answer: """,很,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 和 "". Answer: """,和,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 有 "". Answer: """,有,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 在 "". Answer: """,在,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 一个 "". Answer: """,一 个,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 蒂姆 "". Answer: """,蒂 姆,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 看到 "". Answer: """,看 到,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 喜欢 "". Answer: """,喜 欢,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 玩 "". Answer: """,玩,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 它 "". Answer: """,它,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 高兴 "". Answer: """,高 兴,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 朋友 "". Answer: """,朋 友,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 莉莉 "". Answer: """,莉 莉,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 是 "". Answer: """,是,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 汤姆 "". Answer: """,汤 姆,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 一起 "". Answer: """,一 起,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 一天 "". Answer: """,一 天,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 想 "". Answer: """,想,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 都 "". Answer: """,都,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 妈妈 "". Answer: """,妈 妈,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 并 "". Answer: """,并,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 感到 "". Answer: """,感 到,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 但是 "". Answer: """,但 是,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 上 "". Answer: """,上,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 一只 "". Answer: """,一 只,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 非常 "". Answer: """,非 常,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 着 "". Answer: """,着,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 那 "". Answer: """,那,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 玩具 "". Answer: """,玩 具,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 不 "". Answer: """,不,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 开始 "". Answer: """,开 始,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 鸟 "". Answer: """,鸟,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 难过 "". Answer: """,难 过,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 开心 "". Answer: """,开 心,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 大 "". Answer: """,大,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 帮助 "". Answer: """,帮 助,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 只 "". Answer: """,只,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 狗 "". Answer: """,狗,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 我 "". Answer: """,我,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 山姆 "". Answer: """,山 姆,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 一些 "". Answer: """,一 些,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 这 "". Answer: """,这,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 叫 "". Answer: """,叫,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 笑 "". Answer: """,笑,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 猫 "". Answer: """,猫,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 然后 "". Answer: """,然 后,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 你 "". Answer: """,你,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 去 "". Answer: """,去,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 找到 "". Answer: """,找 到,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 看着 "". Answer: """,看 着,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 麦克斯 "". Answer: """,麦 克 斯,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 公园 "". Answer: """,公 园,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 把 "". Answer: """,把,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 苏 "". Answer: """,苏,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 到 "". Answer: """,到,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 可以 "". Answer: """,可 以,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 本 "". Answer: """,本,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 但 "". Answer: """,但,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 也 "". Answer: """,也,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 说 "". Answer: """,说,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 害怕 "". Answer: """,害 怕,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 时 "". Answer: """,时,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 知道 "". Answer: """,知 道,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 事情 "". Answer: """,事 情,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 人 "". Answer: """,人,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 没有 "". Answer: """,没 有,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 好 "". Answer: """,好,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 自己 "". Answer: """,自 己,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 跑 "". Answer: """,跑,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 发生 "". Answer: """,发 生,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 为 "". Answer: """,为,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 听到 "". Answer: """,听 到,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 微笑 "". Answer: """,微 笑,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 球 "". Answer: """,球,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 新 "". Answer: """,新,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 盒子 "". Answer: """,盒 子,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 当 "". Answer: """,当,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 米娅 "". Answer: """,米 娅,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 很多 "". Answer: """,很 多,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 从前 "". Answer: """,从 前,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 成为 "". Answer: """,成 为,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 玩得 "". Answer: """,玩 得,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 意外 "". Answer: """,意 外,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 吃 "". Answer: """,吃,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 中 "". Answer: """,中,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 声音 "". Answer: """,声 音,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 您 "". Answer: """,您,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 有趣 "". Answer: """,有 趣,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 东西 "". Answer: """,东 西,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 整天 "". Answer: """,整 天,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 来 "". Answer: """,来,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 这个 "". Answer: """,这 个,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 男孩 "". Answer: """,男 孩,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 认为 "". Answer: """,认 为,-inf,0
+"Spell out the word, putting spaces between each letter, based on the following examples:
+            
+            1. Spell out the word "" 里 "". Answer: "" 里 ""
+            2. Spell out the word "" 黛西 "". Answer: "" 黛 西 ""
+            3. Spell out the word "" 令人恶心 "". Answer: "" 令 人 恶 心 ""
+            4. Spell out the word "" 蛋糕 "". Answer: "" 蛋 糕 ""
+            
+            Question: Spell out the word "" 听 "". Answer: """,听,-inf,0

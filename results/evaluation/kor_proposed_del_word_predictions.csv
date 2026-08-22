@@ -1,0 +1,801 @@
+context,true_target,mean_token_logprob,token_count
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 톰의 "" in "" 톰의 모자를 날려 버렸습니다. "". Answer: """,모자를 날려 버렸습니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 손을 "" in "" 그는 릴리의 손을 잡고 길을 이끌었다. "". Answer: """,그는 릴리의 잡고 길을 이끌었다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 그들은 "" in "" 그들은 하루 종일 춤을 추고 연주했습니다. "". Answer: """,하루 종일 춤을 추고 연주했습니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 물었다 "" in "" 그는 모든 사람에게 자신이 찾을 수있는 물었다. "". Answer: """,그는 모든 사람에게 자신이 찾을 수있는.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 키를 "" in "" 그들은 키를 상자에 넣고 돌렸다. "". Answer: """,그들은 상자에 넣고 돌렸다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 벤은 "" in "" 릴리와 벤은 공원에서 놀기를 좋아합니다. "". Answer: """,릴리와 공원에서 놀기를 좋아합니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 시작했다 "" in "" 그는 울기 시작했다. "". Answer: """,그는 울기.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 함께 "" in "" 이제 그들은 함께 놀 수있는 새로운 친구가있었습니다. "". Answer: """,이제 그들은 놀 수있는 새로운 친구가있었습니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 나는 "" in "" 나는 겸손하고 친절 할 것이다. "". Answer: """,겸손하고 친절 할 것이다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 인쇄 "" in "" 그는 무언가를 인쇄 할 수있었습니다. "". Answer: """,그는 무언가를 할 수있었습니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 놀고 "" in "" 그는 차를 가지고 놀고 싶었습니다. "". Answer: """,그는 차를 가지고 싶었습니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 맥스라는 "" in "" 그런 다음 맥스라는 큰 개가 공원에 왔습니다. "". Answer: """,그런 다음 큰 개가 공원에 왔습니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 공을 "" in "" 그들은 더 이상 공을 가지고 놀지 않았습니다. "". Answer: """,그들은 더 이상 가지고 놀지 않았습니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 벌집에 "" in "" 일단 벌집에 살았던 꿀벌이있었습니다. "". Answer: """,일단 살았던 꿀벌이있었습니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 장난감 "" in "" 그녀는 장난감 토끼와 놀기를 좋아했습니다. "". Answer: """,그녀는 토끼와 놀기를 좋아했습니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 못한 "" in "" 그러나 예상치 못한 일이 일어났습니다! "". Answer: """,그러나 예상치 일이 일어났습니다!,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 너무 "" in "" 릴리는 너무 흥분했습니다. "". Answer: """,릴리는 흥분했습니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 배웠고 "" in "" 앨리스는 그녀의 교훈을 배웠고 나중에 더 순종했다. "". Answer: """,앨리스는 그녀의 교훈을 나중에 더 순종했다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 소년 "" in "" 당신은 어떻게 생각하십니까, 소년? "". Answer: ""","당신은 어떻게 생각하십니까,?",-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 무서웠습니다 "" in "" 아이들은 놀랐고 조금 무서웠습니다. "". Answer: """,아이들은 놀랐고 조금.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 위해 "" in "" 그는 나무가 흔들리기 위해 너무 많이 춤을 추었다. "". Answer: """,그는 나무가 흔들리기 너무 많이 춤을 추었다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 공원에서 "" in "" 공원에서 팀은 큰 나무를 보았습니다. "". Answer: """,팀은 큰 나무를 보았습니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 찾고있었습니다 "" in "" 그녀는 열쇠를 찾고있었습니다. "". Answer: """,그녀는 열쇠를.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 고개를 "" in "" 고양이는 고개를 끄덕이며 마우스를 도왔습니다. "". Answer: """,고양이는 끄덕이며 마우스를 도왔습니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 함께 "" in "" 그들은 그녀와 함께 회전했다. "". Answer: """,그들은 그녀와 회전했다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 인형을 "" in "" 그녀는 예쁜 인형을 원했습니다. "". Answer: """,그녀는 예쁜 원했습니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 공을 "" in "" 내부, 그는 공을 보았다! "". Answer: ""","내부, 그는 보았다!",-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 움직였습니다 "" in "" 포스트가 마침내 움직였습니다! "". Answer: """,포스트가 마침내!,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 소녀가 "" in "" 어느 날, 어린 소녀가 새를 보러 왔습니다. "". Answer: ""","어느 날, 어린 새를 보러 왔습니다.",-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 집에는 "" in "" 집에는 천장이 매우 높았습니다. "". Answer: """,천장이 매우 높았습니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 광고판의 "" in "" 그는 광고판의 공처럼되고 싶었다. "". Answer: """,그는 공처럼되고 싶었다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 시작하고 "" in "" 그는 로즈와 싸움을 시작하고 그녀를 밀었다. "". Answer: """,그는 로즈와 싸움을 그녀를 밀었다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 옛적에 "" in "" 옛날 옛적에 메리라는 소녀가있었습니다. "". Answer: """,옛날 메리라는 소녀가있었습니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 최고의 "" in "" 그들은 항상 최고의 장난감을 얻는 사람을 놓고 싸우고 있습니다. "". Answer: """,그들은 항상 장난감을 얻는 사람을 놓고 싸우고 있습니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 팀을 "" in "" 릴리는 그녀의 친구 팀을 보았다. "". Answer: """,릴리는 그녀의 친구 보았다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 날아 "" in "" 장난감과 게임이 방 주위로 날아 가기 시작했습니다! "". Answer: """,장난감과 게임이 방 주위로 가기 시작했습니다!,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 매우 "" in "" 소년은 매우 행복했습니다. "". Answer: """,소년은 행복했습니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 작은 "" in "" 나무 아래에서 그들은 작은 상자를 찾았습니다. "". Answer: """,나무 아래에서 그들은 상자를 찾았습니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 매우 "" in "" 소녀는 매우 행복했습니다. "". Answer: """,소녀는 행복했습니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 그는 "" in "" 그는 땅에서 빨간색을 보았다. "". Answer: """,땅에서 빨간색을 보았다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 잡았다 "" in "" 개는 고양이를 잡았다. "". Answer: """,개는 고양이를.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 벤을 "" in "" 그는 릴리와 벤을 듣습니다. "". Answer: """,그는 릴리와 듣습니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 그들을 "" in "" 다람쥐는 그들을 되돌아 보았다. "". Answer: """,다람쥐는 되돌아 보았다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 쿠키를 "" in "" 이제 가서 주스와 쿠키를 먹자. "". Answer: """,이제 가서 주스와 먹자.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 달리기 "" in "" 그들은 달리기 시작했다. "". Answer: """,그들은 시작했다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 유용한 "" in "" 팀은 유용한 사다리를 가졌습니다. "". Answer: """,팀은 사다리를 가졌습니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 좋아했습니다 "" in "" 톰과 릴리는 코끼리를 좋아했습니다. "". Answer: """,톰과 릴리는 코끼리를.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 새에게 "" in "" 그는 새에게 먹이를주고 싶어합니다. "". Answer: """,그는 먹이를주고 싶어합니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 그러나 "" in "" 그러나 상자는 매우 무겁고 단단합니다. "". Answer: """,상자는 매우 무겁고 단단합니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 무서웠다 "" in "" 팀과 스팟도 무서웠다. "". Answer: """,팀과 스팟도.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 싶었습니다 "" in "" 그들은 단지 장난감 총을 가지고 놀고 싶었습니다. "". Answer: """,그들은 단지 장난감 총을 가지고 놀고.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 도왔습니다 "" in "" 그것은 많은 사람들을 도왔습니다. "". Answer: """,그것은 많은 사람들을.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 고양이와 "" in "" 고양이와 개는 서로를 바라 보았다. "". Answer: """,개는 서로를 바라 보았다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 살았습니다 "" in "" 작은 새가 나무에 살았습니다. "". Answer: """,작은 새가 나무에.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 토끼로 "" in "" 그들은 토끼로 천천히 걸었습니다. "". Answer: """,그들은 천천히 걸었습니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 나는 "" in "" 나는 장난감이 많다. "". Answer: """,장난감이 많다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 공을 "" in "" 릴리는 톰이 자신의 공을 찾도록 도와주고 싶었습니다. "". Answer: """,릴리는 톰이 자신의 찾도록 도와주고 싶었습니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 새를 "" in "" 에이미는 새를 만지기 위해 손가락을 뻗었다. "". Answer: """,에이미는 만지기 위해 손가락을 뻗었다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 현기증을 "" in "" 그들은 모두 현기증을 느꼈다. "". Answer: """,그들은 모두 느꼈다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 날 "" in "" 어느 날 Tim은 자신이 좋아하는 장난감 자동차를 찾고 싶었습니다. "". Answer: """,어느 Tim은 자신이 좋아하는 장난감 자동차를 찾고 싶었습니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 어린 "" in "" 어린 소년이 공급 업체에 왔습니다. "". Answer: """,소년이 공급 업체에 왔습니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 좋다 "" in "" 아기는 당신을 갖게되어 운이 좋다. "". Answer: """,아기는 당신을 갖게되어 운이.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 새는 "" in "" 새는 큰 나무에서 살았습니다. "". Answer: """,큰 나무에서 살았습니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 껍질을 "" in "" 톰은 껍질을 집어 들었다. "". Answer: """,톰은 집어 들었다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 그녀는 "" in "" 공원에서 그녀는 간호사를 보았다. "". Answer: """,공원에서 간호사를 보았다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 많은 "" in "" 그들은 많은 재미를 보았습니다. "". Answer: """,그들은 재미를 보았습니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 키티는 "" in "" 키티는 마당으로 들어갔다. "". Answer: """,마당으로 들어갔다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 팻은 "" in "" 에밀리는 친절했고 팻은 그렇지 않았습니다. "". Answer: """,에밀리는 친절했고 그렇지 않았습니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 블록을 "" in "" Anna는 블록을 가지고 노는 것을 좋아했습니다. "". Answer: """,Anna는 가지고 노는 것을 좋아했습니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 물건을 "" in "" 팀은 물건을 모으는 것을 좋아했습니다. "". Answer: """,팀은 모으는 것을 좋아했습니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 읽고 "" in "" 그들은 책을 읽고 이야기를 듣습니다. "". Answer: """,그들은 책을 이야기를 듣습니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 그리고 "" in "" 그리고 당신의 장난감. "". Answer: """,당신의 장난감.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 시계와 "" in "" 그녀는 시계와 벤을 본다. "". Answer: """,그녀는 벤을 본다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 미안합니다 "" in "" 그들은 슬프고 미안합니다. "". Answer: """,그들은 슬프고.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 할 "" in "" 매우 빨리 확대 할 수 있습니다. "". Answer: """,매우 빨리 확대 수 있습니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 그들은 "" in "" 갑자기 그들은 큰 소리를 들었습니다. "". Answer: """,갑자기 큰 소리를 들었습니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 스테이크를 "" in "" 그들은 저녁 식사를 위해 스테이크를 가졌습니다. "". Answer: """,그들은 저녁 식사를 위해 가졌습니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 둘러보고 "" in "" 그녀는 주위를 둘러보고 팬을 보았다. "". Answer: """,그녀는 주위를 팬을 보았다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 여우가있었습니다 "" in "" 옛날 옛적에, 노인 여우가있었습니다. "". Answer: ""","옛날 옛적에, 노인.",-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 돼지는 "" in "" 돼지는 크고 분홍색이며 더럽습니다. "". Answer: """,크고 분홍색이며 더럽습니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 그녀는 "" in "" 그녀는 큰 녹색 파리를 따라 달렸다. "". Answer: """,큰 녹색 파리를 따라 달렸다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 손에 "" in "" 고양이는 사라의 손에 머리를 문지릅니다. "". Answer: """,고양이는 사라의 머리를 문지릅니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 신비한 "" in "" 그녀는이 신비한 검은 섬에서 무언가를 발견했습니다. "". Answer: """,그녀는이 검은 섬에서 무언가를 발견했습니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 따뜻하다고 "" in "" 그들은 행복하고 따뜻하다고 느낍니다. "". Answer: """,그들은 행복하고 느낍니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 영원히 "" in "" 그들은 영원히 사라 졌다고 생각했습니다. "". Answer: """,그들은 사라 졌다고 생각했습니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 먹고 "" in "" 케이크를 먹고 싶었습니다. "". Answer: """,케이크를 싶었습니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 누가 "" in "" 오래된 집에 누가 있었습니까? "". Answer: """,오래된 집에 있었습니까?,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 행복합니다 "" in "" Lila와 Tom은 행복합니다. "". Answer: """,Lila와 Tom은.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 모자가있었습니다 "" in "" 옛날 옛적에 녹색 모자가있었습니다. "". Answer: """,옛날 옛적에 녹색.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 내고 "" in "" 그들은 화를 내고 슬퍼했습니다. "". Answer: """,그들은 화를 슬퍼했습니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 그 "" in "" 팀은 행복했고 그 사람의 제안을 받아 들였다. "". Answer: """,팀은 행복했고 사람의 제안을 받아 들였다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" Tom에게 "" in "" 그녀는 친구 Tom에게 그녀를 도와달라고 요청했습니다. "". Answer: """,그녀는 친구 그녀를 도와달라고 요청했습니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 상자에 "" in "" 반점은 공을 상자에 밀어 넣었습니다. "". Answer: """,반점은 공을 밀어 넣었습니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 행복했습니다 "" in "" Tom과 Max는 너무 행복했습니다! "". Answer: """,Tom과 Max는 너무!,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 톰을 "" in "" 어느 날, 루시는 친구 톰을 방문하기로 결정했습니다. "". Answer: ""","어느 날, 루시는 친구 방문하기로 결정했습니다.",-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 도와주고 "" in "" Tim은 Sue를 도와주고 싶었습니다. "". Answer: """,Tim은 Sue를 싶었습니다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 슬퍼 "" in "" 다람쥐는 슬퍼 보였다. "". Answer: """,다람쥐는 보였다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 나무를 "" in "" 그들은 큰 나무를 보았다. "". Answer: """,그들은 큰 보았다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 당기고 "" in "" 그들은 잡아 당기고 소리 쳤다. "". Answer: """,그들은 잡아 소리 쳤다.,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 긴 "" in "" 그는 긴 수염과 긴 막대기를 가졌다. "". Answer: "" 그는 수염과 막대기를 가졌다. ""
+            2. Delete every instance of "" 날 "" in "" 맑은 날, 작은 새가 고양이가 오는 것을 보았습니다. "". Answer: "" 맑은, 작은 새가 고양이가 오는 것을 보았습니다. ""
+            3. Delete every instance of "" 가져갔습니다 "" in "" 새가 요트를 땅으로 가져갔습니다. "". Answer: "" 새가 요트를 땅으로. ""
+            4. Delete every instance of "" 의상을 "" in "" 그는 슈퍼 히어로 의상을 입고 싶었습니다. "". Answer: "" 그는 슈퍼 히어로 입고 싶었습니다. ""
+            
+            Question: Delete every instance of "" 앉아서 "" in "" 그녀는 그것에 앉아서 쉬고 싶었다. "". Answer: """,그녀는 그것에 쉬고 싶었다.,-inf,0

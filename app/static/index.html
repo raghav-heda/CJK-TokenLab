@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CJK TokenLab - AI Research</title>
+    <!-- Modern fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- Animated background layers -->
+    <div class="bg-layer bg-gradient"></div>
+    <div class="bg-layer bg-grid"></div>
+    <div class="bg-layer bg-glow"></div>
+
+    <div id="toastContainer" class="toast-container"></div>
+
+    <div class="app-layout">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar">
+            <div class="sidebar-brand">
+                <div class="brand-logo">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                </div>
+                <div class="brand-text">
+                    <h1>TokenLab</h1>
+                    <span class="badge">RESEARCH</span>
+                </div>
+            </div>
+            
+            <div class="nav-links">
+                <button class="nav-btn active" data-target="home">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                    Dashboard
+                </button>
+                <button class="nav-btn" data-target="tokenizer">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="4 7 4 4 20 4 20 7"/><line x1="9" y1="20" x2="15" y2="20"/><line x1="12" y1="4" x2="12" y2="20"/></svg>
+                    Tokenization
+                </button>
+                <button class="nav-btn" data-target="characters">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                    CJK Anatomy
+                </button>
+                <button class="nav-btn" data-target="metrics">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+                    Performance
+                </button>
+                <button class="nav-btn" data-target="eval">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+                    Evaluation
+                </button>
+            </div>
+
+            <div class="sidebar-status">
+                <h3>Pipeline Status</h3>
+                <div class="status-list" id="pipelineStatus">
+                    <div class="status-item"><span class="status-dot pending" id="dot-dataset"></span> Dataset</div>
+                    <div class="status-item"><span class="status-dot pending" id="dot-tokenizer"></span> Tokenizers</div>
+                    <div class="status-item"><span class="status-dot pending" id="dot-model"></span> Models</div>
+                    <div class="status-item"><span class="status-dot pending" id="dot-metrics"></span> Metrics</div>
+                    <div class="status-item"><span class="status-dot pending" id="dot-evals"></span> Evals</div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- HOME -->
+            <section id="home" class="page-section active">
+                <div class="hero-section glass-panel">
+                    <div class="hero-content">
+                        <div class="badge-pill">v1.0.0 Experimental</div>
+                        <h1 class="hero-title">Beyond Subwords. <br><span class="text-gradient">Understanding CJK.</span></h1>
+                        <p class="hero-subtitle">A state-of-the-art research environment evaluating sub-character information (radicals, components, jamo) against standard BPE tokenization.</p>
+                        <div class="hero-actions">
+                            <button class="btn btn-primary" onclick="document.querySelector('[data-target=\'tokenizer\']').click()">Launch Tokenizer</button>
+                            <button class="btn btn-secondary" onclick="document.querySelector('[data-target=\'eval\']').click()">View Benchmarks</button>
+                        </div>
+                    </div>
+                    <div class="hero-visual">
+                        <!-- CSS animated pipeline visualization -->
+                        <div class="pipeline-viz">
+                            <div class="node">Dataset</div>
+                            <div class="arrow">→</div>
+                            <div class="node pulse">CJK Parse</div>
+                            <div class="arrow">→</div>
+                            <div class="node">Tokenize</div>
+                            <div class="arrow">→</div>
+                            <div class="node">LLM</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="dashboard-grid">
+                    <div class="dash-card glass-panel">
+                        <div class="card-icon">⚡</div>
+                        <h3>Fast Inference</h3>
+                        <p>Evaluate real-time encoding speeds and vocabulary compression ratios.</p>
+                    </div>
+                    <div class="dash-card glass-panel">
+                        <div class="card-icon">🧬</div>
+                        <h3>Deep Anatomy</h3>
+                        <p>Visualize structural decomposition of Hanzi, Kanji, and Hangul characters.</p>
+                    </div>
+                    <div class="dash-card glass-panel">
+                        <div class="card-icon">🎯</div>
+                        <h3>EXECUTE Evals</h3>
+                        <p>Strict linguistic benchmarks for measuring generative structural understanding.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- TOKENIZER ANALYSIS -->
+            <section id="tokenizer" class="page-section">
+                <div class="section-header">
+                    <h2>Tokenizer Laboratory</h2>
+                    <p>Compare standard BPE vs Sub-character-aware tokenization.</p>
+                </div>
+
+                <div class="control-panel glass-panel">
+                    <div class="input-group">
+                        <select id="langSelect" class="modern-select"></select>
+                        <textarea id="textInput" rows="3" class="modern-input" placeholder="Type CJK text here..."></textarea>
+                        <button id="tokenizeBtn" class="btn btn-primary">
+                            <span class="btn-text">Analyze</span>
+                            <div class="spinner hidden"></div>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="comparison-layout">
+                    <!-- Baseline -->
+                    <div class="tokenizer-panel glass-panel">
+                        <div class="panel-header">
+                            <h3>Baseline (BPE)</h3>
+                            <div class="stat-badge" id="baseTokensCount">0 tokens</div>
+                        </div>
+                        <div class="tokens-container" id="baseTokenIds">
+                            <div class="empty-state">Awaiting input...</div>
+                        </div>
+                    </div>
+
+                    <!-- Proposed -->
+                    <div class="tokenizer-panel glass-panel highlight-panel">
+                        <div class="panel-header">
+                            <h3>Proposed (CJK-Aware)</h3>
+                            <div class="stat-badge highlight" id="propTokensCount">0 tokens</div>
+                        </div>
+                        <div class="tokens-container" id="propTokenIds">
+                            <div class="empty-state">Awaiting input...</div>
+                        </div>
+                        <div class="panel-footer">
+                            <div class="metric-mini">
+                                <span class="label">Compression Diff:</span>
+                                <span class="val" id="propDelta">-</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CHARACTER ANALYSIS -->
+            <section id="characters" class="page-section">
+                <div class="section-header">
+                    <h2>Character Anatomy</h2>
+                    <p>Inspect structural decomposition of CJK characters.</p>
+                </div>
+
+                <div class="control-panel glass-panel">
+                    <div class="input-group row-group">
+                        <input type="text" id="charInput" class="modern-input" placeholder="Enter characters (e.g. 語한)" value="語한">
+                        <button id="analyzeCharBtn" class="btn btn-primary">
+                            <span class="btn-text">Inspect</span>
+                            <div class="spinner hidden"></div>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="char-grid" id="charGrid">
+                    <!-- Cards injected here -->
+                </div>
+            </section>
+
+            <!-- METRICS (Baseline vs Proposed) -->
+            <section id="metrics" class="page-section">
+                <div class="section-header">
+                    <h2>Performance Metrics</h2>
+                    <p>Global comparison of tokenizer efficiency.</p>
+                    <div class="header-actions">
+                        <select id="metricsLangSelect" class="modern-select small"></select>
+                    </div>
+                </div>
+
+                <div id="metricsLoading" class="loader-container hidden">
+                    <div class="spinner large"></div>
+                </div>
+
+                <div class="metrics-dashboard" id="metricsDashboardContent">
+                    <!-- KPI Cards Row -->
+                    <div class="kpi-row">
+                        <div class="kpi-card glass-panel">
+                            <div class="kpi-label">Vocab Size</div>
+                            <div class="kpi-value" id="kpi-vocab">-</div>
+                        </div>
+                        <div class="kpi-card glass-panel">
+                            <div class="kpi-label">Chars/Token</div>
+                            <div class="kpi-value" id="kpi-cpt">-</div>
+                            <div class="kpi-trend" id="kpi-cpt-trend"></div>
+                        </div>
+                        <div class="kpi-card glass-panel">
+                            <div class="kpi-label">UNK Rate</div>
+                            <div class="kpi-value" id="kpi-unk">-</div>
+                        </div>
+                        <div class="kpi-card glass-panel">
+                            <div class="kpi-label">Speed</div>
+                            <div class="kpi-value" id="kpi-speed">-</div>
+                        </div>
+                    </div>
+
+                    <!-- Charts Row -->
+                    <div class="charts-row">
+                        <div class="chart-box glass-panel">
+                            <h3>Capabilities Radar</h3>
+                            <div class="chart-wrapper">
+                                <canvas id="radarChart"></canvas>
+                            </div>
+                        </div>
+                        <div class="table-box glass-panel">
+                            <h3>Raw Data</h3>
+                            <table class="modern-table">
+                                <thead>
+                                    <tr>
+                                        <th>Variant</th>
+                                        <th>Tokens</th>
+                                        <th>Chars/Tok</th>
+                                        <th>UEC (bits/char)</th>
+                                        <th>Time (s)</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="metricsTableBody"></tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Ablation Study -->
+                    <div class="ablation-section glass-panel mt-4" id="ablationSection" style="display:none;">
+                        <h3>Ablation Study: Decomposition Parameters</h3>
+                        <p class="text-sm">Effect of min_frequency threshold and decomposition on/off on tokenizer performance.</p>
+                        <div class="chart-wrapper" style="min-height:300px;">
+                            <canvas id="ablationChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- EVALUATION -->
+            <section id="eval" class="page-section">
+                <div class="section-header">
+                    <h2>Model Evaluation</h2>
+                    <p>Training loss curves and EXECUTE linguistic task performance.</p>
+                    <div class="header-actions">
+                        <select id="evalLangSelect" class="modern-select small"></select>
+                    </div>
+                </div>
+
+                <div id="evalLoading" class="loader-container hidden">
+                    <div class="spinner large"></div>
+                </div>
+
+                <div id="evalDashboardContent">
+                    <div class="eval-charts-row">
+                        <div class="eval-chart-card glass-panel">
+                            <div class="card-title">
+                                <h3>Baseline Training</h3>
+                                <span class="badge">BPE</span>
+                            </div>
+                            <div class="chart-wrapper">
+                                <canvas id="baseChart"></canvas>
+                            </div>
+                        </div>
+                        <div class="eval-chart-card glass-panel highlight-panel">
+                            <div class="card-title">
+                                <h3>Proposed Training</h3>
+                                <span class="badge highlight">CJK-Aware</span>
+                            </div>
+                            <div class="chart-wrapper">
+                                <canvas id="propChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="execute-panel glass-panel mt-4">
+                        <h3>EXECUTE Benchmarks</h3>
+                        <p class="text-sm">Generative structural tasks (Perplexity: Lower is better, Accuracy: Higher is better).</p>
+                        <div class="table-responsive">
+                            <table class="modern-table">
+                                <thead>
+                                    <tr>
+                                        <th>Task Name</th>
+                                        <th>Baseline Score</th>
+                                        <th>Proposed Score</th>
+                                        <th>BPC</th>
+                                        <th>Metric Type</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="executeTableBody">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="/static/script.js?v=5"></script>
+</body>
+</html>

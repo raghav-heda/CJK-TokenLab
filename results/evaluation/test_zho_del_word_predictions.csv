@@ -1,0 +1,801 @@
+context,true_target,mean_token_logprob,token_count
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 的 "" in "" 每个人都喜欢著名的m子。 "". Answer: """,每个人都喜欢著名 m 子。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 苏给 "" in "" 苏给了他纸和剪刀。 "". Answer: """,了他纸和剪刀。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 大山 "" in "" 麦克斯住在大山附近。 "". Answer: """,麦克斯住在附近。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 。 "" in "" 天鹅很好奇和友好。 "". Answer: """,天鹅很好奇和友好,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 握住 "" in "" 他握住绿色部分，努力拉动。 "". Answer: """,他绿色部分 ， 努力拉动。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 的 "" in "" 那是一个卑鄙的笑话。 "". Answer: """,那是一个卑鄙笑话。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 它 "" in "" 它感觉到背面的东西。 "". Answer: """,感觉到背面的东西。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 的 "" in "" 一只叫马克斯的大狗住在那儿。 "". Answer: """,一只叫马克斯大狗住在那儿。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 最后 "" in "" 最后，Slinky无法获得闪亮的岩石。 "". Answer: """,， Slinky 无法获得闪亮的岩石。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 他 "" in "" 他也想要漂亮的东西。 "". Answer: """,也想要漂亮的东西。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 猫 "" in "" 狗大声吠叫，猫逃跑了。 "". Answer: """,狗大声吠叫 ， 逃跑了。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 说 "" in "" 莉莉微笑着说。 "". Answer: """,莉莉微笑着。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 你 "" in "" 和你的膀胱。 "". Answer: """,和的膀胱。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 的 "" in "" 他想告诉妈妈关于卵石的信息。 "". Answer: """,他想告诉妈妈关于卵石信息。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 决定 "" in "" 蒂姆和苏决定一起骑自行车。 "". Answer: """,蒂姆和苏一起骑自行车。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 并 "" in "" 他们打开案件并与玩具一起玩。 "". Answer: """,他们打开案件与玩具一起玩。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 不错 "" in "" 他说这还不错。 "". Answer: """,他说这还。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 。 "" in "" 每个人都下火车。 "". Answer: """,每个人都下火车,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 很 "" in "" 汤姆和那只鸟很伤心。 "". Answer: """,汤姆和那只鸟伤心。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 虾 "" in "" 大鱼很好，虾很高兴。 "". Answer: """,大鱼很好 ， 很高兴。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 从前 "" in "" 从前，有一只可爱的小猫。 "". Answer: """,， 有一只可爱的小猫。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 他 "" in "" 他想要自己所有的三明治。 "". Answer: """,想要自己所有的三明治。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 。 "" in "" 他们玩得很开心。 "". Answer: """,他们玩得很开心,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 没有 "" in "" 但是他们没有听到哔哔声。 "". Answer: """,但是他们听到哔哔声。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 在 "" in "" 斑点显示蓬松的水在水中。 "". Answer: """,斑点显示蓬松的水水中。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 需要 "" in "" 但是首先，他需要找到头盔。 "". Answer: """,但是首先 ， 他找到头盔。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 飞机 "" in "" 他们感到飞机往下触摸地面。 "". Answer: """,他们感到往下触摸地面。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" ， "" in "" 演奏后，汤姆和苏很累。 "". Answer: """,演奏后汤姆和苏很累。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 了 "" in "" 最后，他们在滑梯附近找到了它。 "". Answer: """,最后 ， 他们在滑梯附近找到它。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 他们 "" in "" 但是他们不能。 "". Answer: """,但是不能。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 请 "" in "" 请不要生气。 "". Answer: """,不要生气。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 并 "" in "" 他们对马说再见并拥抱它。 "". Answer: """,他们对马说再见拥抱它。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 鸟儿 "" in "" 阳光明媚，鸟儿在唱歌。 "". Answer: """,阳光明媚 ， 在唱歌。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 兴奋 "" in "" 汤姆很兴奋。 "". Answer: """,汤姆很。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 看到 "" in "" 她看到了哥哥的房间，感到好奇。 "". Answer: """,她了哥哥的房间 ， 感到好奇。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 是 "" in "" 他是我最好的朋友。 "". Answer: """,他我最好的朋友。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 哭泣 "" in "" 他们俩都开始哭泣。 "". Answer: """,他们俩都开始。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 蓬松 "" in "" 蓬松喜欢玩和跑步。 "". Answer: """,喜欢玩和跑步。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 三个 "" in "" 三个朋友整天一起玩。 "". Answer: """,朋友整天一起玩。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 。 "" in "" 也许我们可以穿过那里。 "". Answer: """,也许我们可以穿过那里,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 让 "" in "" 她想让它变得有趣。 "". Answer: """,她想它变得有趣。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 读书 "" in "" 他们一起读书，度过了愉快的时光。 "". Answer: """,他们一起 ， 度过了愉快的时光。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 。 "" in "" 麦克斯感到困惑和害怕。 "". Answer: """,麦克斯感到困惑和害怕,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 了 "" in "" 莉莉的妈妈看见她，眨了眨眼。 "". Answer: """,莉莉的妈妈看见她 ， 眨眨眼。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 清洁 "" in "" 然后，一个小组决定使公园清洁。 "". Answer: """,然后 ， 一个小组决定使公园。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 。 "" in "" 他们找到了一个叫苏的女孩。 "". Answer: """,他们找到了一个叫苏的女孩,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 我 "" in "" 我只是在开玩笑。 "". Answer: """,只是在开玩笑。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 阳光 "" in "" 阳光很炎热。 "". Answer: """,很炎热。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 满意 "" in "" 她对自己的印记感到满意。 "". Answer: """,她对自己的印记感到。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 你 "" in "" 你是可靠而善良的。 "". Answer: """,是可靠而善良的。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 感谢 "" in "" 小女孩感谢医生并跳过回家。 "". Answer: """,小女孩医生并跳过回家。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 他 "" in "" 他想看到阳光明媚的阳光近在咫尺。 "". Answer: """,想看到阳光明媚的阳光近在咫尺。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 他 "" in "" 他很友好。 "". Answer: """,很友好。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 在 "" in "" 蒂姆在他家附近看到一扇大门。 "". Answer: """,蒂姆他家附近看到一扇大门。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 上学 "" in "" 有一天，一个叫蒂姆的小男孩上学。 "". Answer: """,有一天 ， 一个叫蒂姆的小男孩。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 很 "" in "" 他们很高兴，整天玩玩具。 "". Answer: """,他们高兴 ， 整天玩玩具。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 莎莉 "" in "" 莎莉和她的妈妈开始打开包装。 "". Answer: """,和她的妈妈开始打开包装。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 很多 "" in "" 他们看到很多人。 "". Answer: """,他们看到人。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 。 "" in "" 他寻找安娜。 "". Answer: """,他寻找安娜,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 他 "" in "" 他意识到莉莉是对的。 "". Answer: """,意识到莉莉是对的。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 很 "" in "" 他的朋友很担心。 "". Answer: """,他的朋友担心。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 猫 "" in "" 猫和狗很难过。 "". Answer: """,和狗很难过。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 莉莉 "" in "" 莉莉看到一只大的橙色泰迪熊。 "". Answer: """,看到一只大的橙色泰迪熊。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 三明治 "" in "" 蒂姆吃了三明治，感觉好多了。 "". Answer: """,蒂姆吃了 ， 感觉好多了。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 很 "" in "" 狗的尾巴很短。 "". Answer: """,狗的尾巴短。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 我们 "" in "" 我们爱他。 "". Answer: """,爱他。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 了 "" in "" 莉莉和她的妈妈去了烤架。 "". Answer: """,莉莉和她的妈妈去烤架。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" ， "" in "" 愤怒的小鸟感到燃烧，飞走了。 "". Answer: """,愤怒的小鸟感到燃烧飞走了。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 带 "" in "" 蒂姆带着手电筒去了山姆的家。 "". Answer: """,蒂姆着手电筒去了山姆的家。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 入睡 "" in "" 面纱使狼入睡了100年！ "". Answer: """,面纱使狼了 100 年 ！,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 她 "" in "" 安娜和她的猫回家了。 "". Answer: """,安娜和的猫回家了。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 回家 "" in "" 他们演奏直到该回家了。 "". Answer: """,他们演奏直到该了。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 一只 "" in "" 有一天，火车看到了一只小鸟。 "". Answer: """,有一天 ， 火车看到了小鸟。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 糟糕 "" in "" 这是痛苦而又糟糕的。 "". Answer: """,这是痛苦而又的。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 它 "" in "" 他们使它变得丰富多彩又有趣。 "". Answer: """,他们使变得丰富多彩又有趣。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 玩具 "" in "" 蒂姆听了鲍勃，把玩具放开了。 "". Answer: """,蒂姆听了鲍勃 ， 把放开了。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 是 "" in "" 他们是一个家庭。 "". Answer: """,他们一个家庭。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 。 "" in "" Bobo开始感到沮丧。 "". Answer: """,Bobo 开始感到沮丧,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 她 "" in "" 她决定找到一种修理项链的方法。 "". Answer: """,决定找到一种修理项链的方法。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 了 "" in "" 白豹来到了房子。 "". Answer: """,白豹来到房子。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 很 "" in "" 莉莉和蒂姆很高兴，更加笑了。 "". Answer: """,莉莉和蒂姆高兴 ， 更加笑了。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 他 "" in "" 他很好奇，想和它一起玩。 "". Answer: """,很好奇 ， 想和它一起玩。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 。 "" in "" 他感谢青蛙，他们成为了朋友。 "". Answer: """,他感谢青蛙 ， 他们成为了朋友,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 很 "" in "" 他很疯狂。 "". Answer: """,他疯狂。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 莉莉 "" in "" 汤姆看着莉莉。 "". Answer: """,汤姆看着。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 了 "" in "" 这只鸟把游艇带回了土地。 "". Answer: """,这只鸟把游艇带回土地。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 。 "" in "" 她妈妈热情地微笑。 "". Answer: """,她妈妈热情地微笑,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 他们 "" in "" 他们玩得开心，彼此分享了砖头。 "". Answer: """,玩得开心 ， 彼此分享了砖头。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 使 "" in "" 这个虫子使婴儿皱眉。 "". Answer: """,这个虫子婴儿皱眉。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 。 "" in "" 山姆试图告诉麦克斯，但麦克斯没有听。 "". Answer: """,山姆试图告诉麦克斯 ， 但麦克斯没有听,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 鸟 "" in "" 这只鸟看上去很难过。 "". Answer: """,这只看上去很难过。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 。 "" in "" 萨拉听到大声疾呼和哭泣。 "". Answer: """,萨拉听到大声疾呼和哭泣,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 高兴 "" in "" 它有一个朋友，飞机也很高兴。 "". Answer: """,它有一个朋友 ， 飞机也很。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 苏 "" in "" 蒂姆想帮助苏。 "". Answer: """,蒂姆想帮助。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" ， "" in "" 它是红色，柔软而温暖的。 "". Answer: """,它是红色柔软而温暖的。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 的 "" in "" 他们都过着幸福的生活。 "". Answer: """,他们都过着幸福生活。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 街区 "" in "" 任务是建造一个带有街区的塔。 "". Answer: """,任务是建造一个带有的塔。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 一起 "" in "" 他们喜欢一起玩。 "". Answer: """,他们喜欢玩。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 开始 "" in "" 该植物开始越来越高。 "". Answer: """,该植物越来越高。,-inf,0
+"Delete every instance of a specified word in a given sentence, based on the following examples:
+            
+            1. Delete every instance of "" 了 "" in "" 小兔子跳了起来，他们开始走了。 "". Answer: "" 小兔子跳起来 ， 他们开始走。 ""
+            2. Delete every instance of "" 一个 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有了主意。 ""
+            3. Delete every instance of "" 您 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些勇气 ， 无能为力 ！ ""
+            4. Delete every instance of "" 他 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此伸手试图接受它。 ""
+            
+            Question: Delete every instance of "" 高兴 "" in "" 她很高兴和兴奋。 "". Answer: """,她很和兴奋。,-inf,0

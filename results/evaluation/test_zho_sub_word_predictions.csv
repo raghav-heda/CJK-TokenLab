@@ -1,0 +1,801 @@
+context,true_target,mean_token_logprob,token_count
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 的 "" with "" 飞出 "" in "" 每个人都喜欢著名的m子。 "". Answer: """,每个人都喜欢著名飞出 m 子。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 剪刀 "" with "" 丰富多彩 "" in "" 苏给了他纸和剪刀。 "". Answer: """,苏给了他纸和丰富多彩。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 在 "" with "" 猛扑 "" in "" 麦克斯住在大山附近。 "". Answer: """,麦克斯住猛扑大山附近。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 天鹅 "" with "" 更长 "" in "" 天鹅很好奇和友好。 "". Answer: """,更长很好奇和友好。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 握住 "" with "" 混合 "" in "" 他握住绿色部分，努力拉动。 "". Answer: """,他混合绿色部分 ， 努力拉动。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 卑鄙 "" with "" 线 "" in "" 那是一个卑鄙的笑话。 "". Answer: """,那是一个线的笑话。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 东西 "" with "" 牙齿 "" in "" 它感觉到背面的东西。 "". Answer: """,它感觉到背面的牙齿。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 住 "" with "" 并且 "" in "" 一只叫马克斯的大狗住在那儿。 "". Answer: """,一只叫马克斯的大狗并且在那儿。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 岩石 "" with "" 风吹 "" in "" 最后，Slinky无法获得闪亮的岩石。 "". Answer: """,最后 ， Slinky 无法获得闪亮的风吹。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 。 "" with "" 花朵 "" in "" 他也想要漂亮的东西。 "". Answer: """,他也想要漂亮的东西花朵,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 狗 "" with "" 留下 "" in "" 狗大声吠叫，猫逃跑了。 "". Answer: """,留下大声吠叫 ， 猫逃跑了。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 说 "" with "" 可可 "" in "" 莉莉微笑着说。 "". Answer: """,莉莉微笑着可可。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 和 "" with "" 写 "" in "" 和你的膀胱。 "". Answer: """,写你的膀胱。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 他 "" with "" 车库里 "" in "" 他想告诉妈妈关于卵石的信息。 "". Answer: """,车库里想告诉妈妈关于卵石的信息。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 苏 "" with "" 浪潮 "" in "" 蒂姆和苏决定一起骑自行车。 "". Answer: """,蒂姆和浪潮决定一起骑自行车。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 玩具 "" with "" 冰 "" in "" 他们打开案件并与玩具一起玩。 "". Answer: """,他们打开案件并与冰一起玩。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 他 "" with "" 桥 "" in "" 他说这还不错。 "". Answer: """,桥说这还不错。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 人 "" with "" 自豪 "" in "" 每个人都下火车。 "". Answer: """,每个自豪都下火车。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 和 "" with "" 硬币 "" in "" 汤姆和那只鸟很伤心。 "". Answer: """,汤姆硬币那只鸟很伤心。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 很 "" with "" 欢呼雀跃 "" in "" 大鱼很好，虾很高兴。 "". Answer: """,大鱼欢呼雀跃好 ， 虾欢呼雀跃高兴。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 小猫 "" with "" 他 "" in "" 从前，有一只可爱的小猫。 "". Answer: """,从前 ， 有一只可爱的他。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 自己 "" with "" 睡觉 "" in "" 他想要自己所有的三明治。 "". Answer: """,他想要睡觉所有的三明治。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 。 "" with "" 关心 "" in "" 他们玩得很开心。 "". Answer: """,他们玩得很开心关心,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 没有 "" with "" 星期三 "" in "" 但是他们没有听到哔哔声。 "". Answer: """,但是他们星期三听到哔哔声。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 。 "" with "" 舒适 "" in "" 斑点显示蓬松的水在水中。 "". Answer: """,斑点显示蓬松的水在水中舒适,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" ， "" with "" 手里 "" in "" 但是首先，他需要找到头盔。 "". Answer: """,但是首先手里他需要找到头盔。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 地面 "" with "" 长大 "" in "" 他们感到飞机往下触摸地面。 "". Answer: """,他们感到飞机往下触摸长大。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 演奏 "" with "" 迷路 "" in "" 演奏后，汤姆和苏很累。 "". Answer: """,迷路后 ， 汤姆和苏很累。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 了 "" with "" 地笑 "" in "" 最后，他们在滑梯附近找到了它。 "". Answer: """,最后 ， 他们在滑梯附近找到地笑它。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 不能 "" with "" 安装 "" in "" 但是他们不能。 "". Answer: """,但是他们安装。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 不要 "" with "" 看时 "" in "" 请不要生气。 "". Answer: """,请看时生气。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 说 "" with "" 公园 "" in "" 他们对马说再见并拥抱它。 "". Answer: """,他们对马公园再见并拥抱它。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 。 "" with "" 意识 "" in "" 阳光明媚，鸟儿在唱歌。 "". Answer: """,阳光明媚 ， 鸟儿在唱歌意识,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 汤姆 "" with "" 击中 "" in "" 汤姆很兴奋。 "". Answer: """,击中很兴奋。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 好奇 "" with "" 砖头 "" in "" 她看到了哥哥的房间，感到好奇。 "". Answer: """,她看到了哥哥的房间 ， 感到砖头。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 我 "" with "" 逃跑 "" in "" 他是我最好的朋友。 "". Answer: """,他是逃跑最好的朋友。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 。 "" with "" 睁开 "" in "" 他们俩都开始哭泣。 "". Answer: """,他们俩都开始哭泣睁开,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 喜欢 "" with "" 直升机 "" in "" 蓬松喜欢玩和跑步。 "". Answer: """,蓬松直升机玩和跑步。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 一起 "" with "" 背面 "" in "" 三个朋友整天一起玩。 "". Answer: """,三个朋友整天背面玩。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 穿过 "" with "" 继续前进 "" in "" 也许我们可以穿过那里。 "". Answer: """,也许我们可以继续前进那里。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 她 "" with "" 正方形 "" in "" 她想让它变得有趣。 "". Answer: """,正方形想让它变得有趣。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 一起 "" with "" 老狐狸 "" in "" 他们一起读书，度过了愉快的时光。 "". Answer: """,他们老狐狸读书 ， 度过了愉快的时光。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 害怕 "" with "" 想教 "" in "" 麦克斯感到困惑和害怕。 "". Answer: """,麦克斯感到困惑和想教。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" ， "" with "" 客人 "" in "" 莉莉的妈妈看见她，眨了眨眼。 "". Answer: """,莉莉的妈妈看见她客人眨了眨眼。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 决定 "" with "" 围巾 "" in "" 然后，一个小组决定使公园清洁。 "". Answer: """,然后 ， 一个小组围巾使公园清洁。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 他们 "" with "" 圆圈 "" in "" 他们找到了一个叫苏的女孩。 "". Answer: """,圆圈找到了一个叫苏的女孩。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 。 "" with "" 航行 "" in "" 我只是在开玩笑。 "". Answer: """,我只是在开玩笑航行,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 炎热 "" with "" 混乱 "" in "" 阳光很炎热。 "". Answer: """,阳光很混乱。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 印记 "" with "" 免费 "" in "" 她对自己的印记感到满意。 "". Answer: """,她对自己的免费感到满意。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 的 "" with "" 飞 "" in "" 你是可靠而善良的。 "". Answer: """,你是可靠而善良飞。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 回家 "" with "" 号角 "" in "" 小女孩感谢医生并跳过回家。 "". Answer: """,小女孩感谢医生并跳过号角。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 。 "" with "" 信封 "" in "" 他想看到阳光明媚的阳光近在咫尺。 "". Answer: """,他想看到阳光明媚的阳光近在咫尺信封,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 很 "" with "" 送 "" in "" 他很友好。 "". Answer: """,他送友好。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 大门 "" with "" 球越过 "" in "" 蒂姆在他家附近看到一扇大门。 "". Answer: """,蒂姆在他家附近看到一扇球越过。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 上学 "" with "" 大门 "" in "" 有一天，一个叫蒂姆的小男孩上学。 "". Answer: """,有一天 ， 一个叫蒂姆的小男孩大门。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 高兴 "" with "" 紫色 "" in "" 他们很高兴，整天玩玩具。 "". Answer: """,他们很紫色 ， 整天玩玩具。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 妈妈 "" with "" 气味 "" in "" 莎莉和她的妈妈开始打开包装。 "". Answer: """,莎莉和她的气味开始打开包装。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 很多 "" with "" 说话 "" in "" 他们看到很多人。 "". Answer: """,他们看到说话人。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 安娜 "" with "" 借 "" in "" 他寻找安娜。 "". Answer: """,他寻找借。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 是 "" with "" 航行 "" in "" 他意识到莉莉是对的。 "". Answer: """,他意识到莉莉航行对的。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 。 "" with "" 演讲 "" in "" 他的朋友很担心。 "". Answer: """,他的朋友很担心演讲,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 猫 "" with "" 菜 "" in "" 猫和狗很难过。 "". Answer: """,菜和狗很难过。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 的 "" with "" 地点 "" in "" 莉莉看到一只大的橙色泰迪熊。 "". Answer: """,莉莉看到一只大地点橙色泰迪熊。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 吃 "" with "" 一起 "" in "" 蒂姆吃了三明治，感觉好多了。 "". Answer: """,蒂姆一起了三明治 ， 感觉好多了。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 短 "" with "" 巨响 "" in "" 狗的尾巴很短。 "". Answer: """,狗的尾巴很巨响。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 。 "" with "" 送给 "" in "" 我们爱他。 "". Answer: """,我们爱他送给,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 和 "" with "" 摩托车 "" in "" 莉莉和她的妈妈去了烤架。 "". Answer: """,莉莉摩托车她的妈妈去了烤架。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 小鸟 "" with "" 手电筒 "" in "" 愤怒的小鸟感到燃烧，飞走了。 "". Answer: """,愤怒的手电筒感到燃烧 ， 飞走了。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 手电筒 "" with "" 仔细 "" in "" 蒂姆带着手电筒去了山姆的家。 "". Answer: """,蒂姆带着仔细去了山姆的家。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 了 "" with "" ： "" in "" 面纱使狼入睡了100年！ "". Answer: """,面纱使狼入睡 ： 100 年 ！,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 和 "" with "" 这样 "" in "" 安娜和她的猫回家了。 "". Answer: """,安娜这样她的猫回家了。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 了 "" with "" 乌龟 "" in "" 他们演奏直到该回家了。 "". Answer: """,他们演奏直到该回家乌龟。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" ， "" with "" 肥皂 "" in "" 有一天，火车看到了一只小鸟。 "". Answer: """,有一天肥皂火车看到了一只小鸟。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 而 "" with "" 作为 "" in "" 这是痛苦而又糟糕的。 "". Answer: """,这是痛苦作为又糟糕的。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 。 "" with "" 北极星 "" in "" 他们使它变得丰富多彩又有趣。 "". Answer: """,他们使它变得丰富多彩又有趣北极星,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 把 "" with "" 脆弱 "" in "" 蒂姆听了鲍勃，把玩具放开了。 "". Answer: """,蒂姆听了鲍勃 ， 脆弱玩具放开了。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 是 "" with "" 剪纸 "" in "" 他们是一个家庭。 "". Answer: """,他们剪纸一个家庭。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 感到 "" with "" 公平 "" in "" Bobo开始感到沮丧。 "". Answer: """,Bobo 开始公平沮丧。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 找到 "" with "" 制成 "" in "" 她决定找到一种修理项链的方法。 "". Answer: """,她决定制成一种修理项链的方法。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 。 "" with "" 胸部 "" in "" 白豹来到了房子。 "". Answer: """,白豹来到了房子胸部,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 。 "" with "" 坦克 "" in "" 莉莉和蒂姆很高兴，更加笑了。 "". Answer: """,莉莉和蒂姆很高兴 ， 更加笑了坦克,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 他 "" with "" 里奇 "" in "" 他很好奇，想和它一起玩。 "". Answer: """,里奇很好奇 ， 想和它一起玩。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 了 "" with "" 港口 "" in "" 他感谢青蛙，他们成为了朋友。 "". Answer: """,他感谢青蛙 ， 他们成为港口朋友。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 他 "" with "" 锁 "" in "" 他很疯狂。 "". Answer: """,锁很疯狂。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 。 "" with "" 踏板 "" in "" 汤姆看着莉莉。 "". Answer: """,汤姆看着莉莉踏板,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 。 "" with "" 看见 "" in "" 这只鸟把游艇带回了土地。 "". Answer: """,这只鸟把游艇带回了土地看见,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 妈妈 "" with "" 苏不 "" in "" 她妈妈热情地微笑。 "". Answer: """,她苏不热情地微笑。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 了 "" with "" 小鸡 "" in "" 他们玩得开心，彼此分享了砖头。 "". Answer: """,他们玩得开心 ， 彼此分享小鸡砖头。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 。 "" with "" 太酷 "" in "" 这个虫子使婴儿皱眉。 "". Answer: """,这个虫子使婴儿皱眉太酷,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 但 "" with "" 装饰 "" in "" 山姆试图告诉麦克斯，但麦克斯没有听。 "". Answer: """,山姆试图告诉麦克斯 ， 装饰麦克斯没有听。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 很 "" with "" 拖车 "" in "" 这只鸟看上去很难过。 "". Answer: """,这只鸟看上去拖车难过。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 哭泣 "" with "" 回头 "" in "" 萨拉听到大声疾呼和哭泣。 "". Answer: """,萨拉听到大声疾呼和回头。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 。 "" with "" 父母 "" in "" 它有一个朋友，飞机也很高兴。 "". Answer: """,它有一个朋友 ， 飞机也很高兴父母,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 苏 "" with "" 中救 "" in "" 蒂姆想帮助苏。 "". Answer: """,蒂姆想帮助中救。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 它 "" with "" 这辆 "" in "" 它是红色，柔软而温暖的。 "". Answer: """,这辆是红色 ， 柔软而温暖的。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 过 "" with "" 声 "" in "" 他们都过着幸福的生活。 "". Answer: """,他们都声着幸福的生活。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 带有 "" with "" 掉 "" in "" 任务是建造一个带有街区的塔。 "". Answer: """,任务是建造一个掉街区的塔。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 喜欢 "" with "" 简直 "" in "" 他们喜欢一起玩。 "". Answer: """,他们简直一起玩。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 开始 "" with "" 这样 "" in "" 该植物开始越来越高。 "". Answer: """,该植物这样越来越高。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" 他们 "" with "" 一把 "" in "" 他们说他们很傻。 "". Answer: "" 一把说一把很傻。 ""
+            2. Substitute "" 了 "" with "" 想得到 "" in "" 然后，他有了一个主意。 "". Answer: "" 然后 ， 他有想得到一个主意。 ""
+            3. Substitute "" 勇气 "" with "" 引起 "" in "" 有些勇气，您无能为力！ "". Answer: "" 有些引起 ， 您无能为力 ！ ""
+            4. Substitute "" 试图 "" with "" 护照 "" in "" 因此他伸手试图接受它。 "". Answer: "" 因此他伸手护照接受它。 ""
+            
+            Question: Substitute "" 高兴 "" with "" 大个子 "" in "" 她很高兴和兴奋。 "". Answer: """,她很大个子和兴奋。,-inf,0

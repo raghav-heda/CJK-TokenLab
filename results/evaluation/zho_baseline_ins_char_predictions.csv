@@ -1,0 +1,801 @@
+context,true_target,mean_token_logprob,token_count
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 电 "" after every "" 的 "" in "" 的 "". Answer: """,的电,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 惊 "" after every "" 了 "" in "" 了 "". Answer: """,了惊,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 状 "" after every "" 们 "" in "" 他们 "". Answer: """,他们状,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 而 "" after every "" 他 "" in "" 他 "". Answer: """,他而,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 里 "" after every "" 她 "" in "" 她 "". Answer: """,她里,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 蓝 "" after every "" 很 "" in "" 很 "". Answer: """,很蓝,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 拍 "" after every "" 和 "" in "" 和 "". Answer: """,和拍,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 办 "" after every "" 有 "" in "" 有 "". Answer: """,有办,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 许 "" after every "" 在 "" in "" 在 "". Answer: """,在许,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 方 "" after every "" 一 "" in "" 一个 "". Answer: """,一方个,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 内 "" after every "" 姆 "" in "" 蒂姆 "". Answer: """,蒂姆内,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 绿 "" after every "" 看 "" in "" 看到 "". Answer: """,看绿到,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 歉 "" after every "" 喜 "" in "" 喜欢 "". Answer: """,喜歉欢,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 是 "" after every "" 玩 "" in "" 玩 "". Answer: """,玩是,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 跑 "" after every "" 它 "" in "" 它 "". Answer: """,它跑,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 福 "" after every "" 高 "" in "" 高兴 "". Answer: """,高福兴,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 先 "" after every "" 朋 "" in "" 朋友 "". Answer: """,朋先友,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 前 "" after every "" 莉 "" in "" 莉莉 "". Answer: """,莉前莉前,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 魔 "" after every "" 是 "" in "" 是 "". Answer: """,是魔,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 须 "" after every "" 姆 "" in "" 汤姆 "". Answer: """,汤姆须,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 机 "" after every "" 起 "" in "" 一起 "". Answer: """,一起机,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 朋 "" after every "" 一 "" in "" 一天 "". Answer: """,一朋天,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 子 "" after every "" 想 "" in "" 想 "". Answer: """,想子,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 当 "" after every "" 都 "" in "" 都 "". Answer: """,都当,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 象 "" after every "" 妈 "" in "" 妈妈 "". Answer: """,妈象妈象,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 到 "" after every "" 并 "" in "" 并 "". Answer: """,并到,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 暖 "" after every "" 到 "" in "" 感到 "". Answer: """,感到暖,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 参 "" after every "" 是 "" in "" 但是 "". Answer: """,但是参,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 跌 "" after every "" 上 "" in "" 上 "". Answer: """,上跌,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 同 "" after every "" 只 "" in "" 一只 "". Answer: """,一只同,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 读 "" after every "" 非 "" in "" 非常 "". Answer: """,非读常,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 需 "" after every "" 着 "" in "" 着 "". Answer: """,着需,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 院 "" after every "" 那 "" in "" 那 "". Answer: """,那院,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 晚 "" after every "" 玩 "" in "" 玩具 "". Answer: """,玩晚具,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 掌 "" after every "" 不 "" in "" 不 "". Answer: """,不掌,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 娜 "" after every "" 始 "" in "" 开始 "". Answer: """,开始娜,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 什 "" after every "" 鸟 "" in "" 鸟 "". Answer: """,鸟什,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 考 "" after every "" 难 "" in "" 难过 "". Answer: """,难考过,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 利 "" after every "" 开 "" in "" 开心 "". Answer: """,开利心,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 土 "" after every "" 大 "" in "" 大 "". Answer: """,大土,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 净 "" after every "" 助 "" in "" 帮助 "". Answer: """,帮助净,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 觉 "" after every "" 只 "" in "" 只 "". Answer: """,只觉,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 要 "" after every "" 狗 "" in "" 狗 "". Answer: """,狗要,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 巨 "" after every "" 我 "" in "" 我 "". Answer: """,我巨,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 那 "" after every "" 山 "" in "" 山姆 "". Answer: """,山那姆,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 笑 "" after every "" 些 "" in "" 一些 "". Answer: """,一些笑,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 正 "" after every "" 这 "" in "" 这 "". Answer: """,这正,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 有 "" after every "" 叫 "" in "" 叫 "". Answer: """,叫有,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 舔 "" after every "" 笑 "" in "" 笑 "". Answer: """,笑舔,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 媚 "" after every "" 猫 "" in "" 猫 "". Answer: """,猫媚,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 乎 "" after every "" 后 "" in "" 然后 "". Answer: """,然后乎,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 另 "" after every "" 你 "" in "" 你 "". Answer: """,你另,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 法 "" after every "" 去 "" in "" 去 "". Answer: """,去法,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 朵 "" after every "" 到 "" in "" 找到 "". Answer: """,找到朵,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 先 "" after every "" 着 "" in "" 看着 "". Answer: """,看着先,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 困 "" after every "" 克 "" in "" 麦克斯 "". Answer: """,麦克困斯,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 位 "" after every "" 公 "" in "" 公园 "". Answer: """,公位园,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 些 "" after every "" 把 "" in "" 把 "". Answer: """,把些,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 鼓 "" after every "" 苏 "" in "" 苏 "". Answer: """,苏鼓,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 静 "" after every "" 到 "" in "" 到 "". Answer: """,到静,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 火 "" after every "" 以 "" in "" 可以 "". Answer: """,可以火,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 没 "" after every "" 本 "" in "" 本 "". Answer: """,本没,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 令 "" after every "" 但 "" in "" 但 "". Answer: """,但令,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 它 "" after every "" 也 "" in "" 也 "". Answer: """,也它,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 吉 "" after every "" 说 "" in "" 说 "". Answer: """,说吉,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 展 "" after every "" 怕 "" in "" 害怕 "". Answer: """,害怕展,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 了 "" after every "" 时 "" in "" 时 "". Answer: """,时了,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 饼 "" after every "" 道 "" in "" 知道 "". Answer: """,知道饼,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 想 "" after every "" 事 "" in "" 事情 "". Answer: """,事想情,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 师 "" after every "" 人 "" in "" 人 "". Answer: """,人师,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 故 "" after every "" 有 "" in "" 没有 "". Answer: """,没有故,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 石 "" after every "" 好 "" in "" 好 "". Answer: """,好石,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 儿 "" after every "" 己 "" in "" 自己 "". Answer: """,自己儿,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 件 "" after every "" 跑 "" in "" 跑 "". Answer: """,跑件,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 火 "" after every "" 发 "" in "" 发生 "". Answer: """,发火生,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 想 "" after every "" 为 "" in "" 为 "". Answer: """,为想,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 绘 "" after every "" 听 "" in "" 听到 "". Answer: """,听绘到,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 寻 "" after every "" 微 "" in "" 微笑 "". Answer: """,微寻笑,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 堡 "" after every "" 球 "" in "" 球 "". Answer: """,球堡,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 柔 "" after every "" 新 "" in "" 新 "". Answer: """,新柔,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 只 "" after every "" 盒 "" in "" 盒子 "". Answer: """,盒只子,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 奋 "" after every "" 当 "" in "" 当 "". Answer: """,当奋,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 给 "" after every "" 娅 "" in "" 米娅 "". Answer: """,米娅给,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 远 "" after every "" 很 "" in "" 很多 "". Answer: """,很远多,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 正 "" after every "" 前 "" in "" 从前 "". Answer: """,从前正,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 快 "" after every "" 成 "" in "" 成为 "". Answer: """,成快为,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 边 "" after every "" 得 "" in "" 玩得 "". Answer: """,玩得边,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 粉 "" after every "" 外 "" in "" 意外 "". Answer: """,意外粉,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 来 "" after every "" 吃 "" in "" 吃 "". Answer: """,吃来,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 豪 "" after every "" 中 "" in "" 中 "". Answer: """,中豪,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 和 "" after every "" 音 "" in "" 声音 "". Answer: """,声音和,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 脸 "" after every "" 您 "" in "" 您 "". Answer: """,您脸,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 音 "" after every "" 趣 "" in "" 有趣 "". Answer: """,有趣音,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 步 "" after every "" 西 "" in "" 东西 "". Answer: """,东西步,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 方 "" after every "" 天 "" in "" 整天 "". Answer: """,整天方,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 球 "" after every "" 来 "" in "" 来 "". Answer: """,来球,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 三 "" after every "" 个 "" in "" 这个 "". Answer: """,这个三,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 条 "" after every "" 孩 "" in "" 男孩 "". Answer: """,男孩条,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 形 "" after every "" 为 "" in "" 认为 "". Answer: """,认为形,-inf,0
+"Add the specified letter after every instance of the second specified letter in a given word, based on the following examples:
+            
+            1. Add an "" 种 "" after every "" 里 "" in "" 里 "". Answer: "" 里种 ""
+            2. Add an "" 就 "" after every "" 黛 "" in "" 黛西 "". Answer: "" 黛就西 ""
+            3. Add an "" 莉 "" after every "" 恶 "" in "" 令人恶心 "". Answer: "" 令人恶莉心 ""
+            4. Add an "" 糟 "" after every "" 糕 "" in "" 蛋糕 "". Answer: "" 蛋糕糟 ""
+            
+            Question: Add an "" 龙 "" after every "" 听 "" in "" 听 "". Answer: """,听龙,-inf,0

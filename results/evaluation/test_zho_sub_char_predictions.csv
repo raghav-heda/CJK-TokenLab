@@ -1,0 +1,801 @@
+context,true_target,mean_token_logprob,token_count
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 的 "" with "" 电 "" in "" 的 "". Answer: """,电,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 了 "" with "" 惊 "" in "" 了 "". Answer: """,惊,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 们 "" with "" 状 "" in "" 他们 "". Answer: """,他状,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 他 "" with "" 而 "" in "" 他 "". Answer: """,而,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 她 "" with "" 里 "" in "" 她 "". Answer: """,里,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 很 "" with "" 蓝 "" in "" 很 "". Answer: """,蓝,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 和 "" with "" 拍 "" in "" 和 "". Answer: """,拍,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 有 "" with "" 办 "" in "" 有 "". Answer: """,办,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 在 "" with "" 许 "" in "" 在 "". Answer: """,许,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 一 "" with "" 方 "" in "" 一个 "". Answer: """,方个,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 姆 "" with "" 内 "" in "" 蒂姆 "". Answer: """,蒂内,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 看 "" with "" 绿 "" in "" 看到 "". Answer: """,绿到,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 喜 "" with "" 歉 "" in "" 喜欢 "". Answer: """,歉欢,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 玩 "" with "" 是 "" in "" 玩 "". Answer: """,是,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 它 "" with "" 跑 "" in "" 它 "". Answer: """,跑,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 高 "" with "" 福 "" in "" 高兴 "". Answer: """,福兴,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 朋 "" with "" 先 "" in "" 朋友 "". Answer: """,先友,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 莉 "" with "" 前 "" in "" 莉莉 "". Answer: """,前前,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 是 "" with "" 魔 "" in "" 是 "". Answer: """,魔,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 姆 "" with "" 须 "" in "" 汤姆 "". Answer: """,汤须,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 起 "" with "" 机 "" in "" 一起 "". Answer: """,一机,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 一 "" with "" 朋 "" in "" 一天 "". Answer: """,朋天,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 想 "" with "" 子 "" in "" 想 "". Answer: """,子,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 都 "" with "" 当 "" in "" 都 "". Answer: """,当,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 妈 "" with "" 象 "" in "" 妈妈 "". Answer: """,象象,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 并 "" with "" 到 "" in "" 并 "". Answer: """,到,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 到 "" with "" 暖 "" in "" 感到 "". Answer: """,感暖,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 是 "" with "" 参 "" in "" 但是 "". Answer: """,但参,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 上 "" with "" 跌 "" in "" 上 "". Answer: """,跌,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 只 "" with "" 同 "" in "" 一只 "". Answer: """,一同,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 非 "" with "" 读 "" in "" 非常 "". Answer: """,读常,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 着 "" with "" 需 "" in "" 着 "". Answer: """,需,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 那 "" with "" 院 "" in "" 那 "". Answer: """,院,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 玩 "" with "" 晚 "" in "" 玩具 "". Answer: """,晚具,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 不 "" with "" 掌 "" in "" 不 "". Answer: """,掌,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 始 "" with "" 娜 "" in "" 开始 "". Answer: """,开娜,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 鸟 "" with "" 什 "" in "" 鸟 "". Answer: """,什,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 难 "" with "" 考 "" in "" 难过 "". Answer: """,考过,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 开 "" with "" 利 "" in "" 开心 "". Answer: """,利心,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 大 "" with "" 土 "" in "" 大 "". Answer: """,土,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 助 "" with "" 净 "" in "" 帮助 "". Answer: """,帮净,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 只 "" with "" 觉 "" in "" 只 "". Answer: """,觉,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 狗 "" with "" 要 "" in "" 狗 "". Answer: """,要,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 我 "" with "" 巨 "" in "" 我 "". Answer: """,巨,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 山 "" with "" 那 "" in "" 山姆 "". Answer: """,那姆,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 些 "" with "" 笑 "" in "" 一些 "". Answer: """,一笑,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 这 "" with "" 正 "" in "" 这 "". Answer: """,正,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 叫 "" with "" 有 "" in "" 叫 "". Answer: """,有,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 笑 "" with "" 舔 "" in "" 笑 "". Answer: """,舔,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 猫 "" with "" 媚 "" in "" 猫 "". Answer: """,媚,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 后 "" with "" 乎 "" in "" 然后 "". Answer: """,然乎,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 你 "" with "" 另 "" in "" 你 "". Answer: """,另,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 去 "" with "" 法 "" in "" 去 "". Answer: """,法,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 到 "" with "" 朵 "" in "" 找到 "". Answer: """,找朵,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 着 "" with "" 先 "" in "" 看着 "". Answer: """,看先,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 克 "" with "" 困 "" in "" 麦克斯 "". Answer: """,麦困斯,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 公 "" with "" 位 "" in "" 公园 "". Answer: """,位园,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 把 "" with "" 些 "" in "" 把 "". Answer: """,些,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 苏 "" with "" 鼓 "" in "" 苏 "". Answer: """,鼓,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 到 "" with "" 静 "" in "" 到 "". Answer: """,静,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 以 "" with "" 火 "" in "" 可以 "". Answer: """,可火,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 本 "" with "" 没 "" in "" 本 "". Answer: """,没,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 但 "" with "" 令 "" in "" 但 "". Answer: """,令,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 也 "" with "" 它 "" in "" 也 "". Answer: """,它,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 说 "" with "" 吉 "" in "" 说 "". Answer: """,吉,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 怕 "" with "" 展 "" in "" 害怕 "". Answer: """,害展,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 时 "" with "" 了 "" in "" 时 "". Answer: """,了,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 道 "" with "" 饼 "" in "" 知道 "". Answer: """,知饼,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 事 "" with "" 想 "" in "" 事情 "". Answer: """,想情,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 人 "" with "" 师 "" in "" 人 "". Answer: """,师,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 有 "" with "" 故 "" in "" 没有 "". Answer: """,没故,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 好 "" with "" 石 "" in "" 好 "". Answer: """,石,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 己 "" with "" 儿 "" in "" 自己 "". Answer: """,自儿,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 跑 "" with "" 件 "" in "" 跑 "". Answer: """,件,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 发 "" with "" 火 "" in "" 发生 "". Answer: """,火生,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 为 "" with "" 想 "" in "" 为 "". Answer: """,想,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 听 "" with "" 绘 "" in "" 听到 "". Answer: """,绘到,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 微 "" with "" 寻 "" in "" 微笑 "". Answer: """,寻笑,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 球 "" with "" 堡 "" in "" 球 "". Answer: """,堡,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 新 "" with "" 柔 "" in "" 新 "". Answer: """,柔,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 盒 "" with "" 只 "" in "" 盒子 "". Answer: """,只子,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 当 "" with "" 奋 "" in "" 当 "". Answer: """,奋,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 娅 "" with "" 给 "" in "" 米娅 "". Answer: """,米给,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 很 "" with "" 远 "" in "" 很多 "". Answer: """,远多,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 前 "" with "" 正 "" in "" 从前 "". Answer: """,从正,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 成 "" with "" 快 "" in "" 成为 "". Answer: """,快为,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 得 "" with "" 边 "" in "" 玩得 "". Answer: """,玩边,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 外 "" with "" 粉 "" in "" 意外 "". Answer: """,意粉,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 吃 "" with "" 来 "" in "" 吃 "". Answer: """,来,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 中 "" with "" 豪 "" in "" 中 "". Answer: """,豪,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 音 "" with "" 和 "" in "" 声音 "". Answer: """,声和,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 您 "" with "" 脸 "" in "" 您 "". Answer: """,脸,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 趣 "" with "" 音 "" in "" 有趣 "". Answer: """,有音,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 西 "" with "" 步 "" in "" 东西 "". Answer: """,东步,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 天 "" with "" 方 "" in "" 整天 "". Answer: """,整方,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 来 "" with "" 球 "" in "" 来 "". Answer: """,球,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 个 "" with "" 三 "" in "" 这个 "". Answer: """,这三,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 孩 "" with "" 条 "" in "" 男孩 "". Answer: """,男条,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 为 "" with "" 形 "" in "" 认为 "". Answer: """,认形,-inf,0
+"Substitute the first specified letter with the second specified letter in a given word, based on the following examples:
+            
+            1. Substitute "" 里 "" with "" 种 "" in "" 里 "". Answer: "" 种 ""
+            2. Substitute "" 黛 "" with "" 就 "" in "" 黛西 "". Answer: "" 就西 ""
+            3. Substitute "" 恶 "" with "" 莉 "" in "" 令人恶心 "". Answer: "" 令人莉心 ""
+            4. Substitute "" 糕 "" with "" 糟 "" in "" 蛋糕 "". Answer: "" 蛋糟 ""
+            
+            Question: Substitute "" 听 "" with "" 龙 "" in "" 听 "". Answer: """,龙,-inf,0

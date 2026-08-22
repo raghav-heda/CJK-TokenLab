@@ -1,0 +1,801 @@
+context,true_target,mean_token_logprob,token_count
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 断片 "" after every "" の "" in "" 私はあなたのようになりたいです。 "". Answer: """,私はあなたの断片ようになりたいです。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 保つ "" after every "" 。 "" in "" ボタンは公園の箱にありました。 "". Answer: """,ボタンは公園の箱にありました。保つ,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 演奏 "" after every "" は "" in "" 彼はとても幸せでした。 "". Answer: """,彼は演奏とても幸せでした。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 叫ぶ "" after every "" ん "" in "" 彼女は理解していません。 "". Answer: """,彼女は理解していません叫ぶ。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 広める "" after every "" ポップ "" in "" ティムはポップコーンが大好きでした。 "". Answer: """,ティムはポップ広めるコーンが大好きでした。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" リスト "" after every "" 捨て "" in "" 彼女はコショウを吐き出して捨てました。 "". Answer: """,彼女はコショウを吐き出して捨てリストました。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" スージー "" after every "" 好き "" in "" 私は本が好きです。 "". Answer: """,私は本が好きスージーです。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" スーパー "" after every "" まし "" in "" 翌日、卵は割れ始めました。 "". Answer: """,翌日、卵は割れ始めましスーパーた。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 逃げる "" after every "" 。 "" in "" 壊れています。 "". Answer: """,壊れています。逃げる,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 笑い "" after every "" の "" in "" 青と緑のミックスでした。 "". Answer: """,青と緑の笑いミックスでした。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 呼びかけ "" after every "" その "" in "" リリーはその考えが好きでした。 "". Answer: """,リリーはその呼びかけ考えが好きでした。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" やめ "" after every "" が "" in "" 彼女はケーキがやれるのを待ちます。 "". Answer: """,彼女はケーキがやめやれるのを待ちます。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 夫人 "" after every "" 見 "" in "" アンナはベンを見た。 "". Answer: """,アンナはベンを見夫人た。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 良い "" after every "" 笑っ "" in "" 彼らは笑って楽しんだ。 "". Answer: """,彼らは笑っ良いて楽しんだ。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 希望 "" after every "" し "" in "" トムはとても興奮していました! "". Answer: """,トムはとても興奮し希望ていました!,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 回復 "" after every "" サンド "" in "" しかし、サンドキャッスルは魔法でした! "". Answer: """,しかし、サンド回復キャッスルは魔法でした!,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 開梱 "" after every "" 見 "" in "" それは卵でユリを見ました。 "". Answer: """,それは卵でユリを見開梱ました。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 肌 "" after every "" で "" in "" 彼女は毎日そこで遊んだ。 "". Answer: """,彼女は毎日そこで肌遊んだ。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 棒 "" after every "" は "" in "" あなたは非常に悪い子供です! "". Answer: """,あなたは棒非常に悪い子供です!,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" ふり "" after every "" ら "" in "" 彼らは抱きしめて笑います。 "". Answer: """,彼らふりは抱きしめて笑います。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 翌日 "" after every "" 見 "" in "" 彼女は手を見た。 "". Answer: """,彼女は手を見翌日た。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" カヤック "" after every "" 。 "" in "" 動揺し始めました。 "". Answer: """,動揺し始めました。カヤック,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 駆け込ん "" after every "" 大きな "" in "" 彼らは大きな木を見ました。 "". Answer: """,彼らは大きな駆け込ん木を見ました。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 農場 "" after every "" 。 "" in "" チェスは楽しいです。 "". Answer: """,チェスは楽しいです。農場,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 好奇 "" after every "" ティム "" in "" ティムは悲しく感じた。 "". Answer: """,ティム好奇は悲しく感じた。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 夜 "" after every "" て "" in "" 手伝ってもらえますか? "". Answer: """,手伝って夜もらえますか?,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" ブラシ "" after every "" た "" in "" ティムは驚いた! "". Answer: """,ティムは驚いたブラシ!,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 不思議 "" after every "" まし "" in "" 彼女は難しいレッスンを学びました。 "". Answer: """,彼女は難しいレッスンを学びまし不思議た。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" ソフト "" after every "" 疲れ "" in "" 彼は疲れて悲しかった。 "". Answer: """,彼は疲れソフトて悲しかった。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 橋 "" after every "" 微笑ん "" in "" ティミーは微笑んでボールを拾いました。 "". Answer: """,ティミーは微笑ん橋でボールを拾いました。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" アリ "" after every "" が "" in "" 小さな女の子が宝石を見つけました。 "". Answer: """,小さな女の子がアリ宝石を見つけました。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 異なる "" after every "" ママ "" in "" ママは彼らを許します。 "". Answer: """,ママ異なるは彼らを許します。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" ケース "" after every "" でし "" in "" 茶色で不潔でした。 "". Answer: """,茶色で不潔でしケースた。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 聞き "" after every "" は "" in "" ベンは安心したように見えた。 "". Answer: """,ベンは聞き安心したように見えた。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" ジッパー "" after every "" と "" in "" 彼は自分が安全だと思った。 "". Answer: """,彼は自分が安全だとジッパー思った。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 女性 "" after every "" 上手 "" in "" スポットはデザインがとても上手でした。 "". Answer: """,スポットはデザインがとても上手女性でした。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" ボトル "" after every "" 潜り "" in "" 彼は彼を助けるために潜ります。 "". Answer: """,彼は彼を助けるために潜りボトルます。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 美しく "" after every "" 良い "" in "" 彼らは良い友達になりました。 "". Answer: """,彼らは良い美しく友達になりました。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 動き "" after every "" は "" in "" ベンとリリーはうなずいた。 "". Answer: """,ベンとリリーは動きうなずいた。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" カップ "" after every "" は "" in "" ティムはとても驚きました。 "". Answer: """,ティムはカップとても驚きました。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 悲しま "" after every "" ら "" in "" 彼らは幸せでした。 "". Answer: """,彼ら悲しまは幸せでした。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 見つかり "" after every "" です "" in "" 太陽が必要です。 "". Answer: """,太陽が必要です見つかり。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 化 "" after every "" に "" in "" 彼らはスライドに走り、楽しんだ。 "". Answer: """,彼らはスライドに化走り、楽しんだ。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" フロスティ "" after every "" た "" in "" リリーはベンに尋ねた。 "". Answer: """,リリーはベンに尋ねたフロスティ。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" そこ "" after every "" たかっ "" in "" 彼は食べ物を食べたかった。 "". Answer: """,彼は食べ物を食べたかっそこた。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 飛ばし "" after every "" 幸せ "" in "" 彼らは幸せです。 "". Answer: """,彼らは幸せ飛ばしです。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 海賊 "" after every "" は "" in "" 猿はバナナを持っていました。 "". Answer: """,猿は海賊バナナを持っていました。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" オーナメント "" after every "" が "" in "" 彼女は男の演技が好きだった。 "". Answer: """,彼女は男の演技がオーナメント好きだった。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" スカーフ "" after every "" 犬 "" in "" スポットは珍しい犬でした。 "". Answer: """,スポットは珍しい犬スカーフでした。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" だっ "" after every "" た "" in "" トムはボールで遊んでいた。 "". Answer: """,トムはボールで遊んでいただっ。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 結局 "" after every "" た "" in "" 彼女は大きなボールを見ました。 "". Answer: """,彼女は大きなボールを見ました結局。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 戻し "" after every "" 混乱 "" in "" 混乱しないでください。 "". Answer: """,混乱戻ししないでください。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 出さ "" after every "" 挨拶 "" in "" 私はそれを呼んで挨拶します。 "". Answer: """,私はそれを呼んで挨拶出さします。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 上手 "" after every "" 忘れ "" in "" 彼らは犬を忘れています。 "". Answer: """,彼らは犬を忘れ上手ています。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" ライブラリ "" after every "" 一人 "" in "" ベンとサムは一人です。 "". Answer: """,ベンとサムは一人ライブラリです。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 語る "" after every "" クジラ "" in "" クジラはとても幸せでした。 "". Answer: """,クジラ語るはとても幸せでした。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 敷物 "" after every "" 彼 "" in "" 彼はあなたの兄弟です。 "". Answer: """,彼敷物はあなたの兄弟です。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 歌い "" after every "" に "" in "" 誰が古い家にいましたか? "". Answer: """,誰が古い家に歌いいましたか?,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 飛び散っ "" after every "" 彼 "" in "" 彼は悪いです。 "". Answer: """,彼飛び散っは悪いです。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" イグルー "" after every "" ティム "" in "" ティムは帽子と口ひげを拾います。 "". Answer: """,ティムイグルーは帽子と口ひげを拾います。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 迎え "" after every "" を "" in "" スポットはbarえ、尾を振った。 "". Answer: """,スポットは barえ、尾を迎え振った。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 漫画 "" after every "" が "" in "" 太陽と雨が好きでした。 "". Answer: """,太陽と雨が漫画好きでした。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" ブドウ "" after every "" 大きな "" in "" 彼らは大きな音を聞きます。 "". Answer: """,彼らは大きなブドウ音を聞きます。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" かめまい "" after every "" まし "" in "" 彼らはペニーを落としました。 "". Answer: """,彼らはペニーを落としましかめまいた。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 共通 "" after every "" リリー "" in "" リリーとベンは悲しいです。 "". Answer: """,リリー共通とベンは悲しいです。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" リリー "" after every "" 。 "" in "" 彼は勝ちません。 "". Answer: """,彼は勝ちません。リリー,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" バス "" after every "" 彼 "" in "" 彼は悲しくて怒っています。 "". Answer: """,彼バスは悲しくて怒っています。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 星 "" after every "" たかっ "" in "" 彼は入りたかった。 "". Answer: """,彼は入りたかっ星た。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" クッキー "" after every "" 、 "" in "" 突然、彼女は声を聞いた。 "". Answer: """,突然、クッキー彼女は声を聞いた。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" リッキー "" after every "" とても "" in "" 毎日、彼らはとても楽しいでしょう! "". Answer: """,毎日、彼らはとてもリッキー楽しいでしょう!,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 覆っ "" after every "" 。 "" in "" 鳥はヨットを土地に戻しました。 "". Answer: """,鳥はヨットを土地に戻しました。覆っ,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 起こし "" after every "" 感じ "" in "" リリーは鳥に悲しみを感じました。 "". Answer: """,リリーは鳥に悲しみを感じ起こしました。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" さまざま "" after every "" て "" in "" 彼らは歌って踊ります。 "". Answer: """,彼らは歌ってさまざま踊ります。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 銀色 "" after every "" 。 "" in "" 猫は悲しかった。 "". Answer: """,猫は悲しかった。銀色,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 踊る "" after every "" が "" in "" むかしむかし、小さな家がありました。 "". Answer: """,むかしむかし、小さな家が踊るありました。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" シューッ "" after every "" 見 "" in "" 彼女はそれらを見て微笑んだ。 "". Answer: """,彼女はそれらを見シューッて微笑んだ。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" カット "" after every "" を "" in "" リリーはそれを家に持ち帰りたかった。 "". Answer: """,リリーはそれをカット家に持ち帰りたかった。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" サリー "" after every "" 彼 "" in "" 彼は高い木を見ました。 "". Answer: """,彼サリーは高い木を見ました。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 跳び "" after every "" 。 "" in "" アンナとベンはママをフォローします。 "". Answer: """,アンナとベンはママをフォローします。跳び,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" ヘビ "" after every "" 。 "" in "" 彼は大きくて強いです。 "". Answer: """,彼は大きくて強いです。ヘビ,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" ジェーン "" after every "" です "" in "" リラとトムは幸せです。 "". Answer: """,リラとトムは幸せですジェーン。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" ムーズ "" after every "" 冗談 "" in "" 私は冗談を言っていました。 "". Answer: """,私は冗談ムーズを言っていました。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" ひまわり "" after every "" ベン "" in "" ベンとリリーはうなずいた。 "". Answer: """,ベンひまわりとリリーはうなずいた。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 縫製 "" after every "" 。 "" in "" 星や惑星の写真がありました。 "". Answer: """,星や惑星の写真がありました。縫製,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 速 "" after every "" は "" in "" 最初は大変でした。 "". Answer: """,最初は速大変でした。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 信じる "" after every "" が "" in "" 彼らは空腹で好奇心が強い。 "". Answer: """,彼らは空腹で好奇心が信じる強い。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" リング "" after every "" ずっと "" in "" 彼らはずっと幸せに暮らしました。 "". Answer: """,彼らはずっとリング幸せに暮らしました。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 難しい "" after every "" おもちゃ "" in "" 彼はおもちゃを探しました。 "". Answer: """,彼はおもちゃ難しいを探しました。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 山 "" after every "" ます "" in "" 彼女はそれをテーブルに置きます。 "". Answer: """,彼女はそれをテーブルに置きます山。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" ビッグ "" after every "" ゲーム "" in "" スパイクとブルーはゲームを設定します。 "". Answer: """,スパイクとブルーはゲームビッグを設定します。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 甘かっ "" after every "" 。 "" in "" トムとリリーは象が好きだった。 "". Answer: """,トムとリリーは象が好きだった。甘かっ,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" だろう "" after every "" を "" in "" 彼は宝物を見つけました! "". Answer: """,彼は宝物をだろう見つけました!,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 戻し "" after every "" た "" in "" スポットは本を読み始めました。 "". Answer: """,スポットは本を読み始めました戻し。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 信号 "" after every "" は "" in "" 彼らは楽しんでいます。 "". Answer: """,彼らは信号楽しんでいます。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 泥パイ "" after every "" ます "" in "" 電気と熱を作ることができます。 "". Answer: """,電気と熱を作ることができます泥パイ。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 行動 "" after every "" 笑っ "" in "" リリーとベンは笑った。 "". Answer: """,リリーとベンは笑っ行動た。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 魅力 "" after every "" と "" in "" ティムと鳥は公園を歩いた。 "". Answer: """,ティムと魅力鳥は公園を歩いた。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" はさみ "" after every "" たち "" in "" 子供たちは驚いて、少し怖かった。 "". Answer: """,子供たちはさみは驚いて、少し怖かった。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" トランポリン "" after every "" 幸せ "" in "" ティムは幸せでした。 "". Answer: """,ティムは幸せトランポリンでした。,-inf,0
+"Add the specified word after every instance of the second specified word in a given sentence, based on the following examples:
+            
+            1. Add "" 泥パイ "" after every "" の "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たちの泥パイ車と私たちの泥パイタオル! ""
+            2. Add "" すぎ "" after every "" よう "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のようすぎに見えます。 ""
+            3. Add "" 手紙 "" after every "" 始め "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き始め手紙ました! ""
+            4. Add "" 機械 "" after every "" は "" in "" 私は良くありませんでした。 "". Answer: "" 私は機械良くありませんでした。 ""
+            
+            Question: Add "" 寄り添い "" after every "" た "" in "" スパイシーなコショウでした。 "". Answer: """,スパイシーなコショウでした寄り添い。,-inf,0

@@ -1,0 +1,801 @@
+context,true_target,mean_token_logprob,token_count
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 他 "" in "" 他们 "". Answer: """,们,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 一 "" in "" 一个 "". Answer: """,个,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 姆 "" in "" 蒂姆 "". Answer: """,蒂,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 看 "" in "" 看到 "". Answer: """,到,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 喜 "" in "" 喜欢 "". Answer: """,欢,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 兴 "" in "" 高兴 "". Answer: """,高,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 朋 "" in "" 朋友 "". Answer: """,友,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 汤 "" in "" 汤姆 "". Answer: """,姆,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 起 "" in "" 一起 "". Answer: """,一,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 一 "" in "" 一天 "". Answer: """,天,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 感 "" in "" 感到 "". Answer: """,到,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 是 "" in "" 但是 "". Answer: """,但,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 一 "" in "" 一只 "". Answer: """,只,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 常 "" in "" 非常 "". Answer: """,非,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 玩 "" in "" 玩具 "". Answer: """,具,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 始 "" in "" 开始 "". Answer: """,开,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 过 "" in "" 难过 "". Answer: """,难,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 开 "" in "" 开心 "". Answer: """,心,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 助 "" in "" 帮助 "". Answer: """,帮,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 姆 "" in "" 山姆 "". Answer: """,山,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 些 "" in "" 一些 "". Answer: """,一,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 后 "" in "" 然后 "". Answer: """,然,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 找 "" in "" 找到 "". Answer: """,到,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 着 "" in "" 看着 "". Answer: """,看,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 克 "" in "" 麦克斯 "". Answer: """,麦斯,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 园 "" in "" 公园 "". Answer: """,公,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 以 "" in "" 可以 "". Answer: """,可,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 怕 "" in "" 害怕 "". Answer: """,害,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 知 "" in "" 知道 "". Answer: """,道,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 事 "" in "" 事情 "". Answer: """,情,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 有 "" in "" 没有 "". Answer: """,没,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 自 "" in "" 自己 "". Answer: """,己,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 听 "" in "" 听到 "". Answer: """,到,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 笑 "" in "" 微笑 "". Answer: """,微,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 盒 "" in "" 盒子 "". Answer: """,子,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 米 "" in "" 米娅 "". Answer: """,娅,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 多 "" in "" 很多 "". Answer: """,很,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 前 "" in "" 从前 "". Answer: """,从,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 成 "" in "" 成为 "". Answer: """,为,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 得 "" in "" 玩得 "". Answer: """,玩,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 外 "" in "" 意外 "". Answer: """,意,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 声 "" in "" 声音 "". Answer: """,音,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 趣 "" in "" 有趣 "". Answer: """,有,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 东 "" in "" 东西 "". Answer: """,西,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 整 "" in "" 整天 "". Answer: """,天,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 个 "" in "" 这个 "". Answer: """,这,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 孩 "" in "" 男孩 "". Answer: """,男,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 为 "" in "" 认为 "". Answer: """,认,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 图 "" in "" 试图 "". Answer: """,试,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 乐 "" in "" 快乐 "". Answer: """,快,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 主 "" in "" 主意 "". Answer: """,意,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 讶 "" in "" 惊讶 "". Answer: """,惊,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 西 "" in "" 露西 "". Answer: """,露,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 奋 "" in "" 兴奋 "". Answer: """,兴,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 因 "" in "" 因此 "". Answer: """,此,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 是 "" in "" 这是 "". Answer: """,这,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 抱 "" in "" 拥抱 "". Answer: """,拥,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 次 "" in "" 再次 "". Answer: """,再,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 们 "" in "" 我们 "". Answer: """,我,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 望 "" in "" 希望 "". Answer: """,希,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 发 "" in "" 发现 "". Answer: """,现,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 开 "" in "" 打开 "". Answer: """,打,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 娜 "" in "" 安娜 "". Answer: """,安,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 定 "" in "" 决定 "". Answer: """,决,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 孩 "" in "" 小女孩 "". Answer: """,小女,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 棵 "" in "" 一棵 "". Answer: """,一,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 多 "" in "" 许多 "". Answer: """,许,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 个 "" in "" 每个 "". Answer: """,每,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 面 "" in "" 外面 "". Answer: """,外,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 亮 "" in "" 漂亮 "". Answer: """,漂,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 孩 "" in "" 女孩 "". Answer: """,女,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 分 "" in "" 分享 "". Answer: """,享,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 每 "" in "" 每天 "". Answer: """,天,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 拉 "" in "" 萨拉 "". Answer: """,萨,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 们 "" in "" 它们 "". Answer: """,它,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 岩 "" in "" 岩石 "". Answer: """,石,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 汽 "" in "" 汽车 "". Answer: """,车,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 么 "" in "" 什么 "". Answer: """,什,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 鲍 "" in "" 鲍勃 "". Answer: """,勃,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 最 "" in "" 最好 "". Answer: """,好,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 不 "" in "" 不想 "". Answer: """,想,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 突 "" in "" 突然 "". Answer: """,然,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 生 "" in "" 生气 "". Answer: """,气,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 抓 "" in "" 抓住 "". Answer: """,住,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 大 "" in "" 大树 "". Answer: """,树,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 很 "" in "" 很快 "". Answer: """,快,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 回 "" in "" 回家 "". Answer: """,家,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 有 "" in "" 所有 "". Answer: """,所,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 近 "" in "" 附近 "". Answer: """,附,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 色 "" in "" 红色 "". Answer: """,红,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 在 "" in "" 放在 "". Answer: """,放,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 感 "" in "" 感谢 "". Answer: """,谢,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 蓝 "" in "" 蓝色 "". Answer: """,色,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 男 "" in "" 男人 "". Answer: """,人,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 子 "" in "" 房子 "". Answer: """,房,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 因 "" in "" 因为 "". Answer: """,为,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 点 "" in "" 点点头 "". Answer: """,头,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 间 "" in "" 房间 "". Answer: """,房,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 想 "" in "" 想要 "". Answer: """,要,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" 发 "" in "" 发生 "". Answer: "" 生 ""
+            2. Delete every instance of "" 些 "" in "" 这些 "". Answer: "" 这 ""
+            3. Delete every instance of "" 门 "" in "" 门廊 "". Answer: "" 廊 ""
+            4. Delete every instance of "" 达 "" in "" 到达 "". Answer: "" 到 ""
+            
+            Question: Delete every instance of "" 动 "" in "" 动物 "". Answer: """,物,-inf,0

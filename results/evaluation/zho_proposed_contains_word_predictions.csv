@@ -1,0 +1,801 @@
+context,true_target,pred_label,is_correct,scores
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 的 "" in "" 每个人都喜欢著名的m子。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 剪刀 "" in "" 苏给了他纸和剪刀。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 在 "" in "" 麦克斯住在大山附近。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 天鹅 "" in "" 天鹅很好奇和友好。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 握住 "" in "" 他握住绿色部分，努力拉动。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 卑鄙 "" in "" 那是一个卑鄙的笑话。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 东西 "" in "" 它感觉到背面的东西。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 住 "" in "" 一只叫马克斯的大狗住在那儿。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 岩石 "" in "" 最后，Slinky无法获得闪亮的岩石。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 。 "" in "" 他也想要漂亮的东西。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 狗 "" in "" 狗大声吠叫，猫逃跑了。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 说 "" in "" 莉莉微笑着说。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 和 "" in "" 和你的膀胱。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 他 "" in "" 他想告诉妈妈关于卵石的信息。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 苏 "" in "" 蒂姆和苏决定一起骑自行车。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 玩具 "" in "" 他们打开案件并与玩具一起玩。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 他 "" in "" 他说这还不错。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 人 "" in "" 每个人都下火车。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 和 "" in "" 汤姆和那只鸟很伤心。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 很 "" in "" 大鱼很好，虾很高兴。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 小猫 "" in "" 从前，有一只可爱的小猫。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 自己 "" in "" 他想要自己所有的三明治。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 。 "" in "" 他们玩得很开心。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 没有 "" in "" 但是他们没有听到哔哔声。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 。 "" in "" 斑点显示蓬松的水在水中。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" ， "" in "" 但是首先，他需要找到头盔。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 地面 "" in "" 他们感到飞机往下触摸地面。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 演奏 "" in "" 演奏后，汤姆和苏很累。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 了 "" in "" 最后，他们在滑梯附近找到了它。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 不能 "" in "" 但是他们不能。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 不要 "" in "" 请不要生气。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 说 "" in "" 他们对马说再见并拥抱它。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 。 "" in "" 阳光明媚，鸟儿在唱歌。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 汤姆 "" in "" 汤姆很兴奋。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 好奇 "" in "" 她看到了哥哥的房间，感到好奇。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 我 "" in "" 他是我最好的朋友。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 。 "" in "" 他们俩都开始哭泣。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 喜欢 "" in "" 蓬松喜欢玩和跑步。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 一起 "" in "" 三个朋友整天一起玩。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 穿过 "" in "" 也许我们可以穿过那里。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 她 "" in "" 她想让它变得有趣。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 一起 "" in "" 他们一起读书，度过了愉快的时光。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 害怕 "" in "" 麦克斯感到困惑和害怕。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" ， "" in "" 莉莉的妈妈看见她，眨了眨眼。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 决定 "" in "" 然后，一个小组决定使公园清洁。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 他们 "" in "" 他们找到了一个叫苏的女孩。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 。 "" in "" 我只是在开玩笑。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 炎热 "" in "" 阳光很炎热。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 印记 "" in "" 她对自己的印记感到满意。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 的 "" in "" 你是可靠而善良的。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 回家 "" in "" 小女孩感谢医生并跳过回家。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 。 "" in "" 他想看到阳光明媚的阳光近在咫尺。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 很 "" in "" 他很友好。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 大门 "" in "" 蒂姆在他家附近看到一扇大门。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 上学 "" in "" 有一天，一个叫蒂姆的小男孩上学。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 高兴 "" in "" 他们很高兴，整天玩玩具。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 妈妈 "" in "" 莎莉和她的妈妈开始打开包装。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 很多 "" in "" 他们看到很多人。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 安娜 "" in "" 他寻找安娜。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 是 "" in "" 他意识到莉莉是对的。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 。 "" in "" 他的朋友很担心。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 猫 "" in "" 猫和狗很难过。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 的 "" in "" 莉莉看到一只大的橙色泰迪熊。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 吃 "" in "" 蒂姆吃了三明治，感觉好多了。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 短 "" in "" 狗的尾巴很短。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 。 "" in "" 我们爱他。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 和 "" in "" 莉莉和她的妈妈去了烤架。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 小鸟 "" in "" 愤怒的小鸟感到燃烧，飞走了。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 手电筒 "" in "" 蒂姆带着手电筒去了山姆的家。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 了 "" in "" 面纱使狼入睡了100年！ ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 回家 "" in "" 安娜和她的猫回家了。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 该 "" in "" 他们演奏直到该回家了。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" ， "" in "" 有一天，火车看到了一只小鸟。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 而 "" in "" 这是痛苦而又糟糕的。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 。 "" in "" 他们使它变得丰富多彩又有趣。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 把 "" in "" 蒂姆听了鲍勃，把玩具放开了。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 是 "" in "" 他们是一个家庭。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 感到 "" in "" Bobo开始感到沮丧。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 找到 "" in "" 她决定找到一种修理项链的方法。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 。 "" in "" 白豹来到了房子。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 。 "" in "" 莉莉和蒂姆很高兴，更加笑了。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 他 "" in "" 他很好奇，想和它一起玩。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 了 "" in "" 他感谢青蛙，他们成为了朋友。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 他 "" in "" 他很疯狂。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 。 "" in "" 汤姆看着莉莉。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 。 "" in "" 这只鸟把游艇带回了土地。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 妈妈 "" in "" 她妈妈热情地微笑。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 了 "" in "" 他们玩得开心，彼此分享了砖头。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 。 "" in "" 这个虫子使婴儿皱眉。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 但 "" in "" 山姆试图告诉麦克斯，但麦克斯没有听。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 很 "" in "" 这只鸟看上去很难过。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 哭泣 "" in "" 萨拉听到大声疾呼和哭泣。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 。 "" in "" 它有一个朋友，飞机也很高兴。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 苏 "" in "" 蒂姆想帮助苏。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 它 "" in "" 它是红色，柔软而温暖的。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 过 "" in "" 他们都过着幸福的生活。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 带有 "" in "" 任务是建造一个带有街区的塔。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 喜欢 "" in "" 他们喜欢一起玩。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 开始 "" in "" 该植物开始越来越高。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"
+"Answer whether the specified word is in the given sentence (case insensitive), based on the following examples:
+            
+            1. Is there a "" 他们 "" in "" 他们说他们很傻。 ""? Answer: "" Yes ""
+            2. Is there a "" 想着 "" in "" 然后，他有了一个主意。 ""? Answer: "" No ""
+            3. Is there a "" 弗雷德 "" in "" 有些勇气，您无能为力！ ""? Answer: "" No ""
+            4. Is there a "" 试图 "" in "" 因此他伸手试图接受它。 ""? Answer: "" Yes ""
+            
+            Question: Is there a "" 高兴 "" in "" 她很高兴和兴奋。 ""? Answer: """,Yes,,False,"{'Yes': -inf, 'No': -inf}"

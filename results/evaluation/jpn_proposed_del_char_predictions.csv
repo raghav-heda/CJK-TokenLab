@@ -1,0 +1,801 @@
+context,true_target,mean_token_logprob,token_count
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" ま "" in "" まし "". Answer: """,し,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" し "" in "" でし "". Answer: """,で,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" 彼 "" in "" 彼女 "". Answer: """,女,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" ま "" in "" ます "". Answer: """,す,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" そ "" in "" それ "". Answer: """,れ,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" も "" in "" とても "". Answer: """,とて,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" と "" in "" こと "". Answer: """,こ,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" テ "" in "" ティム "". Answer: """,ィム,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" せ "" in "" ませ "". Answer: """,ま,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" り "" in "" あり "". Answer: """,あ,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" 幸 "" in "" 幸せ "". Answer: """,せ,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" あ "" in "" ある "". Answer: """,る,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" な "" in "" 大きな "". Answer: """,大き,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" で "" in "" です "". Answer: """,す,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" リ "" in "" リリー "". Answer: """,ー,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" ト "" in "" トム "". Answer: """,ム,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" 好 "" in "" 好き "". Answer: """,き,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" 緒 "" in "" 一緒 "". Answer: """,一,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" か "" in "" しかし "". Answer: """,しし,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" 小 "" in "" 小さな "". Answer: """,さな,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" っ "" in "" たかっ "". Answer: """,たか,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" ん "" in "" 遊ん "". Answer: """,遊,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" ち "" in "" おもちゃ "". Answer: """,おもゃ,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" ん "" in "" さん "". Answer: """,さ,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" な "" in "" なり "". Answer: """,り,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" そ "" in "" その "". Answer: """,の,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" る "" in "" する "". Answer: """,す,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" 思 "" in "" 思っ "". Answer: """,っ,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" 友 "" in "" 友達 "". Answer: """,達,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" 始 "" in "" 始め "". Answer: """,め,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" ッ "" in "" マックス "". Answer: """,マクス,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" な "" in "" あなた "". Answer: """,あた,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" き "" in "" でき "". Answer: """,で,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" 持 "" in "" 持っ "". Answer: """,っ,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" ら "" in "" から "". Answer: """,か,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" 名 "" in "" 名前 "". Answer: """,前,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" 人 "" in "" 友人 "". Answer: """,友,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" う "" in "" いう "". Answer: """,い,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" ス "" in "" スー "". Answer: """,ー,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" ぶ "" in "" 遊ぶ "". Answer: """,遊,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" け "" in "" 見つけ "". Answer: """,見つ,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" る "" in "" いる "". Answer: """,い,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" サ "" in "" サム "". Answer: """,ム,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" き "" in "" 大好き "". Answer: """,大好,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" ベ "" in "" ベン "". Answer: """,ン,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" け "" in "" 助け "". Answer: """,助,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" 行 "" in "" 行き "". Answer: """,き,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" め "" in "" ため "". Answer: """,た,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" ボ "" in "" ボール "". Answer: """,ール,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" 園 "" in "" 公園 "". Answer: """,公,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" 感 "" in "" 感じ "". Answer: """,じ,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" 多 "" in "" 多く "". Answer: """,く,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" よ "" in "" よう "". Answer: """,う,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" ん "" in "" 微笑ん "". Answer: """,微笑,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" か "" in "" 悲しかっ "". Answer: """,悲しっ,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" む "" in "" むかしむかし "". Answer: """,かしかし,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" ト "" in "" スポット "". Answer: """,スポッ,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" い "" in "" 新しい "". Answer: """,新し,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" の "" in "" 女の子 "". Answer: """,女子,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" き "" in "" とき "". Answer: """,と,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" り "" in "" 起こり "". Answer: """,起こ,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" ア "" in "" ミア "". Answer: """,ミ,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" た "" in "" たい "". Answer: """,い,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" な "" in "" ない "". Answer: """,い,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" っ "" in "" 言っ "". Answer: """,言,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" っ "" in "" 笑っ "". Answer: """,笑,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" ん "" in "" 望ん "". Answer: """,望,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" 奮 "" in "" 興奮 "". Answer: """,興,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" 男 "" in "" 男の子 "". Answer: """,の子,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" い "" in "" 聞い "". Answer: """,聞,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" し "" in "" そして "". Answer: """,そて,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" 楽 "" in "" 楽しん "". Answer: """,しん,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" 常 "" in "" 非常 "". Answer: """,非,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" 分 "" in "" 自分 "". Answer: """,自,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" 走 "" in "" 走っ "". Answer: """,っ,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" す "" in "" すべて "". Answer: """,べて,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" 食 "" in "" 食べ "". Answer: """,べ,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" の "" in "" もの "". Answer: """,も,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" か "" in "" なかっ "". Answer: """,なっ,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" ア "" in "" アイデア "". Answer: """,イデ,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" ー "" in "" ルーシー "". Answer: """,ルシ,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" び "" in "" 再び "". Answer: """,再,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" 大 "" in "" 大きく "". Answer: """,きく,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" び "" in "" 遊び "". Answer: """,遊,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" だ "" in "" だっ "". Answer: """,っ,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" も "" in "" もう "". Answer: """,う,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" サ "" in "" サラ "". Answer: """,ラ,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" ち "" in "" たち "". Answer: """,た,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" く "" in "" 悲しく "". Answer: """,悲し,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" い "" in "" きれい "". Answer: """,きれ,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" く "" in "" 近く "". Answer: """,近,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" 住 "" in "" 住ん "". Answer: """,ん,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" ナ "" in "" アンナ "". Answer: """,アン,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" ん "" in "" たくさん "". Answer: """,たくさ,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" 予 "" in "" 予想 "". Answer: """,想,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" 共 "" in "" 共有 "". Answer: """,有,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" 与 "" in "" 与え "". Answer: """,え,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" ブ "" in "" ボブ "". Answer: """,ボ,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" く "" in "" たく "". Answer: """,た,-inf,0
+"Delete every instance of a specified letter in a given word, based on the following examples:
+            
+            1. Delete every instance of "" い "" in "" いっぱい "". Answer: "" っぱ ""
+            2. Delete every instance of "" イ "" in "" コイン "". Answer: "" コン ""
+            3. Delete every instance of "" 手 "" in "" 手紙 "". Answer: "" 紙 ""
+            4. Delete every instance of "" 方 "" in "" 方法 "". Answer: "" 法 ""
+            
+            Question: Delete every instance of "" し "" in "" 抱きしめ "". Answer: """,抱きめ,-inf,0

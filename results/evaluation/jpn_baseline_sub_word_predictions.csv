@@ -1,0 +1,801 @@
+context,true_target,mean_token_logprob,token_count
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" の "" with "" 断片 "" in "" 私はあなたのようになりたいです。 "". Answer: """,私はあなた断片ようになりたいです。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" 。 "" with "" 保つ "" in "" ボタンは公園の箱にありました。 "". Answer: """,ボタンは公園の箱にありました保つ,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" は "" with "" 演奏 "" in "" 彼はとても幸せでした。 "". Answer: """,彼演奏とても幸せでした。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" ん "" with "" 叫ぶ "" in "" 彼女は理解していません。 "". Answer: """,彼女は理解していませ叫ぶ。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" ポップ "" with "" 広める "" in "" ティムはポップコーンが大好きでした。 "". Answer: """,ティムは広めるコーンが大好きでした。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" 捨て "" with "" リスト "" in "" 彼女はコショウを吐き出して捨てました。 "". Answer: """,彼女はコショウを吐き出してリストました。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" 好き "" with "" スージー "" in "" 私は本が好きです。 "". Answer: """,私は本がスージーです。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" まし "" with "" スーパー "" in "" 翌日、卵は割れ始めました。 "". Answer: """,翌日、卵は割れ始めスーパーた。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" 。 "" with "" 逃げる "" in "" 壊れています。 "". Answer: """,壊れています逃げる,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" の "" with "" 笑い "" in "" 青と緑のミックスでした。 "". Answer: """,青と緑笑いミックスでした。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" その "" with "" 呼びかけ "" in "" リリーはその考えが好きでした。 "". Answer: """,リリーは呼びかけ考えが好きでした。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" が "" with "" やめ "" in "" 彼女はケーキがやれるのを待ちます。 "". Answer: """,彼女はケーキやめやれるのを待ちます。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" 見 "" with "" 夫人 "" in "" アンナはベンを見た。 "". Answer: """,アンナはベンを夫人た。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" 笑っ "" with "" 良い "" in "" 彼らは笑って楽しんだ。 "". Answer: """,彼らは良いて楽しんだ。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" し "" with "" 希望 "" in "" トムはとても興奮していました! "". Answer: """,トムはとても興奮希望ていました!,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" サンド "" with "" 回復 "" in "" しかし、サンドキャッスルは魔法でした! "". Answer: """,しかし、回復キャッスルは魔法でした!,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" 見 "" with "" 開梱 "" in "" それは卵でユリを見ました。 "". Answer: """,それは卵でユリを開梱ました。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" で "" with "" 肌 "" in "" 彼女は毎日そこで遊んだ。 "". Answer: """,彼女は毎日そこ肌遊んだ。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" は "" with "" 棒 "" in "" あなたは非常に悪い子供です! "". Answer: """,あなた棒非常に悪い子供です!,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" ら "" with "" ふり "" in "" 彼らは抱きしめて笑います。 "". Answer: """,彼ふりは抱きしめて笑います。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" 見 "" with "" 翌日 "" in "" 彼女は手を見た。 "". Answer: """,彼女は手を翌日た。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" 。 "" with "" カヤック "" in "" 動揺し始めました。 "". Answer: """,動揺し始めましたカヤック,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" 大きな "" with "" 駆け込ん "" in "" 彼らは大きな木を見ました。 "". Answer: """,彼らは駆け込ん木を見ました。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" 。 "" with "" 農場 "" in "" チェスは楽しいです。 "". Answer: """,チェスは楽しいです農場,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" ティム "" with "" 好奇 "" in "" ティムは悲しく感じた。 "". Answer: """,好奇は悲しく感じた。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" て "" with "" 夜 "" in "" 手伝ってもらえますか? "". Answer: """,手伝っ夜もらえますか?,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" た "" with "" ブラシ "" in "" ティムは驚いた! "". Answer: """,ティムは驚いブラシ!,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" まし "" with "" 不思議 "" in "" 彼女は難しいレッスンを学びました。 "". Answer: """,彼女は難しいレッスンを学び不思議た。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" 疲れ "" with "" ソフト "" in "" 彼は疲れて悲しかった。 "". Answer: """,彼はソフトて悲しかった。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" 微笑ん "" with "" 橋 "" in "" ティミーは微笑んでボールを拾いました。 "". Answer: """,ティミーは橋でボールを拾いました。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" が "" with "" アリ "" in "" 小さな女の子が宝石を見つけました。 "". Answer: """,小さな女の子アリ宝石を見つけました。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" ママ "" with "" 異なる "" in "" ママは彼らを許します。 "". Answer: """,異なるは彼らを許します。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" でし "" with "" ケース "" in "" 茶色で不潔でした。 "". Answer: """,茶色で不潔ケースた。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" は "" with "" 聞き "" in "" ベンは安心したように見えた。 "". Answer: """,ベン聞き安心したように見えた。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" と "" with "" ジッパー "" in "" 彼は自分が安全だと思った。 "". Answer: """,彼は自分が安全だジッパー思った。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" 上手 "" with "" 女性 "" in "" スポットはデザインがとても上手でした。 "". Answer: """,スポットはデザインがとても女性でした。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" 潜り "" with "" ボトル "" in "" 彼は彼を助けるために潜ります。 "". Answer: """,彼は彼を助けるためにボトルます。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" 良い "" with "" 美しく "" in "" 彼らは良い友達になりました。 "". Answer: """,彼らは美しく友達になりました。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" は "" with "" 動き "" in "" ベンとリリーはうなずいた。 "". Answer: """,ベンとリリー動きうなずいた。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" は "" with "" カップ "" in "" ティムはとても驚きました。 "". Answer: """,ティムカップとても驚きました。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" ら "" with "" 悲しま "" in "" 彼らは幸せでした。 "". Answer: """,彼悲しまは幸せでした。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" です "" with "" 見つかり "" in "" 太陽が必要です。 "". Answer: """,太陽が必要見つかり。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" に "" with "" 化 "" in "" 彼らはスライドに走り、楽しんだ。 "". Answer: """,彼らはスライド化走り、楽しんだ。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" た "" with "" フロスティ "" in "" リリーはベンに尋ねた。 "". Answer: """,リリーはベンに尋ねフロスティ。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" たかっ "" with "" そこ "" in "" 彼は食べ物を食べたかった。 "". Answer: """,彼は食べ物を食べそこた。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" 幸せ "" with "" 飛ばし "" in "" 彼らは幸せです。 "". Answer: """,彼らは飛ばしです。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" は "" with "" 海賊 "" in "" 猿はバナナを持っていました。 "". Answer: """,猿海賊バナナを持っていました。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" が "" with "" オーナメント "" in "" 彼女は男の演技が好きだった。 "". Answer: """,彼女は男の演技オーナメント好きだった。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" 犬 "" with "" スカーフ "" in "" スポットは珍しい犬でした。 "". Answer: """,スポットは珍しいスカーフでした。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" た "" with "" だっ "" in "" トムはボールで遊んでいた。 "". Answer: """,トムはボールで遊んでいだっ。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" た "" with "" 結局 "" in "" 彼女は大きなボールを見ました。 "". Answer: """,彼女は大きなボールを見まし結局。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" 混乱 "" with "" 戻し "" in "" 混乱しないでください。 "". Answer: """,戻ししないでください。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" 挨拶 "" with "" 出さ "" in "" 私はそれを呼んで挨拶します。 "". Answer: """,私はそれを呼んで出さします。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" 忘れ "" with "" 上手 "" in "" 彼らは犬を忘れています。 "". Answer: """,彼らは犬を上手ています。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" 一人 "" with "" ライブラリ "" in "" ベンとサムは一人です。 "". Answer: """,ベンとサムはライブラリです。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" クジラ "" with "" 語る "" in "" クジラはとても幸せでした。 "". Answer: """,語るはとても幸せでした。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" 彼 "" with "" 敷物 "" in "" 彼はあなたの兄弟です。 "". Answer: """,敷物はあなたの兄弟です。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" に "" with "" 歌い "" in "" 誰が古い家にいましたか? "". Answer: """,誰が古い家歌いいましたか?,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" 彼 "" with "" 飛び散っ "" in "" 彼は悪いです。 "". Answer: """,飛び散っは悪いです。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" ティム "" with "" イグルー "" in "" ティムは帽子と口ひげを拾います。 "". Answer: """,イグルーは帽子と口ひげを拾います。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" を "" with "" 迎え "" in "" スポットはbarえ、尾を振った。 "". Answer: """,スポットは barえ、尾迎え振った。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" が "" with "" 漫画 "" in "" 太陽と雨が好きでした。 "". Answer: """,太陽と雨漫画好きでした。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" 大きな "" with "" ブドウ "" in "" 彼らは大きな音を聞きます。 "". Answer: """,彼らはブドウ音を聞きます。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" まし "" with "" かめまい "" in "" 彼らはペニーを落としました。 "". Answer: """,彼らはペニーを落としかめまいた。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" リリー "" with "" 共通 "" in "" リリーとベンは悲しいです。 "". Answer: """,共通とベンは悲しいです。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" 。 "" with "" リリー "" in "" 彼は勝ちません。 "". Answer: """,彼は勝ちませんリリー,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" 彼 "" with "" バス "" in "" 彼は悲しくて怒っています。 "". Answer: """,バスは悲しくて怒っています。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" たかっ "" with "" 星 "" in "" 彼は入りたかった。 "". Answer: """,彼は入り星た。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" 、 "" with "" クッキー "" in "" 突然、彼女は声を聞いた。 "". Answer: """,突然クッキー彼女は声を聞いた。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" とても "" with "" リッキー "" in "" 毎日、彼らはとても楽しいでしょう! "". Answer: """,毎日、彼らはリッキー楽しいでしょう!,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" 。 "" with "" 覆っ "" in "" 鳥はヨットを土地に戻しました。 "". Answer: """,鳥はヨットを土地に戻しました覆っ,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" 感じ "" with "" 起こし "" in "" リリーは鳥に悲しみを感じました。 "". Answer: """,リリーは鳥に悲しみを起こしました。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" て "" with "" さまざま "" in "" 彼らは歌って踊ります。 "". Answer: """,彼らは歌っさまざま踊ります。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" 。 "" with "" 銀色 "" in "" 猫は悲しかった。 "". Answer: """,猫は悲しかった銀色,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" が "" with "" 踊る "" in "" むかしむかし、小さな家がありました。 "". Answer: """,むかしむかし、小さな家踊るありました。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" 見 "" with "" シューッ "" in "" 彼女はそれらを見て微笑んだ。 "". Answer: """,彼女はそれらをシューッて微笑んだ。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" を "" with "" カット "" in "" リリーはそれを家に持ち帰りたかった。 "". Answer: """,リリーはそれカット家に持ち帰りたかった。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" 彼 "" with "" サリー "" in "" 彼は高い木を見ました。 "". Answer: """,サリーは高い木を見ました。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" 。 "" with "" 跳び "" in "" アンナとベンはママをフォローします。 "". Answer: """,アンナとベンはママをフォローします跳び,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" 。 "" with "" ヘビ "" in "" 彼は大きくて強いです。 "". Answer: """,彼は大きくて強いですヘビ,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" です "" with "" ジェーン "" in "" リラとトムは幸せです。 "". Answer: """,リラとトムは幸せジェーン。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" 冗談 "" with "" ムーズ "" in "" 私は冗談を言っていました。 "". Answer: """,私はムーズを言っていました。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" ベン "" with "" ひまわり "" in "" ベンとリリーはうなずいた。 "". Answer: """,ひまわりとリリーはうなずいた。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" 。 "" with "" 縫製 "" in "" 星や惑星の写真がありました。 "". Answer: """,星や惑星の写真がありました縫製,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" は "" with "" 速 "" in "" 最初は大変でした。 "". Answer: """,最初速大変でした。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" が "" with "" 信じる "" in "" 彼らは空腹で好奇心が強い。 "". Answer: """,彼らは空腹で好奇心信じる強い。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" ずっと "" with "" リング "" in "" 彼らはずっと幸せに暮らしました。 "". Answer: """,彼らはリング幸せに暮らしました。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" おもちゃ "" with "" 難しい "" in "" 彼はおもちゃを探しました。 "". Answer: """,彼は難しいを探しました。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" ます "" with "" 山 "" in "" 彼女はそれをテーブルに置きます。 "". Answer: """,彼女はそれをテーブルに置き山。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" ゲーム "" with "" ビッグ "" in "" スパイクとブルーはゲームを設定します。 "". Answer: """,スパイクとブルーはビッグを設定します。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" 。 "" with "" 甘かっ "" in "" トムとリリーは象が好きだった。 "". Answer: """,トムとリリーは象が好きだった甘かっ,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" を "" with "" だろう "" in "" 彼は宝物を見つけました! "". Answer: """,彼は宝物だろう見つけました!,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" た "" with "" 戻し "" in "" スポットは本を読み始めました。 "". Answer: """,スポットは本を読み始めまし戻し。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" は "" with "" 信号 "" in "" 彼らは楽しんでいます。 "". Answer: """,彼ら信号楽しんでいます。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" ます "" with "" 泥パイ "" in "" 電気と熱を作ることができます。 "". Answer: """,電気と熱を作ることができ泥パイ。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" 笑っ "" with "" 行動 "" in "" リリーとベンは笑った。 "". Answer: """,リリーとベンは行動た。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" と "" with "" 魅力 "" in "" ティムと鳥は公園を歩いた。 "". Answer: """,ティム魅力鳥は公園を歩いた。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" たち "" with "" はさみ "" in "" 子供たちは驚いて、少し怖かった。 "". Answer: """,子供はさみは驚いて、少し怖かった。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" 幸せ "" with "" トランポリン "" in "" ティムは幸せでした。 "". Answer: """,ティムはトランポリンでした。,-inf,0
+"Substitute the first specified word with the second specified word in a given sentence, based on the following examples:
+            
+            1. Substitute "" の "" with "" 泥パイ "" in "" 私たちの車と私たちのタオル! "". Answer: "" 私たち泥パイ車と私たち泥パイタオル! ""
+            2. Substitute "" よう "" with "" すぎ "" in "" 大きな動物の足のように見えます。 "". Answer: "" 大きな動物の足のすぎに見えます。 ""
+            3. Substitute "" 始め "" with "" 手紙 "" in "" タイヤが動き始めました! "". Answer: "" タイヤが動き手紙ました! ""
+            4. Substitute "" は "" with "" 機械 "" in "" 私は良くありませんでした。 "". Answer: "" 私機械良くありませんでした。 ""
+            
+            Question: Substitute "" た "" with "" 寄り添い "" in "" スパイシーなコショウでした。 "". Answer: """,スパイシーなコショウでし寄り添い。,-inf,0
