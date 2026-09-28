@@ -16,3 +16,6 @@ tqdm
 nagisa
 deep-translator
 sentence_splitter
+fastapi
+uvicorn
+pydantic
