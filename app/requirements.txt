@@ -1,0 +1,13 @@
+numpy
+pandas
+jieba
+nagisa
+jamo
+pykakasi
+sentencepiece
+tokenizers
+deep-translator
+sentence_splitter
+fastapi
+uvicorn
+pydantic
