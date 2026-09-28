@@ -28,7 +28,10 @@ LANGUAGES = {
 # Ensure directories exist
 for path in [RAW_DATA_DIR, PROCESSED_DATA_DIR, SPLITS_DIR, 
              MODELS_DIR, TOKENIZERS_DIR, TABLES_DIR, FIGURES_DIR, LOGS_DIR]:
-    os.makedirs(path, exist_ok=True)
+    try:
+        os.makedirs(path, exist_ok=True)
+    except OSError:
+        pass
 
 # Training/Tokenizer settings
 RANDOM_SEED = 42

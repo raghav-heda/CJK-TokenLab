@@ -16,7 +16,10 @@ app = FastAPI(title="CJK TokenLab API")
 
 # Ensure static directory exists
 STATIC_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "static")
-os.makedirs(STATIC_DIR, exist_ok=True)
+try:
+    os.makedirs(STATIC_DIR, exist_ok=True)
+except OSError:
+    pass
 
 class TokenizeRequest(BaseModel):
     text: str
